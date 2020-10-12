@@ -1,7 +1,21 @@
 [HIGURASHI CAP. 1 ONIKAKUSHI - TRADUZIONE ITALIANA]
+[VERSIONE 1.0.0]
 
 
-[INSTALLAZIONE]
+[INSTALLAZIONE SEMPLIFICATA]
+
+1) Scaricare ed installare il gioco da Steam ( https://store.steampowered.com/app/310360/Higurashi_When_They_Cry_Hou__Ch1_Onikakushi/ ).
+
+2) Scaricare ed aprire il 07th-Mod Installer ( https://github.com/07th-mod/python-patcher/releases/latest ), facendo poi partire il menù di configurazione per l'installazione della patch di Onikakushi.
+
+2.1) Mettere la spunta sulla voce della traduzione italiana.
+
+3) Installare la patch.
+
+4) Finito!
+
+
+[INSTALLAZIONE MANUALE]
 
 Procedura per l'installazione:
 
@@ -9,15 +23,19 @@ Procedura per l'installazione:
 
 2) Installare la patch per Onikakushi di 07th-Mod attraverso il 07th-Mod Installer ( https://github.com/07th-mod/python-patcher/releases/latest ).
 
-3) Aprire la cartella del gioco ( Steam\steamapps\common\Higurashi When They Cry ).
+3) Aprire la cartella del gioco ( su Steam ad esempio è Steam\steamapps\common\Higurashi When They Cry ).
 
 4) Copiare la cartella della traduzione italiana "HigurashiEp01_Data" nella cartella del gioco, dove c'è un'altra cartella con lo stesso identico nome.
 
 4.1) Sostituire i file quando richiesto. Se non dovesse venire richiesto significa che probabilmente si è scelta la cartella sbagliata dove incollare il contenuto della mod.
 
-5) Finito!
+5) Aprire la cartella "Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledUpdateScripts" ed eliminare tutti i file al suo interno
+
+6) Finito!
 
 
 [CREDITI]
+
+Ringraziamo infinitamente il team di 07th-Mod per la loro incredibile patch e grandissimo supporto che ci ha permesso di portarvi la traduzione italiana che vedete oggi
 
 Traduzione italiana a cura di CTH Translations
