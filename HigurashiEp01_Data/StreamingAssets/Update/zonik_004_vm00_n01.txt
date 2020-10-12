@@ -107,7 +107,7 @@ void dialog003()
 //スペースコロニーだッ！！」/
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05880", 256, TRUE);
 	OutputLine(NULL, "スペースコロニーだッ！！」",
-		   NULL, "una colonia aliena!!\"", Line_Continue);
+		   NULL, " una colonia aliena!!\"", Line_Continue);
 
 	PlaySE( 4, "wa_007", 56, 64 );
 	ShakeScreen( 1, 50, 20, 3, 0, );
@@ -355,13 +355,13 @@ void dialog014()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200277", 256, TRUE);
 	OutputLine(NULL, "「…うん。",
-		   NULL, "\"...sì.", Line_WaitForInput);
+		   NULL, "\"... sì.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200278", 256, TRUE);
 	OutputLine(NULL, "……ありがとぅ。",
-		   NULL, " ...ti ringrazio.", Line_WaitForInput);
+		   NULL, " ... ti ringrazio.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200279", 256, TRUE);
 	OutputLine(NULL, "……ケンタくん……お休みのキス……はぅ……。」",
-		   NULL, " ...un bacio della buonanotte... al Colonnello Sanders... hao...\"", Line_Normal);
+		   NULL, " ... un bacio della buonanotte... al Colonnello Sanders... hao...\"", Line_Normal);
 	ClearMessage();
 }
 
@@ -436,17 +436,17 @@ void dialog020()
 		   NULL, " Ho detto che lo so!!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400089", 256, TRUE);
 	OutputLine(NULL, "　知ってるもん！！！…",
-		   NULL, "Lo... so!!!", Line_Continue);
+		   NULL, " Lo... so!!!", Line_Continue);
 
 	Wait( 300 );
 
 	OutputLine(NULL, "…",
-		   NULL, "...", Line_Continue);
+		   NULL, " ...", Line_Continue);
 
 	Wait( 300 );
 
 	OutputLine(NULL, "セッ、」",
-		   NULL, "fare se...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " fare se...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 

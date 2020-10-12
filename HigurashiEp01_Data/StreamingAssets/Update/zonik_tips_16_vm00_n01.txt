@@ -8,7 +8,7 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Investigatore Forense</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200022", 256, TRUE);
 	OutputLine(NULL, "「例えば重度の躁鬱病患者だが、",
-		   NULL, "\"Una persona con un serio problema di ciclotimia.", Line_Continue);
+		   NULL, "\"Ad esempio, una persona con una grave ciclotimia.", Line_Continue);
 	Wait ( 3500 );
 	OutputLine(NULL, "一般に鬱状態から躁状態に転じる時にもっとも自殺が多いと言われちょる。」",
 		   NULL, " In generale, si ritiene che le persone siano più portate a tentare il suicidio quando passano da una fase depressiva a una euforica.\"", Line_Normal);
@@ -206,7 +206,7 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Investigatore Forense</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200037", 256, TRUE);
 	OutputLine(NULL, "これは薬物中毒でも起こるが、脳の外傷や脳炎、脳卒中、脳腫瘍なんかでも起こる。」",
-		   NULL, "Può dipendere da droghe, certo, ma anche da traumi fisici, encefaliti, infarti etumori.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Può dipendere da droghe, certo, ma anche da traumi fisici, encefaliti, infarti e tumori.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

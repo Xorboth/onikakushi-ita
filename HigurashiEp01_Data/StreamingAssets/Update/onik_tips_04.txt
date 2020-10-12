@@ -44,7 +44,7 @@ void main()
 		   NULL, "In base a quanto investigato, i sei sospetti si trovavano al sito di costruzione della diga di Hinamizawa il giorno XX alle ore 21,", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "現場監督のＸＸＸＸさんを集団で暴行して殺害し、遺体を切断して遺棄した疑い。",
-		   NULL, " dove sono sospettati di aver assaltato e ucciso in gruppo il responsabile del sito, XXXX, smembrandone il corpo e occultandolo.", Line_Normal);
+		   NULL, "dove sono sospettati di aver assaltato e ucciso in gruppo il responsabile del sito, XXXX, smembrandone il corpo e occultandolo.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 4, "wa_021", 56, 64 );

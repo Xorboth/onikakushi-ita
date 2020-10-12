@@ -296,7 +296,7 @@ void main()
 //　レナこそよくわかんないこと言ってるぞ...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナこそよくわかんないこと言ってるぞ…。",
-		   NULL, "Rema, ma di cosa stai parlando...?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rena, ma di cosa stai parlando...?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

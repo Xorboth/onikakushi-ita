@@ -109,7 +109,7 @@ void dialog003()
 //スペースコロニーだッ！！」/
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05880", 256, TRUE);
 	OutputLine(NULL, "小惑星だッ！！」",
-		   NULL, "un asteroide!!\"", Line_Continue);
+		   NULL, " un asteroide!!\"", Line_Continue);
 
 	PlaySE( 4, "wa_007", 56, 64 );
 	ShakeScreen( 1, 50, 20, 3, 0, );
@@ -133,10 +133,10 @@ void dialog003()
 		   NULL, "\"Già. Gli alieni hanno disattivato il limite di Roche con un apparecchio da loro creato e hanno iniziato a far piovere asteroidi.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05900", 256, TRUE);
 	OutputLine(NULL, "　まさか俺もそこまでやるとは思わなかった。",
-		   NULL, "Non pensavo che sarebbero arrivati a questo punto.", Line_WaitForInput);
+		   NULL, " Non pensavo che sarebbero arrivati a questo punto.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05910", 256, TRUE);
 	OutputLine(NULL, "　しかも、続いて今度は百個も！！",
-		   NULL, "Hanno intenzione di lanciarne più di 100!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Hanno intenzione di lanciarne più di 100!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05920", 256, TRUE);
 	OutputLine(NULL, "　地球軍の完全な誤算だッ！！」",
@@ -163,7 +163,7 @@ void dialog003()
 		   NULL, "\"L... la Federazione Terrestre...?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girlc99006", 256, TRUE);
 	OutputLine(NULL, "　私達、宇宙人と戦争でもしてるんですか？」",
-		   NULL, "Siamo davvero in guerra con gli alieni?\"", Line_Normal);
+		   NULL, " Siamo davvero in guerra con gli alieni?\"", Line_Normal);
 	ClearMessage();
 
 
@@ -174,7 +174,7 @@ void dialog003()
 		   NULL, "\"Se così fosse, la Terra sarebbe spacciata!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05970", 256, TRUE);
 	OutputLine(NULL, "　しかし！レナなら、レナの放つ音速の「マッハレナパンチ」なら小惑星を全て迎撃することが出来る！！",
-		   NULL, "Ma non disperate! Con il \"Pugno-Mach-Rena\", riusciremo a intercettare tutti gli asteroidi!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ma non disperate! Con il \"Pugno-Mach-Rena\", riusciremo a intercettare tutti gli asteroidi!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05980", 256, TRUE);
 	OutputLine(NULL, "　そう、地球軍のトップエース、それが竜宮レナなのだぁッ！！」",
@@ -365,13 +365,13 @@ void dialog014()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200277", 256, TRUE);
 	OutputLine(NULL, "「…うん。",
-		   NULL, "\"...sì.", Line_WaitForInput);
+		   NULL, "\"... sì.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200278", 256, TRUE);
 	OutputLine(NULL, "……ありがとぅ。",
-		   NULL, " ...ti ringrazio.", Line_WaitForInput);
+		   NULL, " ... ti ringrazio.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200279", 256, TRUE);
 	OutputLine(NULL, "……ランディーくん……お休みのキス……はぅ……。」",
-		   NULL, " ...un bacio della buonanotte... al Colonnello Randy... hao...\"", Line_Normal);
+		   NULL, " ... un bacio della buonanotte... al Colonnello Randy... hao...\"", Line_Normal);
 	ClearMessage();
 }
 
@@ -443,20 +443,20 @@ void dialog020()
 		   NULL, "\"Lo so...!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps2/04/990400088", 540, TRUE);
 	OutputLine(NULL, "知ってるもん！！",
-		   NULL, "Lo so!!", Line_WaitForInput);
+		   NULL, " Lo so!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400089", 256, TRUE);
 	OutputLine(NULL, "　知ってるもん！！！…",
-		   NULL, "Lo so!!!", Line_Continue);
+		   NULL, " Lo so!!!", Line_Continue);
 
 	Wait( 300 );
 
 	OutputLine(NULL, "…",
-		   NULL, "...", Line_Continue);
+		   NULL, " ...", Line_Continue);
 
 	Wait( 300 );
 
 	OutputLine(NULL, "だ、だからっ、……」",
-		   NULL, "s-significa...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " s-significa...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 

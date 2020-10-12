@@ -1814,7 +1814,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 5, "ps3/s19/05/990500047", 256, TRUE);
 	OutputLine(NULL, "「…沙都子は土管のところを探してますから…ここはしばらくは安全ですよ。」",
-		   NULL, "\"...Satoko stava cercando intorno ai tubi fino a un attimo fa... qui dovremmo essere al sicuro.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... Satoko stava cercando intorno ai tubi fino a un attimo fa... qui dovremmo essere al sicuro.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1922,10 +1922,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200250", 256, TRUE);
 	OutputLine(NULL, "「う、ううう嘘だよね？！",
-		   NULL, "\"N-N-N-Non ci credoooo!?", Line_WaitForInput);
+		   NULL, "\"N-n-n-non ci credoooo!?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200251", 256, TRUE);
 	OutputLine(NULL, "　…梨花ちゃんがそんな……ひ…ッ！！」",
-		   NULL, " ...Rika-chan, no... iiiih...!!\"", Line_Normal);
+		   NULL, " ... Rika-chan, no... iiiih... !!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2135,7 +2135,7 @@ void main()
 	OutputLine(NULL, "見殺し？",
 		   NULL, " Mors tua vita mea?", Line_WaitForInput);
 	OutputLine(NULL, "…レ、レナぁあぁぁぁぁあぁあ！！！！！",
-		   NULL, " ...R-Renaaaa!!!!!", Line_Normal);
+		   NULL, " ... R-Renaaaa!!!!!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 400 );
@@ -2401,7 +2401,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Ragazza</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girla99007", 256, TRUE);
 	OutputLine(NULL, "「……竜宮さんってすごいんだぁ……。」",
-		   NULL, "\"...Ryuugu-san è incredibile...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... Ryuugu-san è incredibile...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3039,7 +3039,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Mamma di Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/992700018", 256, TRUE);
 	OutputLine(NULL, "「？？…あまり遅くならないようにね。」",
-		   NULL, "\"... ?? ... non fare tardi.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...?? ... non fare tardi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3172,7 +3172,7 @@ void main()
 	Wait( 300 );
 
 	OutputLine(NULL, "…",
-		   NULL, " ...", Line_Continue);
+		   NULL, "...", Line_Continue);
 
 	Wait( 500 );
 
@@ -3731,7 +3731,7 @@ void main()
 		   NULL, "\"Non proprio.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei06540", 256, TRUE);
 	OutputLine(NULL, "…都会ってのには飽きてたし。」",
-		   NULL, " ...la città mi ha stancato.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... la città mi ha stancato.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

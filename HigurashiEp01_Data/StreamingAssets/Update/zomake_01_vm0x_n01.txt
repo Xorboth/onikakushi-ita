@@ -92,7 +92,7 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200115", 256, TRUE);
 	OutputLine(NULL, "「今回の「鬼隠」では、雛見沢で近年起こった連続怪死事件が紹介されたでしょ？",
-		   NULL, "\"In questo capitolo, è stata introdotta la serie di morti misteriose che sono avvenute a Hinamizawa, giusto?", Line_WaitForInput);
+		   NULL, "\"In questo capitolo è stata introdotta la serie di morti misteriose che sono avvenute a Hinamizawa, giusto?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200116", 256, TRUE);
 	OutputLine(NULL, "　たとえば魅ぃちゃんのシナリオでは雛見沢の古い歴史なんかが紹介されるんだって」",
 		   NULL, " Il prossimo capitolo tratterà parte della storia di Hinamizawa.\"", Line_Normal);
@@ -124,7 +124,7 @@ void dialog002()
 		   NULL, " Maebara-san ha linee a sufficienza per coprire un cast completo in una novel normale~", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700338", 256, TRUE);
 	OutputLine(NULL, "んっふっふっふ！」",
-		   NULL, " Eheheheheh!\"", Line_Normal);
+		   NULL, " eheheheheh!\"", Line_Normal);
 }
 
 void dialog003()
@@ -150,7 +150,7 @@ void dialog005()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 5, "ps3/s20/05/440500101", 256, TRUE);
 	OutputLine(NULL, "「……収録の残り台詞数でボクたちの誰か一人でも抜いたら、圭一も参加できるのですよ。」",
-		   NULL, "\"...potrai venire anche tu solo quando avrai uno sprite del tuo personaggio.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... potrai venire anche tu solo quando avrai uno sprite del tuo personaggio.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

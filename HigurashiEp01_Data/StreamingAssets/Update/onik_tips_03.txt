@@ -134,7 +134,7 @@ void main()
 		   NULL, "\"Kei-chan... casa tua, ecco... è molto grande, no?", Line_Continue);
 	Wait( 1800 );
 	OutputLine(NULL, "　だから建築中から雛見沢中で前原屋敷って呼ばれて注目の的だったんだよ。」",
-		   NULL, " La sua archtettura è particolare e ha portato tutta Hinamizawa a chiamarla Residenza Maebara.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " La sua architettura è particolare e ha portato tutta Hinamizawa a chiamarla Residenza Maebara.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -305,7 +305,7 @@ void main()
 		   NULL, "\"Un giorno, mi piacerebbe esplorare casa di Kei-chan...", Line_Continue);
 	Wait( 1600 );
 	OutputLine(NULL, "…お金持ちじゃないと主張しながらもあの邸宅！！",
-		   NULL, " cici di non essere ricco ma hai una casa come quella!!", Line_WaitForInput);
+		   NULL, " dici di non essere ricco ma hai una casa come quella!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300022", 256, TRUE);
 	OutputLine(NULL, "　一体何が隠されているのか！！」",
 		   NULL, " Che cosa ci stai nascondendo!?\"", GetGlobalFlag(GLinemodeSp));

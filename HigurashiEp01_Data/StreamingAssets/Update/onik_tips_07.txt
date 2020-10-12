@@ -209,7 +209,7 @@ void main()
 		   NULL, "\"... non serve chiederlo a lei.", Line_Continue);
 	Wait (1500)
 	OutputLine(NULL, "ボクたちが教えてあげますです。」",
-		   NULL, " Ve lo diremo noi.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Te lo diremo noi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -220,7 +220,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s20/04/440400014", 256, TRUE);
 	OutputLine(NULL, "「お礼の礼に、奈良の奈。",
-		   NULL, "\"Si scrive coi kanji di 'rei' da 'orei', 'principio, e il 'na' di 'Nara', come la città.", Line_Continue);
+		   NULL, "\"Si scrive coi kanji di 'rei' da 'orei', 'principio', e il 'na' di 'Nara', come la città.", Line_Continue);
 	Wait (1300)
 	OutputLine(NULL, "…竜宮礼奈が本名ですのよ！」",
 		   NULL, " Il suo vero nome è Reina Ryuugu!\"", GetGlobalFlag(GLinemodeSp));
@@ -281,7 +281,7 @@ void main()
 		   NULL, " Solo gli estranei la chiamano Reina.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300028", 256, TRUE);
 	OutputLine(NULL, "そこんとこ、わかってるよね？」",
-		   NULL, " Capisci cosa voglio ire?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Capisci cosa voglio dire?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -537,7 +537,7 @@ void main()
 		   NULL, "\"...", Line_Continue);
 	Wait( 800 );
 	OutputLine(NULL, "旅先でかぁいいものをチョロまかすから。」",
-		   NULL, "la mia destinazione dev'essere un posto pieno di cose carine.\"", Line_ContinueAfterTyping);
+		   NULL, " la mia destinazione dev'essere un posto pieno di cose carine.\"", Line_ContinueAfterTyping);
 
 	PlaySE( 4, "wa_002", 56, 64 );
 	Wait( 200 );

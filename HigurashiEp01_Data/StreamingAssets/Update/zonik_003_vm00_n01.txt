@@ -129,11 +129,11 @@ void dialog009()
 //　…斧で＠…つるはしで＠…斧、で￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…斧で。",
-		   NULL, "...con accette.", Line_WaitForInput);
+		   NULL, "... con accette.", Line_WaitForInput);
 	OutputLine(NULL, "…つるはしで。",
-		   NULL, " ...con piccozze.", Line_WaitForInput);
+		   NULL, " ... con piccozze.", Line_WaitForInput);
 	OutputLine(NULL, "…斧、で。",
-		   NULL, " ...con... un'ascia.", Line_Normal);
+		   NULL, " ... con... un'ascia.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -177,7 +177,7 @@ void dialog009()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200220", 256, TRUE);
 	OutputLine(NULL, "「きゃッ！、ごご、ごめんなさい…！！！",
-		   NULL, "\"Kyaah! S-S-Scusa...!!!", Line_WaitForInput);
+		   NULL, "\"Kyaah! S-s-scusa...!!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200221", 256, TRUE);
 	OutputLine(NULL, "　驚いたかな？！驚いたかな？！」",
 		   NULL, " Ti ho spaventato!? Ti ho spaventato!?\"", GetGlobalFlag(GLinemodeSp));
@@ -200,7 +200,7 @@ void dialog009()
 		   NULL, "\"Keiichi-kun, ecco, prima, sì, hai detto che ti avrebbe fatto comodo un'ascia, giusto!?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200223", 256, TRUE);
 	OutputLine(NULL, "　そ、それでねレナ、物置からちゃんと斧、持ってきたんだよ…！！」",
-		   NULL, " Q-Quindi io ti ho... portato un'ascia... dal capannone...!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Q-quindi io ti ho... portato un'ascia... dal capannone...!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

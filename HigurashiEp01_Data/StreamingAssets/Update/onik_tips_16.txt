@@ -58,7 +58,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "っちゅうことだ。」",
-		   NULL, " è questo che volevi dire...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ecco cosa intendevo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

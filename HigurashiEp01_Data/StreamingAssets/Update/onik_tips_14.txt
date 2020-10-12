@@ -200,7 +200,7 @@ void main()
 //・自宅は興宮Ｘ丁目ＸＸＸ番地＠独身＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "・自宅は興宮Ｘ丁目ＸＸＸ番地。",
-		   NULL, "・Residente a Onikomiya, distretto XXX, via X.", Line_WaitForInput);
+		   NULL, "・Residente a Okinomiya, distretto XXX, via X.", Line_WaitForInput);
 	OutputLine(NULL, "独身。",
 		   NULL, " Single.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

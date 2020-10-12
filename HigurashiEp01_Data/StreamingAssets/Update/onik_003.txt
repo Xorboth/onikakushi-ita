@@ -4615,7 +4615,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200224", 256, TRUE);
 	OutputLine(NULL, "「う、うぅん、…こ、こっちこそごめんね！…ごめんね！」",
-		   NULL, "\"N-No... d-dispiace anche a me! ...scusa!\"", Line_Normal);
+		   NULL, "\"N-no... d-dispiace anche a me! ... scusa!\"", Line_Normal);
 	ClearMessage();
 
 
@@ -4630,7 +4630,7 @@ void main()
 //体はくたくただし、続きを明日にしてもいいだろう￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　体はくたくただし、続きを明日にしてもいいだろう。",
-		   NULL, "Sono completamente esausto e ho deciso di rimandare a domani la parte più pesante del lavoro.", Line_Normal);
+		   NULL, "Sono completamente esausto e decido di rimandare a domani la parte più pesante del lavoro.", Line_Normal);
 	ClearMessage();
 
 	//VoiceMatching

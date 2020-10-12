@@ -44,7 +44,7 @@ void main()
 //　Ｘ月Ｘ日、ＸＸ県鹿骨市の雛見沢ダム建設作業現場で起こった血も凍るバラバラ殺人＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　Ｘ月Ｘ日、ＸＸ県鹿骨市の雛見沢ダム建設作業現場で起こった血も凍るバラバラ殺人。",
-		   NULL, "Il giorno X del mese di X nella prefettura XX al sito di costruzione della diga di Hinamizawa nella città di Shishibone, un omicidio con smembramento brutale e raggelante.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il giorno X del mese di X nella prefettura XX al sito di costruzione della diga di Hinamizawa, nella città di Shishibone, un uomo è stato ucciso e smembrato in modo brutale e raggelante.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -323,7 +323,7 @@ void main()
 //　パチンコや競馬などの賭け事はもとより、ビジネスから恋愛まで...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　パチンコや競馬などの賭け事はもとより、ビジネスから恋愛まで…。",
-		   NULL, "Non solo nel pachinko e nelle corse di cavallli ma anche nel business e in amore...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Non solo nel pachinko e nelle corse di cavalli, ma anche negli affari e in amore...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -346,7 +346,7 @@ void main()
 //　２７，８００￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　２７，８００円",
-		   NULL, "27,800 Yen", Line_Normal);
+$127,800 Yen", Line_Normal);
 	ClearMessage();
 
 	SetValidityOfInput( FALSE );
