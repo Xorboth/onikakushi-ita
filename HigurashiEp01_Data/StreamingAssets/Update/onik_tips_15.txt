@@ -27,7 +27,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和５７年７月１日",
-$11 luglio, 1982", Line_ContinueAfterTyping);
+		   NULL, "1 luglio, 1982", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -137,7 +137,7 @@ $11 luglio, 1982", Line_ContinueAfterTyping);
 //（１） 秘匿捜査指定
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（１）秘匿捜査指定",
-$11. Etichettare le seguenti investigazioni criminali come informazioni riservate.", Line_ContinueAfterTyping);
+		   NULL, "1. Etichettare le seguenti investigazioni criminali come informazioni riservate.", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );
@@ -193,7 +193,7 @@ $11. Etichettare le seguenti investigazioni criminali come informazioni riservat
 //（２） 情報の非開示
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（２）情報の非開示",
-$12. Informazioni con diffusione vietata.", Line_ContinueAfterTyping);
+		   NULL, "2. Informazioni con diffusione vietata.", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );
@@ -271,7 +271,7 @@ $12. Informazioni con diffusione vietata.", Line_ContinueAfterTyping);
 //（３） 関係各機関への報道自粛要請
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（３）関係各機関への報道自粛要請",
-$13. Richiesta di auto-moderazione per ogni organizzazione coinvolta nel rilascio di informazioni sensibili.", Line_ContinueAfterTyping);
+		   NULL, "3. Richiesta di auto-moderazione per ogni organizzazione coinvolta nel rilascio di informazioni sensibili.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));

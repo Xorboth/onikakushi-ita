@@ -54,7 +54,7 @@ void main()
 //（１） バザー品募集中＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（１）バザー品募集中！",
-$11. Accumulare oggetti per il mercatino!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "1. Accumulare oggetti per il mercatino!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　毎年好評の雛見沢大バザーへの出品をお待ちしています＠
@@ -92,7 +92,7 @@ $11. Accumulare oggetti per il mercatino!", GetGlobalFlag(GLinemodeSp));
 //（２） ちびっ子祭り太鼓募集中＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（２）ちびっ子祭り太鼓募集中！",
-$12. Reclutamento di piccoli ballerini per la Festa dei Piccoletti!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "2. Reclutamento di piccoli ballerini per la Festa dei Piccoletti!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -123,7 +123,7 @@ $12. Reclutamento di piccoli ballerini per la Festa dei Piccoletti!", GetGlobalF
 //（３） 義援金募集中！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（３）義援金募集中！！",
-$13. Donazioni!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "3. Donazioni!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　一口千円からの義援金を募集しています＠

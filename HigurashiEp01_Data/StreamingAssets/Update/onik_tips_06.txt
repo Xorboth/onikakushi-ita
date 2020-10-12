@@ -346,7 +346,7 @@ void main()
 //　２７，８００￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　２７，８００円",
-$127,800 Yen", Line_Normal);
+		   NULL, "27,800 Yen", Line_Normal);
 	ClearMessage();
 
 	SetValidityOfInput( FALSE );
