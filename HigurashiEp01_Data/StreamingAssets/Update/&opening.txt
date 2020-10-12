@@ -11,8 +11,8 @@ void OpeningQuestion()
 		char Item[2];
 
 		if (GetGlobalFlag(GLanguage) == 1) {
-			Item[0] = "Enable opening";
-			Item[1] = "Disable opening";
+			Item[0] = "Abilita filmato iniziale";
+			Item[1] = "Disabilita filmato iniziale";
 		} else {
 			Item[0] = "動画再生を有効化";
 			Item[1] = "動画再生を無効化";
