@@ -1,0 +1,548 @@
+void main()
+{
+//*Opening
+//setwindow 31,16,22,16,26,26,0,2,20,1,1,#ffffff,0,0,639,479
+
+	//Comment this out to actually be allowed to skip or advance manually in the opening
+	//SetValidityOfInput( FALSE );
+
+	FadeOutBGM( 0, 1000, FALSE );
+	FadeOutBGM( 1, 1000, FALSE );
+	FadeOutBGM( 2, 1000, TRUE );
+
+	DisableWindow();
+	DrawScene("black", 3000 );
+	DrawScene("text/si_onikakusi", 1000 );
+	Wait( 15000 );
+	DrawScene("black", 3000 );
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+	DrawScene("text/tyuui", 100 );
+	ShakeScreen( 0, 25, 10, 4, 0, );
+
+	DrawScene("black", 4000 );
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+	DrawScene("text/tyuui2", 100 );
+	ShakeScreen( 0, 25, 10, 4, 0, );
+
+
+	DrawScene("black", 4000 );
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+	Wait( 350 );
+	DrawScene("black", 50 );
+	PlaySE( 4, "wa_030", 56, 64 );
+	DrawSceneWithMask("background/ryuuketu1", "aa", 0, 0, 250 );
+	PlayBGM( 2, "lsys11", 56, 0 );
+	DrawScene("red", 2000 );
+	DrawScene("black", 2000 );
+	Wait( 1000 );
+
+//setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
+//locate 0,5
+//!s50
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 5 ); }
+
+//　どうせ引き裂かれるなら、!w2000
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "どうせ引き裂かれるなら、",
+		   NULL, "Se avessero dovuto farmi a pezzi comunque,", Line_WaitForInput);
+
+//　身を引き裂かされる方がはるかにマシだと思った。!w4000
+	OutputLine(NULL, "身を引き裂かされる方がはるかにマシだと思った。",
+		   NULL, " avrei preferito che avessero fatto a pezzi il mio corpo.", Line_Normal);
+	ClearMessage();
+
+
+//locate 0,4
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 4 ); }
+
+//　信じてた。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "信じてた。",
+		   NULL, "Io le credevo.", GetGlobalFlag(GLinemodeSp));
+
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　......いや、信じてる。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…いや、信じてる。",
+		   NULL, "... anzi, le credo ancora.", GetGlobalFlag(GLinemodeSp));
+
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　今この瞬間だって、信じてる。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "今この瞬間だって、信じてる。",
+		   NULL, "Persino in questo momento, io le credo.", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+//locate 0,3
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 3 ); }
+
+//　でも......薄々は気付いてる。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "でも…薄々は気付いてる。",
+		   NULL, "Però... sto iniziando a capire.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　信じたいのは、認めたくないだけだからだ。/
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "信じたいのは、認めたくないだけだからだ。",
+		   NULL, "Voglio credere in lei perché rifiuto di accettare la realtà.", GetGlobalFlag(GLinemodeSp));
+
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　自分に言い聞かせるような、
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "自分に言い聞かせるような、",
+		   NULL, "È come se stessi cercando di convincere me stesso.", Line_WaitForInput);
+
+
+//　そんな涙声が...もうたまらなく馬鹿馬鹿しくて......。
+	OutputLine(NULL, "そんな涙声が…もうたまらなく馬鹿馬鹿しくて…。",
+		   NULL, " Con questo tono stupido... e lamentoso...", GetGlobalFlag(GLinemodeSp));
+
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　さらなる涙が...顔をもっとぐしゃぐしゃにする...。!w3000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "さらなる涙が…顔をもっとぐしゃぐしゃにする…。",
+		   NULL, "E queste lacrime... queste lacrime mi stanno rovinando il volto...", Line_Normal);
+	ClearMessage();
+//locate 0,6
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 6 ); }
+//　機械的に繰り返されていたそれはようやく収まり、とても静かになった。!w4000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "機械的に繰り返されていたそれはようやく収まり、とても静かになった。",
+		   NULL, "Il rumore meccanico e ripetitivo finalmente cessa, e tutto torna al silenzio.", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	DrawSceneWithMask("sora1", "aa", 0, 0, 1300 );
+//locate 0,4
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 4 ); }
+//　ひぐらしの声だけが...いやに騒がしい。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ひぐらしの声だけが…いやに騒がしい。",
+		   NULL, "Soltanto il piangere delle cicale permane... rumoroso oltre ogni immaginazione.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　なのに、!w1500
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "なのに、",
+		   NULL, "Eppure...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　...彼女のそれはまだ聞こえる気がする。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…彼女のそれはまだ聞こえる気がする。",
+		   NULL, "... è come se riuscissi a sentire ancora la sua voce.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　...聞こえるはずはない。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…聞こえるはずはない。",
+		   NULL, "... ma questo non è possibile.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　彼女はもう、言うのをやめているのだから。!w4000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "彼女はもう、言うのをやめているのだから。",
+		   NULL, "Lei ormai non parla più.", Line_Normal);
+	ClearMessage();
+
+//locate 0,5
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 5 ); }
+//　泣いているのは俺だけだった。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "泣いているのは俺だけだった。",
+		   NULL, "Sono io che sto piangendo.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　彼女は泣きもしなかった。!w4000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "彼女は泣きもしなかった。",
+		   NULL, "Lei non ha mai pianto.", Line_Normal);
+	ClearMessage();
+
+//locate 0,2
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 2 ); }
+//　彼女がそれを繰り返し口にしていた時も、表情どころか感情もなかった。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "彼女がそれを繰り返し口にしていた時も、表情どころか感情もなかった。",
+		   NULL, "Anche mentre ripeteva più e più volte quelle parole, non mostrava mai alcuna emozione, perché non ce n'era alcuna da mostrare.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+//　彼女に、俺のために流す涙がないのなら、!w1000俺にだって。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "彼女に、俺のために流す涙がないのなら、",
+		   NULL, "Se lei non aveva lacrime da versare per me,", Line_ContinueAfterTyping);
+
+	OutputLine(NULL, "俺にだって。",
+		   NULL, " allora, io...", Line_WaitForInput);
+
+
+//　...彼女らのために流す涙はいらないはずなのだ。!w4000
+	OutputLine(NULL, "…彼女らのために流す涙はいらないはずなのだ。",
+		   NULL, " ... non dovrei versarne alcuna per lei.", Line_Normal);
+	ClearMessage();
+
+
+//　それなのに......痛み、目を潤ませてしまうのは......どうして？!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それなのに…痛み、目を潤ませてしまうのは…どうして？",
+		   NULL, "E allora perché... questo dolore, la mia vista offuscata... perché sta succedendo?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　それでも引き裂かれてないと、......信じていたいから。!w4000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それでも引き裂かれてないと、…信じていたいから。",
+		   NULL, "Io volevo credere... che non ci fosse alternativa.", Line_Normal);
+	ClearMessage();
+
+//locate 0,6
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 6 ); }
+//　もう充分だろ？!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "もう充分だろ？",
+		   NULL, "'È abbastanza, no?'", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　内なる、もうひとりの自分がやさしく語りかける...。!w4000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "内なる、もうひとりの自分がやさしく語りかける…。",
+		   NULL, "Sussurra gentilmente una voce dentro di me...", Line_Normal);
+	ClearMessage();
+
+//locate 0,4
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 4 ); }
+//　俺はもう充分に心を痛めたさ。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "俺はもう充分に心を痛めたさ。",
+		   NULL, "Il mio cuore ha sofferto abbastanza...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　...そして何度も、その痛む心を捨てるべきかどうか迷ったんだ。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…そして何度も、その痛む心を捨てるべきかどうか迷ったんだ。",
+		   NULL, "... e infinite volte ho pensato se fosse la cosa giusta gettare via questo dolore.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　だけど俺は...頑なに、捨てることを拒んだんじゃないか。!w4000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "だけど俺は…頑なに、捨てることを拒んだんじゃないか。",
+		   NULL, "Tuttavia... sono stato testardo e mi sono sempre rifiutato di farlo, vero?", Line_Normal);
+	ClearMessage();
+
+//locate 0,2
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 2 ); }
+//　捨てれば...もっと心が楽になれる...。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "捨てれば…もっと心が楽になれる…。",
+		   NULL, "Mi sentirei meglio se gettassi via tutto.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　それを知りながらも、俺は信じることを選んだんじゃないか。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それを知りながらも、俺は信じることを選んだんじゃないか。",
+		   NULL, "E nonostante ne sia consapevole, io ho scelto comunque di credere.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　その辛かった苦労は、きっと俺にしかわからないし、俺にしかねぎらえない。!w4000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "その辛かった苦労は、きっと俺にしかわからないし、俺にしかねぎらえない。",
+		   NULL, "Solo io posso comprendere questi sforzi dolorosi e apprezzarli.", Line_Normal);
+	ClearMessage();
+
+
+//locate 0,5
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 5 ); }
+//　なぁ俺。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "なぁ俺。",
+		   NULL, "Ehi, me stesso.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　...俺は充分に頑張った。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…俺は充分に頑張った。",
+		   NULL, "... ormai hai fatto abbastanza.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　......俺がそれを認めてやる。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…俺がそれを認めてやる。",
+		   NULL, "... lo riconosco.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　だから。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "だから。",
+		   NULL, "Quindi...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　......もう楽になってもいいんじゃないか......？!w4000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…もう楽になってもいいんじゃないか…？",
+		   NULL, "... non è forse il momento di scegliere la via più semplice?", Line_Normal);
+	ClearMessage();
+
+//locate 0,6
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 6 ); }
+
+//　それに.........捨てるんじゃない。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それに…捨てるんじゃない。",
+		   NULL, "In fondo... non lo sto gettando via.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　彼女と一緒に、置いていくんだ。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "彼女と一緒に、置いていくんだ。",
+		   NULL, "Lo sto solo lasciando qui, insieme a lei.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//locate 0,11
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 11 ); }
+//　...花を手向けるように。!w4000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…花を手向けるように。",
+		   NULL, "... come fiori su una tomba.", Line_Normal);
+	ClearMessage();
+
+//locate 0,3
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 3 ); }
+//　さぁ。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "さぁ。",
+		   NULL, "E adesso.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　......心を落ち着けて...。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…心を落ち着けて…。",
+		   NULL, "... calmati.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　もう右腕が痺れているだろうけど。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "もう右腕が痺れているだろうけど。",
+		   NULL, "Non riesci nemmeno più ad alzare il braccio destro.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　......頑張って振り上げよう。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…頑張って振り上げよう。",
+		   NULL, "... fa' uno sforzo e alzalo.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　ひとつ振る度に忘れるんだ。!w4000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ひとつ振る度に忘れるんだ。",
+		   NULL, "E con ogni colpo, dimentica poco alla volta.", Line_Normal);
+	ClearMessage();
+	DrawScene("black", 1500 );
+
+//locate 0,4
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 4 ); }
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+
+//　親切が、うれしかった。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "親切が、うれしかった。",
+		   NULL, "Quella gentilezza mi ha reso felice.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+
+//　愛らしい笑顔がうれしかった。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "愛らしい笑顔がうれしかった。",
+		   NULL, "Quel sorriso adorabile mi ha donato la gioia.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+
+//　頭を撫でるのが、好きだった。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "頭を撫でるのが、好きだった。",
+		   NULL, "Mi piaceva accarezzarti la testa.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+
+//　そんな君がはにかむのが、好きだった。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そんな君がはにかむのが、好きだった。",
+		   NULL, "Amavo il tuo imbarazzo.", Line_Normal);
+	ClearMessage();
+
+
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 1000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+	Wait( 300 );
+	DrawSceneWithMask("background/ryuuketu1", "aa", 0, 0, 250 );
+	PlaySE( 4, "wa_030", 56, 64 );
+	DrawScene( "black", 1500 );
+
+//locate 0,2
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 2 ); }
+
+//　これで最後だから。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "これで最後だから。",
+		   NULL, "... perché questa sarà l'ultima volta.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　これを振り下ろせば忘れてしまうのだから。!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "これを振り下ろせば忘れてしまうのだから。",
+		   NULL, "Perché quando abbasserò questa, io dimenticherò.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　君に贈る、...............俺からの、!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "君に贈る、…俺からの、",
+		   NULL, "Questo è... il mio...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　最初で最後の!w1000花束。!w4000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "最初で最後の",
+		   NULL, "Primo e ultimo...", Line_WaitForInput);
+
+
+	OutputLine(NULL, "花束。",
+		   NULL, " mazzo di fiori per te.", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	DrawScene("black", 3000 );
+	FadeFilm( 1000, TRUE );
+//print 1
+//locate 0,5
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 5 ); }
+
+//　ひょっとすると、...俺は君の事が、!w2000
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ひょっとすると、…俺は君の事が、",
+		   NULL, "Forse io... davvero...", Line_WaitForInput);
+
+//　!s150.......................................!s50好きだった。!w3000
+
+	SetSpeedOfMessage( TRUE, 10, );
+
+	OutputLine(NULL, "…………………………………",
+		   NULL, "...", Line_ContinueAfterTyping);
+
+	SetSpeedOfMessage( FALSE, 0, );
+
+	OutputLine(NULL, "好きだった。",
+		   NULL, " ... ti amavo.", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	FadeOutBGM( 4, 1000, TRUE );
+
+//bg $862,0
+//setwindow 31,16,22,16,26,26,0,2,20,1,1,#ffffff,0,0,639,479
+
+	PlaySE( 4, "wa_015", 56, 64 );
+	Wait( 2000 );
+	PlaySE( 4, "wa_017", 56, 64 );
+	DrawBustshot(5, "logo", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, TRUE );
+	ShakeScreen( 0, 25, 10, 4, 0, );
+	FadeBG( 3000, TRUE );
+	FadeOutBGM( 2, 1000, TRUE );
+
+//print 1
+
+	Wait( 2000 );
+
+//setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
+
+	FadeBG( 3000, TRUE );
+	DrawScene("black", 1000 );
+//csp -1
+//print 2
+
+//return
+
+	ModCallScriptSection("&opening", "OpeningStory");
+}

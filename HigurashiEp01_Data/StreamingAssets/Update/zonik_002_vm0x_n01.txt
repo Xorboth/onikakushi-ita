@@ -1,0 +1,94 @@
+void main()
+{
+}
+
+void dialog000()
+{
+//「さぁねぇ＠昔、殺して埋めたバラバラ死体でも確認してるんじゃないすか？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02310", 256, TRUE);
+	OutputLine(NULL, "「さぁねぇ。",
+		   NULL, "\"Non lo so.", Line_WaitForInput);
+	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02320", 256, TRUE);
+	OutputLine(NULL, "昔起こった、殺人事件の死体でも捜してるんじゃないすか？」",
+		   NULL, "Starà cercando il cadavere di un vecchio omicidio?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog001()
+{
+//「うん聞いて聞いて＠　あ、…あのね＠　あったの＠　ランディーくん人形ッ♪！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200154", 256, TRUE);
+	OutputLine(NULL, "「うん聞いて聞いて！",
+		   NULL, "\"Oh sì~ Ascolta\"", Line_WaitForInput);
+	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200155", 256, TRUE);
+	OutputLine(NULL, "　あ、…あのね！",
+		   NULL, "Ah... uhn, vedi!", Line_WaitForInput);
+	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200156", 256, TRUE);
+	OutputLine(NULL, "　あったの！",
+		   NULL, " C'era...!", Line_WaitForInput);
+	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200157", 256, TRUE);
+	OutputLine(NULL, "　ランディーくん人形ッ♪！！」",
+		   NULL, "Una statua del Colonnello Randy♪\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+//「ランディーくん人形？＠　…ってあれか、ランディーくんフライドチキンの店の前に必ず置いてある…!d600あの等身大人形の？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02350", 256, TRUE);
+	OutputLine(NULL, "「ランディーくん人形？！",
+		   NULL, "\"Una statua del Colonnello Randy!?", Line_WaitForInput);
+	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02360", 256, TRUE);
+	OutputLine(NULL, "　…ってあれか、ランディーくんフライドチキンの店の前に必ず置いてある…",
+		   NULL, "... oh, quello... quello uguale alle statue che sono sempre fuori da quel locale che vende pollo fritto...", Line_Continue);
+
+	Wait( 600 );
+	OutputLine(NULL, "あの等身大人形の？」",
+		   NULL, "ne hai trovato uno a grandezza naturale?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+//「…そう！　ランディーくん＠　……はぅ……かぁいい……お持ち帰りしたいぃ…☆＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200158", 256, TRUE);
+	OutputLine(NULL, "「…そう！　ランディーくん☆",
+		   NULL, "\"... sì! Il Colonnello Randy☆", Line_WaitForInput);
+	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200159", 256, TRUE);
+	OutputLine(NULL, "　……はぅ……かぁいい……お持ち帰りしたいぃ…☆」",
+		   NULL, "... hao... che carino... voglio portarlo a casa...☆\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog002()
+{
+//「圭一くんが手伝ってくれる☆!d300…ランディーくんをお持ち帰りできる……はぅ…。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200164", 256, TRUE);
+	OutputLine(NULL, "「圭一くんが手伝ってくれる☆",
+		   NULL, "\"Keiichi-kun mi aiuterà.☆", Line_Continue);
+	Wait( 1500 );
+	OutputLine(NULL, "…ランディーくんをお持ち帰りできる……はぅ…。」",
+		   NULL, " ... potrò portare il Colonnello Randy a casa... hao...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog003()
+{
+//「……嫌な事件だったね。…腕が一本、まだ見つかってないんだろ？」!w5000
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(3, 8, "ps3/s19/08/990800016", 256, TRUE);
+	OutputLine(NULL, "「……嫌な事件だったね。……………まだ見つかってないんだろ？」",
+		   NULL, "\"... fu un incidente inquietante... e ancora non l'hanno trovato, giusto?\"", Line_Continue);
+}
+
+void dialog004()
+{
+//"... …嫌な事件だったね。…腕が一本、まだ見つかってないんだろ？"@\
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "“……嫌な事件だったね。……………まだ見つかってないんだろ？”",
+		   NULL, "\"... fu un incidente inquietante... e ancora non l'hanno trovato, giusto?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+}

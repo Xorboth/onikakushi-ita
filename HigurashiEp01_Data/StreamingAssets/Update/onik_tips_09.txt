@@ -1,0 +1,91 @@
+void main()
+{
+
+//■ダム推進派の夫婦の転落事故
+
+//*Sub_Tips_009
+//gosub *tip_s
+	EnableJumpingOfReturnIcon();
+	FadeOutBGM( 0, 1000, FALSE );
+	FadeOutBGM( 1, 1000, FALSE );
+	FadeOutBGM( 2, 1000, TRUE );
+
+	DisableWindow();
+	DrawScene("black", 1000 );
+
+	DrawScene("background/simen3", 1000 );
+	PlayBGM( 1, "msys15", 56, 0 );
+
+//　昭和５５年６月ＸＸ日夕刊よ＠
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　昭和５５年６月ＸＸ日夕刊より",
+		   NULL, "Edizione del luglio 1980.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　ＸＸ日午後２時頃、鹿骨市雛見沢村Ｘ丁目、会社員ＸＸＸさんと妻ＸＸＸＸさんが＠
+//　県立白川自然公園内の展望台から２７ｍ下の渓流へ転落、行方不明になった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ＸＸ日午後２時頃、鹿骨市雛見沢村Ｘ丁目、会社員ＸＸＸさんと妻ＸＸＸＸさんが、",
+		   NULL, "Alle 14 del giorno XX, l'impiegato XXXX e sua moglie XXXX del villaggio di Hinamizawa nella prefettura di Shishibone", Line_WaitForInput);
+	OutputLine(NULL, "　県立白川自然公園内の展望台から２７ｍ下の渓流へ転落、行方不明になった。",
+		   NULL, " sono scomparsi dopo essere caduti per 27 metri dall'osservatorio della prefettura di Shirakawa.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+//　警察と消防で下流を捜索し、同日夜７時頃、ＸＸＸさんの遺体を発見した＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　警察と消防で下流を捜索し、同日夜７時頃、ＸＸＸさんの遺体を発見した。",
+		   NULL, "La polizia e i vigili del fuoco hanno cercato lungo la corrente del fiume e hanno trovato il corpo di XXXX alle 19 del giorno stesso.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+//　妻のＸＸＸＸさんは依然見つかっていない＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　妻のＸＸＸＸさんは依然見つかっていない。",
+		   NULL, "La moglie, XXXXX, è ancora dispersa.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　渓流は先日の台風３号の影響で増水しており、捜索は難航している￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　渓流は先日の台風３号の影響で増水しており、捜索は難航している。",
+		   NULL, "La ricerca ha incontrato delle difficoltà a causa degli effetti del Tifone 3 avvenuto il giorno precedente.", Line_Normal);
+	ClearMessage();
+
+//　ＸＸさん夫妻は展望台で柵にもたれかかっていた所、柵が壊れ転落した模様＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ＸＸさん夫妻は展望台で柵にもたれかかっていた所、柵が壊れ転落した模様。",
+		   NULL, "Pare che il parapetto a cui i coniugi XX erano appoggiati in cima all'osservatorio abbia ceduto, causando la loro caduta.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+//　柵は老朽化しており、警察は公園内の設備管理が適正だったか関係者から事情を聞いている￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　柵は老朽化しており、警察は公園内の設備管理が適正だったか関係者から事情を聞いている。",
+		   NULL, "I responsabili della struttura sono stati interrogati dalla polizia in merito al deterioramento dell'osservatorio e alla regolare manutenzione del parco.", Line_Normal);
+	ClearMessage();
+
+	SetValidityOfInput( FALSE );
+	Wait( 1000 );
+	SetValidityOfInput( TRUE );
+	DisableWindow();
+	DrawScene("black", 1000 );
+	FadeOutBGM( 0, 1000, FALSE );
+	FadeOutBGM( 1, 1000, FALSE );
+	FadeOutBGM( 2, 1000, TRUE );
+//gosub *tip_e
+//return
+
+
+
+
+
+}
+
+
+

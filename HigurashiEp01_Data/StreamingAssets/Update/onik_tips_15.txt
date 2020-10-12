@@ -1,0 +1,344 @@
+void main()
+{
+
+//■本部長通達
+
+//*Sub_Tips_015
+//gosub *tip_s
+	EnableJumpingOfReturnIcon();
+	FadeOutBGM( 0, 1000, FALSE );
+	FadeOutBGM( 1, 1000, FALSE );
+	FadeOutBGM( 2, 1000, TRUE );
+
+	DisableWindow();
+	DrawScene("black", 1000 );
+	DrawSceneWithMask("background/ke5", "down", 0, 0, 1300 );
+	PlayBGM( 1, "msys12", 56, 0 );
+
+//!s50
+
+//locate 13,0
+
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+	SetStyleOfMessageSwinging( 2 );
+
+//昭和５７年７月１日
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "昭和５７年７月１日",
+		   NULL, "1 luglio, 1982", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+//locate 13,1
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//総総管イ１－１２号
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "総総管イ１−１２号",
+		   NULL, "Ai dipartimenti dall'1 al 12", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+	SetStyleOfMessageSwinging( 0 );
+
+//ＸＸ県警察本部
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ＸＸ県警察本部",
+		   NULL, "Quartier Generale della Polizia Prefetturale di XX.", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//本部長　ＸＸＸ
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "本部長　ＸＸＸ",
+		   NULL, "Direttore Generale XXX", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+//locate 10,5
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+	SetStyleOfMessageSwinging( 2 );
+
+//各警察署長・施設管理者殿
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "各警察署長・施設管理者殿",
+		   NULL, "A ogni capo della polizia e a tutti i responsabili delle strutture.", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//locate 3,7
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+	SetStyleOfMessageSwinging( 1 );
+
+//雛見沢村における事件について（通達）
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "雛見沢村における事件について（通達）",
+		   NULL, "Riguardo i casi situati nel villaggio di Hinamizawa. (Notifica)", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", Line_Normal);
+	ClearMessage();
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+	SetStyleOfMessageSwinging( 0 );
+
+//　鹿骨市雛見沢村の近年の事件は、すでに一部マスコミでも報道されるように、/
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　鹿骨市雛見沢村の近年の事件は、すでに一部マスコミでも報道されるように、",
+		   NULL, "I casi avvenuti nel villaggio di Hinamizawa, nella città di Shishibone, hanno attirato un certo interesse da parte dei mass media,", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//世間の好奇の目を引き地域住民の穏便な生活に重大な影響を及ぼしつつある、大変憂慮すべき事態となっている。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "世間の好奇の目を引き地域住民の穏便な生活に重大な影響を及ぼしつつある、大変憂慮すべき事態となっている。",
+		   NULL, "addirittura a livello globale, causando molte ripercussioni sui residenti locali. La situazione si è fatta molto seria.", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//　地域住民の生活と財産を保護するため、以下の遵守を通達する。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　地域住民の生活と財産を保護するため、以下の遵守を通達する。",
+		   NULL, "La seguente notifica è stata distribuita al fine di proteggere le vite e la prosperità degli abitanti.", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", Line_Normal);
+	ClearMessage();
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//（１） 秘匿捜査指定
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "（１）秘匿捜査指定",
+		   NULL, "1. Etichettare le seguenti investigazioni criminali come informazioni riservate.", Line_ContinueAfterTyping);
+
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//　興宮署昭和５７年第Ｘ号
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　興宮署昭和５７年第Ｘ号",
+		   NULL, "Stazione di Okinomiya, anno 1982, caso numero X:", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//　　雛見沢村主婦殺人事件（６月ＸＸ日発生）
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　　雛見沢村主婦殺人事件（６月ＸＸ日発生）",
+		   NULL, "Omicidio della casalinga nel villaggio di Hinamizawa (datato giugno XX)", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//　興宮署昭和５７年第Ｘ号
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　興宮署昭和５７年第Ｘ号",
+		   NULL, "Stazione di Okinomiya, anno 1982, caso numero X:", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//　　雛見沢村生徒失踪事件（６月ＸＸ日発生）
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　　雛見沢村生徒失踪事件（６月ＸＸ日発生）",
+		   NULL, "Scomparsa dello studente nel villaggio di Hinamizawa (datato giugno XX)", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", Line_Normal);
+	ClearMessage();
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//（２） 情報の非開示
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "（２）情報の非開示",
+		   NULL, "2. Informazioni con diffusione vietata.", Line_ContinueAfterTyping);
+
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//　興宮署昭和５４年第Ｘ号
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　興宮署昭和５４年第Ｘ号",
+		   NULL, "Stazione di Okinomiya, anno 1979, caso numero X:", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//　　雛見沢村現場監督殺人事件（６月ＸＸ日発生）
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　　雛見沢村現場監督殺人事件（６月ＸＸ日発生）",
+		   NULL, "Omicidio del caposquadra nel sito del villaggio di Hinamizawa (datato giugno XX)", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//　白川署昭和５５年第Ｘ号
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　白川署昭和５５年第Ｘ号",
+		   NULL, "Stazione di Shirakawa, anno 1980, caso numero X:", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//　　白川自然公園転落事故（６月ＸＸ日発生）
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　　白川自然公園転落事故（６月ＸＸ日発生）",
+		   NULL, "Caduta accidentale nel parco naturale di Shirakawa (datato giugno XX)", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//　興宮署昭和５６年第Ｘ号
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　興宮署昭和５６年第Ｘ号",
+		   NULL, "Stazione di Okinomiya, anno 1981, caso numero X:", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//　　雛見沢村神主妻失踪事件（６月ＸＸ日発生）
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　　雛見沢村神主妻失踪事件（６月ＸＸ日発生）",
+		   NULL, "Scomparsa della moglie del prete shinto del villaggio di Hinamizawa (datato giugno XX)", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", Line_Normal);
+	ClearMessage();
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//（３） 関係各機関への報道自粛要請
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "（３）関係各機関への報道自粛要請",
+		   NULL, "3. Richiesta di auto-moderazione per ogni organizzazione coinvolta nel rilascio di informazioni sensibili.", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+
+//　別添資料１・２・３参照
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　別添資料１・２・３参照",
+		   NULL, "Si prega di consultare i materiali allegati 1, 2 e 3.", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+//locate 12,8
+
+	SetStyleOfMessageSwinging( 2 );
+
+//担当　ＸＸ県警察本部
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "担当　ＸＸ県警察本部",
+		   NULL, "Responsabile: Quartier Generale Polizia Prefetturale di XX", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+//locate 16,9
+
+	SetStyleOfMessageSwinging( 2 );
+
+//内線ＸＸＸＸ
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "内線ＸＸＸＸ",
+		   NULL, "Linea Interna XXXX", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	PlayBGM( 2, "lsys24", 56, 0 );
+//locate 14,10
+
+//警務部ＸＸ・ＸＸ/
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "警務部ＸＸ・ＸＸ",
+		   NULL, "Dipartimento XX XX Commissioni Polizesche", Line_ContinueAfterTyping);
+
+	FadeOutBGM( 2, 10, TRUE );
+	OutputLineAll(NULL, "", Line_Normal);
+
+	ClearMessage();
+
+	SetValidityOfInput( FALSE );
+	Wait( 1000 );
+	SetValidityOfInput( TRUE );
+	DisableWindow();
+	DrawScene("black", 1000 );
+	FadeOutBGM( 0, 1000, FALSE );
+	FadeOutBGM( 1, 1000, FALSE );
+	FadeOutBGM( 2, 1000, TRUE );
+//gosub *tip_e
+//return
+
+
+}

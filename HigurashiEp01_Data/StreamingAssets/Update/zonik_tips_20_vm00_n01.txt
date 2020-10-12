@@ -1,0 +1,68 @@
+void main()
+{
+}
+
+void dialog000()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Mamma di Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「なぁに、圭一。",
+		   NULL, "\"Cosa c'è, Keiichi?", Line_WaitForInput);
+	OutputLine(NULL, "こんなにたくさん！",
+		   NULL, " Quanti sono!", Line_WaitForInput);
+	OutputLine(NULL, "　全部違う種類にすることはないでしょ？！」",
+		   NULL, " Che motivo c'è di prenderne così tanti tipi!?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　色とりどりのカップめんをどっさりとカートに載せたんだ。",
+		   NULL, "Passo in rassegna tutti i diversi tipi colorati di cup ramen dentro al carrello.", Line_Normal);
+	ClearMessage();
+}
+
+void dialog001()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Papà di Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「圭一。",
+		   NULL, "\"Keiichi.", Line_WaitForInput);
+	OutputLine(NULL, "箱売りしてるのにしなさい。安いから。」",
+		   NULL, " Comprane una sola confezione grande. Costano meno.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　親父が渋る。",
+		   NULL, "Papà esita.", Line_Normal);
+	ClearMessage();
+}
+
+void dialog002()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Mamma di Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「決められないならお母さんが決めちゃうわよ。」",
+		   NULL, "\"Se non riesci a deciderti, allora sceglierà mamma per te.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そう急かされても困る…！",
+		   NULL, "Non mettermi fretta...!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　手早く目当てのラーメンの箱を探しに行く。",
+		   NULL, "Cerco in fretta e furia la confezione di cup ramen che voglio.", Line_Normal);
+	ClearMessage();
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Mamma di Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「豚骨ショウガ味、デカカップ？",
+		   NULL, "\"Tonkotsu & Zenzero, extra-large? [Tonkotsu ramen = tipo di ramen con brodo di ossa di maiale]", Line_WaitForInput);
+	OutputLine(NULL, "　ねぇ圭一、もう少し普通のにしない？」",
+		   NULL, " Ehi, Keiichi, non puoi prenderne uno più normale?\"", Line_Normal);
+	ClearMessage();
+}
+
+void dialog003()
+{
+
+}

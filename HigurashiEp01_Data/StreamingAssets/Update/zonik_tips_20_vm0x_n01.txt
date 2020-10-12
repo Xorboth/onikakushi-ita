@@ -1,0 +1,65 @@
+void main()
+{
+}
+
+void dialog000()
+{
+//早く選べ、と急き立てる両親に悪態をつきながら、色とりどりのカップめんをどっさりとカートに載せる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "早く選べ、と急き立てる両親に悪態をつきながら、色とりどりのカップめんをどっさりとカートに載せる。",
+		   NULL, "Passo in rassegna tutti i diversi tipi colorati di cup ramen dentro al carrello.", Line_WaitForInput);
+//案の定、何でこれだけの種類を選んできたんだ、とお袋はあきれた声を上げた。
+	OutputLine(NULL, "案の定、何でこれだけの種類を選んできたんだ、とお袋はあきれた声を上げた。",
+		   NULL, " Come immaginavo, mia mamma mi guarda con aria seccata non appena le chiedo perché ce ne siano di così tanti sapori.", Line_Normal);
+	ClearMessage();
+}
+
+void dialog001()
+{
+//　あまりの量と種類に親父が渋って、バラ売りじゃなく箱で選んでこい、と言う。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　あまりの量と種類に親父が渋って、",
+		   NULL, "Lancia un altro sguardo alla varietà di confezioni.", Line_WaitForInput);
+	OutputLine(NULL, "　バラ売りじゃなく箱で選んでこい、と言う。",
+		   NULL, "Papà mi dice di andare a prendere dei pacchi di più confezioni allo stesso sapore.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog002()
+{
+//お袋と親父は早々にレジへ並んで、まだ売り場であれこれ迷う俺を呼んでいる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "お袋と親父は早々にレジへ並んで、まだ売り場であれこれ迷う俺を呼んでいる。",
+		   NULL, "Mamma e papà mi stanno aspettando in coda, mettendomi fretta per prendere una decisione.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　列も長くないし、時間はない……。俺は仕方なく、手早く目当てのラーメンの箱を探しあてた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　列も長くないし、時間はない……。",
+		   NULL, "La coda è breve e non ho molto tempo...!", Line_WaitForInput);
+	OutputLine(NULL, "俺は仕方なく、手早く目当てのラーメンの箱を探しに行く。",
+		   NULL, " Rimasto senza opzioni, cerco in fretta e furia le confezioni di ramen che desidero.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+// 困ったときには、……そう！　豚骨ショウガ味の大盛カップ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "困ったときには、……そう！　豚骨ショウガ味の大盛カップ！！",
+		   NULL, "La mia scelta sarà... Tonkotsu & Zenzero, extra-large!! [Tonkotsu ramen = tipo di ramen con brodo di ossa di maiale]", Line_Normal);
+	ClearMessage();
+}
+
+void dialog003()
+{
+// だから豚骨の箱をどん、と買い物かごに積み込むと、『……これぇ？』と言いたげな顔で俺を見返した。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "だから豚骨の箱をどん、と買い物かごに積み込むと、「……これぇ？」と言いたげな顔で俺を見返した。",
+		   NULL, "Così, mamma mi guarda con un'espressione da \"Sei sicuro?\" mentre fissa le confezioni al maiale e zenzero.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+// とはいえ、これだけは譲れないとばかりに俺は、チョイスしてきた持論を展開する。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "とはいえ、これだけは譲れないとばかりに俺は、チョイスしてきた持論を展開する。",
+		   NULL, " Le spiego il motivo per cui ho scelto questo tipo.", Line_Normal);
+	ClearMessage();
+}
