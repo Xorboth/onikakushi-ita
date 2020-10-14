@@ -145,7 +145,7 @@ void main()
 		   NULL, " Mi arrabbierò un sacco!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100162", 256, TRUE);
 	OutputLine(NULL, "　…ふぁあ〜〜あ……。」",
-		   NULL, "... yaaaaawn...\"", Line_Normal);
+		   NULL, " ... yaaaaawn...\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -343,7 +343,7 @@ void main()
 		   NULL, "\"Ho sentito che non c'era più il giorno seguente.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300061", 256, TRUE);
 	OutputLine(NULL, "……綿流しの晩に失踪したらしいよ。」",
-		   NULL, "... pare sia sparito la notte del Watanagashi.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... pare sia sparito la notte del Watanagashi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -435,7 +435,7 @@ void main()
 		   NULL, "\"... quindi... oltre a... c'è dell'altro?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200058", 256, TRUE);
 	OutputLine(NULL, "　………が。」",
-		   NULL, "... per di più.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... per di più.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -484,7 +484,7 @@ void main()
 		   NULL, "\"... sà... rse... c'è n'è un'altra, vero?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200060", 256, TRUE);
 	OutputLine(NULL, "　……だよね？」",
-		   NULL, "... vero?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... vero?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -505,7 +505,7 @@ void main()
 		   NULL, "\"Però... però!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200062", 256, TRUE);
 	OutputLine(NULL, "　……今年は………てないよ…？」",
-		   NULL, "... quest'anno il... no...?\"", Line_Normal);
+		   NULL, " ... quest'anno il... no...?\"", Line_Normal);
 	ClearMessage();
 
 
@@ -516,10 +516,10 @@ void main()
 		   NULL, "\"La nonna e il sindaco ne hanno parlato.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300067", 256, TRUE);
 	OutputLine(NULL, "……今年は事前に警察と話が付けてあるらしいんだよ。",
-		   NULL, "... pare che ne avessero discusso in anticipo con la polizia.", Line_WaitForInput);
+		   NULL, " ... pare che ne avessero discusso in anticipo con la polizia.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300068", 256, TRUE);
 	OutputLine(NULL, "……何が起こっても、騒ぎにしないで穏便に片付ける、って。」",
-		   NULL, "... dicendo che si sarebbero occupati di qualunque cosa fosse successa quest'anno, senza causare trambusto.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... dicendo che si sarebbero occupati di qualunque cosa fosse successa quest'anno, senza causare trambusto.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -535,7 +535,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "………たかもしれない……ってこと…？」",
-		   NULL, "... è questo... dire...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... è questo... dire...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -559,7 +559,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……かな……。」",
-		   NULL, "... io...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... io...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -847,7 +847,7 @@ void main()
 	OutputLine(NULL, "　遠くで午後の授業の始まりの振鈴の音がする。",
 		   NULL, "Poco lontano, sento il suonare della campanella che segna l'inizio delle lezioni pomeridiane.", Line_WaitForInput);
 	OutputLine(NULL, "……げ！　ほとんど寝れなかった！",
-		   NULL, "... geh! Non ho dormito per niente!", Line_Normal);
+		   NULL, " ... geh! Non ho dormito per niente!", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -930,7 +930,7 @@ void main()
 
 //　と、俺は足をもつれさせ転んでしまう＠
 	OutputLine(NULL, "　と、俺は足をもつれさせ転んでしまう。",
-		   NULL, "... e inciampo immediatamente, come se avessi le gambe legate.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... e inciampo immediatamente, come se avessi le gambe legate.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

@@ -280,7 +280,7 @@ void main()
 //　もしも......振り向いて誰もいなかったら......お前はそれを受け入れられるのか...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もしも……振り向いて誰もいなかったら……お前はそれを受け入れられるのか…？",
-		   NULL, "Se... non vedrò nessuno alle mie spalle...riuscirò ad accettarlo...?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se... non vedrò nessuno alle mie spalle... riuscirò ad accettarlo...?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -365,7 +365,7 @@ void main()
 //　その時、俺は確かに聞いた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その時、俺は確かに聞いた。",
-		   NULL, "Stavolta sono sicuro di averlo sentita.", Line_Normal);
+		   NULL, "Stavolta sono sicuro di averlo sentito.", Line_Normal);
 	ClearMessage();
 
 //　俺の問いかけに躊躇しながらも、答えようと。......すぅ、と息を飲み込む音を確かに聞いた￥
@@ -1916,7 +1916,7 @@ void main()
 //　俺は子機に持ち替えると二階の自室へ駆け戻った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺は子機に持ち替えると二階の自室へ駆け戻った。",
-		   NULL, "Prendo il portatile e corro in camera mia.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Prendo il cordless e corro in camera mia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2109,7 +2109,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100495", 256, TRUE);
 	OutputLine(NULL, "「……偶然の可能性もあるんですが…先日、俺が病気で休んだ日、夕方にあの二人がお見舞いに来たんです。」",
-		   NULL, "\"... forse è solo una coincidenza... ma il giorno che ho saltato la scuola perché ero malato, quelle due sono venuti a trovarmi.\"", Line_Normal);
+		   NULL, "\"... forse è solo una coincidenza... ma il giorno che ho saltato la scuola perché ero malato, quelle due sono venute a trovarmi.\"", Line_Normal);
 	ClearMessage();
 
 //「あの二人？＠
@@ -2549,7 +2549,7 @@ void main()
 //　大石さんは電話の向こうで唸り始めた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石さんは電話の向こうで唸り始めた。",
-		   NULL, "Oooshi-san inizia a pensare.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ooishi-san inizia a pensare.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2693,7 +2693,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700374", 256, TRUE);
 	OutputLine(NULL, "「……………前原さん、それはおそらく…何かの脅迫",
-		   NULL, "\"... Maebara-san, credo si stratti di una minaccia...", Line_Continue);
+		   NULL, "\"... Maebara-san, credo si tratti di una minaccia...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -3382,7 +3382,7 @@ void main()
 //　俺が真に恐れるのは...単にこのチェーンを外して、暴漢たちに踏み込まれ襲われることよりも＠.........信用してチェーンを外したレナに...襲われ、友情を裏切られることだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺が真に恐れるのは…単にこのチェーンを外して、暴漢たちに踏み込まれ襲われることよりも、",
-		   NULL, "Quello che temo davvero... più della possibilità che dei teppisti mi assaliscano...", Line_WaitForInput);
+		   NULL, "Quello che temo davvero... più della possibilità che dei teppisti mi assalgano...", Line_WaitForInput);
 	OutputLine(NULL, "………信用してチェーンを外したレナに…襲われ、友情を裏切られることだった。",
 		   NULL, " è che Rena rimuova la catena... e tradisca la mia amicizia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -5129,7 +5129,7 @@ void main()
 //　俺の中の火薬にようやく火が付く＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺の中の火薬にようやく火が付く。",
-		   NULL, "La polveriera dentro di meè esplosa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La polveriera dentro di me è esplosa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5868,7 +5868,7 @@ void main()
 //　いや......むしろ、これ以上があるならそれすらも知りたい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いや……むしろ、これ以上があるならそれすらも知りたい。",
-		   NULL, "No... piuttosto, voglio sapere se c'è qualcos altro che rimpiangerei di più.", Line_Normal);
+		   NULL, "No... piuttosto, voglio sapere se c'è qualcos'altro che rimpiangerei di più.", Line_Normal);
 	ClearMessage();
 
 //　今や俺は、明日どころか今夜、何があってもおかしくない、そんな状況だ￥
@@ -5926,7 +5926,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100578", 256, TRUE);
 	OutputLine(NULL, "「その簡単な全てを知りたいんです。」",
-		   NULL, "\"Voglio sapere tutto quello che hai scopeto.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Voglio sapere tutto quello che hai scoperto.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6759,7 +6759,7 @@ void main()
 //　電話を続けながら腰を上げ、窓に手をかける￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　電話を続けながら腰を上げ、窓に手をかける。",
-		   NULL, "Mi alzo di nuovo e allungo la mano verso finestra.", Line_Normal);
+		   NULL, "Mi alzo di nuovo e allungo la mano verso la finestra.", Line_Normal);
 	ClearMessage();
 
 //「始めに事件と申し上げましたが、学校側も被害者も告発してないので、正式には事件ではないのです＠
@@ -6809,7 +6809,7 @@ void main()
 //　門の郵便受けのところにある外灯に、ずっとひとりの人影が立ち尽くしていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　門の郵便受けのところにある外灯に、ずっとひとりの人影が立ち尽くしていた。",
-		   NULL, "Da quanto Ooishi-san ha iniziato a parlare, c'è una persona in piedi vicino alla luce della cassetta delle lettere.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Da quando Ooishi-san ha iniziato a parlare, c'è una persona in piedi vicino alla luce della cassetta delle lettere.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -6818,7 +6818,7 @@ void main()
 	OutputLine(NULL, "　この土砂降りの中、傘もさしていなかった。",
 		   NULL, "Senza nemmeno l'ombrello sotto questa pioggia torrenziale.", Line_WaitForInput);
 	OutputLine(NULL, "もちろん全身はずぶ濡れ…。",
-		   NULL, " Sarà fradicio dalla testa ai piedi...", Line_WaitForInput);
+		   NULL, " Sarà fradicia dalla testa ai piedi...", Line_WaitForInput);
 	OutputLine(NULL, "滝のような雨に、髪の毛からぼたぼたと水を滴らせている…。",
 		   NULL, " La cascata di acqua piovana le fa cadere rigoli di pioggia lungo i capelli...", Line_Normal);
 	ClearMessage();

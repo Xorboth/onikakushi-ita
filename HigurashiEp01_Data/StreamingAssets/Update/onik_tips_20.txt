@@ -562,7 +562,7 @@ void main()
 //　だが体は動かない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが体は動かない。",
-		   NULL, "Perché il mio corpo non mi muove.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Perché il mio corpo non si muove.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

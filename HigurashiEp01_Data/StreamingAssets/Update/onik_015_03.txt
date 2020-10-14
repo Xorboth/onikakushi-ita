@@ -140,7 +140,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700519", 256, TRUE);
 	OutputLine(NULL, "「ちなみに、ハイテーで当たり牌出してもロンしちゃダメですよ。」",
-		   NULL, "\"Ricorda che non puoi chiamare un ron con la tessere vincente in quell'haitei.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Ricorda che non puoi chiamare un ron con la tessera vincente in quell'haitei.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -970,7 +970,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700555", 256, TRUE);
 	OutputLine(NULL, "「お願いです前原さん。",
-		   NULL, "\"Ti prego, maebara-san...", Line_WaitForInput);
+		   NULL, "\"Ti prego, Maebara-san...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700556", 256, TRUE);
 	OutputLine(NULL, "……怖いのはわかります。",
 		   NULL, " so che hai paura.", Line_WaitForInput);
@@ -1117,7 +1117,7 @@ void main()
 //　その時、受話器の向こうから…つぶやきが聞こえた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その時、受話器の向こうから…つぶやきが聞こえた。",
-		   NULL, "In quel moento, sento sussurrare...", Line_Normal);
+		   NULL, "In quel momento, sento sussurrare...", Line_Normal);
 	ClearMessage();
 
 //　何を言っているのかはわからない＠
@@ -1451,7 +1451,7 @@ void main()
 //　また、犯行現場とは別に、玄関、居間、台所でも荒らされた形跡が認められた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、犯行現場とは別に、玄関、居間、台所でも荒らされた形跡が認められた。",
-		   NULL, "Oltre alla scena del crimine, anche l'ingresso, il salotto e la cucina presenzano tracce di collutazione.", Line_ContinueAfterTyping);
+		   NULL, "Oltre alla scena del crimine, anche l'ingresso, il salotto e la cucina presentano tracce di collutazione.", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );
@@ -1697,7 +1697,7 @@ void main()
 //　直ちに村内の診療所に搬送し手当てをしたが、意識は戻らず２４時間後に死亡した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　直ちに村内の診療所に搬送し手当てをしたが、意識は戻らず２４時間後に死亡した。",
-		   NULL, "È stato trasportato subito all'ospidale più vicino, ma non si è mai risvegliato ed è morto 24 ore dopo.", Line_ContinueAfterTyping);
+		   NULL, "È stato trasportato subito all'ospedale più vicino, ma non si è mai risvegliato ed è morto 24 ore dopo.", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );
@@ -1738,7 +1738,7 @@ void main()
 //　先週に発生した富竹氏事件の異常な死に方との酷似に、警察は関連性があるものとして捜査を開始する。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　先週に発生した富竹氏事件の異常な死に方との酷似に、警察は関連性があるものとして捜査を開始する。",
-		   NULL, "A causa delle somiglianze con il caso di Tomitake-san la scorsa settimana, la polizia crede che si sia un collegamento e ha aperto un'indagine...", Line_ContinueAfterTyping);
+		   NULL, "A causa delle somiglianze con il caso di Tomitake-san la scorsa settimana, la polizia crede che ci sia un collegamento e ha aperto un'indagine...", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1866,7 +1866,7 @@ void main()
 
 //　容疑者の自室から直筆のメモが発見された。
 	OutputLine(NULL, "　容疑者の自室から直筆のメモが発見された。",
-		   NULL, " è stata trovata una noa scritta sal sospetto stesso nella sua stanza.", Line_ContinueAfterTyping);
+		   NULL, " è stata trovata una nota scritta dal sospetto stesso nella sua stanza.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -2014,7 +2014,7 @@ void main()
 
 //　元はＢ５の１ページに書かれたものを…何者かが、
 	OutputLine(NULL, "　元はＢ５の１ページに書かれたものを…何者かが、",
-		   NULL, "ma era originariamente un solo foglio di carta.", Line_ContinueAfterTyping);
+		   NULL, " ma era originariamente un solo foglio di carta.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));

@@ -3419,7 +3419,7 @@ void main()
 //　その空気はまるで透明なコンクリートで出来ていて、俺とレナの二人をこの空間に埋めて固めてしまったかのようだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その空気はまるで透明なコンクリートで出来ていて、俺とレナの二人をこの空間に埋めて固めてしまったかのようだった。",
-		   NULL, "È come se ci fosse uno strado di cemento invisibile. Come se Rena e io fossimo bloccati in questo spazio.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "È come se ci fosse uno strato di cemento invisibile. Come se Rena e io fossimo bloccati in questo spazio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -4139,7 +4139,7 @@ void main()
 //　レナの沈黙によって辺りに静寂が戻る＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナの沈黙によって辺りに静寂が戻る。",
-		   NULL, "LIl silenzio di Rena ammutolisce l'intera zona.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il silenzio di Rena ammutolisce l'intera zona.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

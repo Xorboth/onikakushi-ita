@@ -1162,7 +1162,7 @@ void main()
 		   NULL, "\"Ahahahahahah!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200144", 256, TRUE);
 	OutputLine(NULL, "　そうだね。",
-		   NULL, " Esatto", Line_WaitForInput);
+		   NULL, " Esatto.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200145", 256, TRUE);
 	OutputLine(NULL, "まだプロローグだもんね。",
 		   NULL, " Questo è solo il prologo.", Line_WaitForInput);
@@ -1376,7 +1376,7 @@ void main()
 		   NULL, " Ma devo mantenere la calma quando sono in modalità Club!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300295", 256, TRUE);
 	OutputLine(NULL, "　感情論だけで選ぶと大ヤケドするよ〜？」",
-		   NULL, "Se basassi la mia scelta solo sulle emozioni, poi me ne pentirei, no~?\"", Line_Normal);
+		   NULL, " Se basassi la mia scelta solo sulle emozioni, poi me ne pentirei, no~?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(1, 11, "sprite/oisi1_2_", "0", "left", 1, -240, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, FALSE );
@@ -1565,7 +1565,7 @@ void main()
 	OutputLine(NULL, "「そうね。",
 		   NULL, "\"Questo è vero.", Line_WaitForInput);
 	OutputLine(NULL, "β版をプレイしてくれた方も、最後まで通して見てみたら、また意見が変わってるかもしれないね。」",
-		   NULL, " Persinoi giocatori della beta potrebbero cambiare idea se leggessero tutto fino alla fine.\"", Line_Normal);
+		   NULL, " Persino giocatori della beta potrebbero cambiare idea se leggessero tutto fino alla fine.\"", Line_Normal);
 
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();

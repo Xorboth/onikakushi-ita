@@ -2244,7 +2244,7 @@ void main()
 	Wait( 200 );
 
 	OutputLine(NULL, "…",
-		   NULL, " ... ", Line_ContinueAfterTyping);
+		   NULL, "... ", Line_ContinueAfterTyping);
 
 	Wait( 200 );
 	OutputLine(NULL, "ご主人様ぁ…。」",
@@ -2551,7 +2551,7 @@ void main()
 	SetSpeedOfMessage( TRUE, 0, );
 
 	OutputLine(NULL, "……",
-		   NULL, " ...", Line_ContinueAfterTyping);
+		   NULL, "...", Line_ContinueAfterTyping);
 
 	SetSpeedOfMessage( FALSE, 0, );
 
@@ -2692,7 +2692,7 @@ void main()
 //　お、おちつけ前原圭一…！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お、おちつけ前原圭一…！！",
-		   NULL, "C-calmati , Keiichi Maebara...!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "C-calmati, Keiichi Maebara...!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3552,7 +3552,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200362", 256, TRUE);
 	OutputLine(NULL, "「……梨花ちゃん…お持ち帰りお持ち帰り…☆",
-		   NULL, "\"... Rika-chan... devo portarti casa... portarti a casa...☆", Line_WaitForInput);
+		   NULL, "\"... Rika-chan... devo portarti a casa... portarti a casa...☆", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200363", 256, TRUE);
 	OutputLine(NULL, "　…ちょ…ちょっとだけだよ☆…ヘ、ヘンなことはしないんだよ…しないんだよ……☆」",
 		   NULL, " ... solo... solo per un po'☆ N-non farò niente di strano... niente di strano...☆\"", GetGlobalFlag(GLinemodeSp));
@@ -3622,7 +3622,7 @@ void main()
 //　俺への反逆は神への反逆だッ！！　身のほどを思い知らせてくれよう！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺への反逆は神への反逆だッ！！　身のほどを思い知らせてくれよう！！！",
-		   NULL, "Opporsi a me è come opporsi a Dio!! Insegnerò loro a stare al proprio posto!!!", Line_Normal);
+		   NULL, "Opporsi a me, è come opporsi a Dio!! Insegnerò loro a stare al proprio posto!!!", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3845,12 +3845,12 @@ void main()
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_Continue); }
 	OutputLine(NULL, "「なッ、",
-		   NULL, "\"Che", Line_Continue);
+		   NULL, "\"Che...", Line_Continue);
 //!s120
 
 	SetSpeedOfMessage( TRUE, 0, );
 	OutputLine(NULL, "……なんだそりゃぁあぁあぁあぁッ？！？！？！」",
-		   NULL, " ... cosaaaaaaaaa!?\"", Line_Normal);
+		   NULL, " cosaaaaaaaaa!?\"", Line_Normal);
 //!sd
 
 	SetSpeedOfMessage( FALSE, 0, );
@@ -4881,7 +4881,7 @@ void main()
 //　俺の中での富竹さんは……もう少しミステリアスだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺の中での富竹さんは……もう少しミステリアスだ。",
-		   NULL, "Il Tomitake-san che conosco ... è molto più misterioso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il Tomitake-san che conosco... è molto più misterioso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

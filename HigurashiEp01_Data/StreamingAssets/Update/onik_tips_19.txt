@@ -48,7 +48,7 @@ void main()
 		   NULL, "\"Esatto.", Line_Continue);
 	Wait (1000);
 	OutputLine(NULL, "そのメカニズムは完全には解明されていませんが、精神を守るために脳が行なう防御行動のひとつではないかと考えられています。」",
-		   NULL, " Ancora non si conosce il meccanismo preciso ma pare che si tratti di un metodo di difesa messo in atto dal cervello per proteggere la stabilità mentale.\"", Line_Normal);
+		   NULL, " Ancora non si conosce il meccanismo preciso, ma pare che si tratti di un metodo di difesa messo in atto dal cervello per proteggere la stabilità mentale.\"", Line_Normal);
 	ClearMessage();
 
 //「例えば、貧乏な人がお金持ちになった自分を想像するという現実逃避ってありますよね＠　これも多重人格なわけですか？＠

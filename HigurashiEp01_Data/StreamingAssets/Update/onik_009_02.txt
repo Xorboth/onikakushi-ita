@@ -1117,7 +1117,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……ある。",
-		   NULL, " Senza errore...", Line_Normal);
+		   NULL, " senza errore...", Line_Normal);
 	ClearMessage();
 
 
@@ -2827,7 +2827,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　…………ぅ、うん！",
-		   NULL, " .... v-va bene!", Line_WaitForInput);
+		   NULL, " ... v-va bene!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200010", 256, TRUE);
 	OutputLine(NULL, "　聞こえるくらい、大きな声を出すね！」",
 		   NULL, " Griderò così tanto che mi sentirai di sicuro!\"", Line_Normal);
