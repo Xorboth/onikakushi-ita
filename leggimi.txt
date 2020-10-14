@@ -2,11 +2,14 @@
 [VERSIONE 1.0.0]
 
 
-[CAMBIAMENTI DALLA BETA 3]
+[CAMBIAMENTI]
 
- - Aggiunto il supporto per le versioni di GOG, MangaGamer e per le piattaforme Linux e MacOS
- - Aggiornata la guida per l'installazione
- - Da ora sarà possibile installare la traduzione direttamente attraverso il 07th-Mod Installer
+ - Aggiunto il supporto per le piattaforme Linux e MacOS
+ - Aggiunta la possibilità di installare la traduzione direttamente attraverso il 07th-Mod Installer
+ - Aggiornata la traduzione, correggendo vari errori di battitura
+ - Tradotto interamente &opening.txt che in precedenza era stato distribuito parzialmente tradotto per errore
+ - Rimosso dummy.txt in quanto non è rilevante ai fini della traduzione
+ - Ottimizzate le immagini con formato png, che ora occuperanno il 19% di spazio in meno
 
 
 [INSTALLAZIONE SEMPLIFICATA]
@@ -19,7 +22,7 @@ https://www.mangagamer.com/detail.php?goods_type=1&product_code=132
 2) Scaricare ed aprire il 07th-Mod Installer:
 https://github.com/07th-mod/python-patcher/releases/latest
 
-3) Fare partire il menù di configurazione per l'installazione della patch di Onikakushi, mettendo la spunta sulla voce della traduzione italiana
+3) Fare partire il menù di configurazione per l'installazione della patch per Onikakushi, mettendo la spunta sulla voce della traduzione italiana
 
 4) Installare la patch
 
@@ -36,21 +39,25 @@ https://www.mangagamer.com/detail.php?goods_type=1&product_code=132
 2) Installare la patch per Onikakushi di 07th-Mod attraverso il 07th-Mod Installer:
 https://github.com/07th-mod/python-patcher/releases/latest
 
-3) Aprire la cartella del gioco ( su Steam ad esempio sta in Steam\steamapps\common\Higurashi When They Cry )
+3) Aprire la cartella del gioco (su Steam ad esempio sta in "Steam\steamapps\common\Higurashi When They Cry")
 
 4) Copiare la cartella della traduzione italiana "HigurashiEp01_Data" nella cartella del gioco, dove c'è un'altra cartella con lo stesso identico nome
 
-4.1) Sostituire i file quando richiesto. Se non dovesse venire richiesto significa che probabilmente si è scelta la cartella sbagliata dove incollare il contenuto della mod
+4.1) Sostituire i file quando richiesto. Se non dovesse venire richiesto significa che probabilmente si è scelta la cartella sbagliata dove incollare il contenuto della traduzione
 
 5) Aprire la cartella "Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledUpdateScripts" ed eliminare tutti i file al suo interno
 
-6) Finito!
+6.1) Se stai usando Windows, vai nella cartella del gioco "Higurashi When They Cry\HigurashiEp01_Data" ed elimina il file che si chiama "LinuxMac-GOG-MG-Steam-5.2.2f1.assets"
+
+6.2) Se stai usando Linux o MacOS, vai nella cartella del gioco, elimina il file che si chiama "sharedassets0.assets". Successivamente rinomina il file che si chiama "LinuxMac-GOG-MG-Steam-5.2.2f1.assets" in "sharedassets0.assets"
+
+7) Finito!
 
 
 [CONTATTI]
 
 Puoi contattarci attraverso la nostra pagina di Facebook:
-https://it-it.facebook.com/CTHTranslations/
+https://facebook.com/CTHTranslations/
 
 Per avere un contatto più diretto puoi unirti anche al nostro server Discord:
 https://discord.gg/nNHQxZ7
