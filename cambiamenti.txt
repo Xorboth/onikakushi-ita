@@ -1,0 +1,11 @@
+1.0.0 [18-10-2020]:
+ - Aggiunto il supporto per le piattaforme Linux e MacOS
+ - Aggiunta la possibilità di installare la traduzione direttamente attraverso il 07th-Mod Installer
+ - Aggiornata la traduzione, correggendo vari errori di battitura e sistemando varie frasi
+ - Aggiornata la traduzione all'ultima versione della patch per Onikakushi di 07th-Mod (commit 2b48d45162adf15fd54ec76b07de2550e7e1841c del 15-10-2020)
+ - Tradotto interamente &opening.txt che in precedenza era stato distribuito parzialmente tradotto per errore
+ - Rimosso dummy.txt in quanto non è rilevante ai fini della traduzione
+ - Ottimizzate le immagini con formato png, che ora occuperanno il 19% di spazio in meno
+
+Beta 3 [11-10-2020]:
+ - Prima release pubblica!
