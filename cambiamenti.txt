@@ -6,6 +6,7 @@
  - Tradotto interamente &opening.txt che in precedenza era stato distribuito parzialmente tradotto per errore
  - Rimosso dummy.txt in quanto non è rilevante ai fini della traduzione
  - Ottimizzate le immagini con formato png, che ora occuperanno il 19% di spazio in meno
+ - Corretto un errore su alcune texture che provocava artefatti bianchi attorno ad alcuni testi
 
 Beta 3 [11-10-2020]:
  - Prima release pubblica!
