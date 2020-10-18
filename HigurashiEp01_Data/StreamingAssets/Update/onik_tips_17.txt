@@ -78,7 +78,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 19, "ps3/s20/19/443100004", 256, TRUE);
 	OutputLine(NULL, "「よくわかんないんすけど、それって公選法違反じゃないんすか？」",
-		   NULL, "\"Non sono un esperto di questo argomento ma non va contro alle regole delle elezioni?\"", Line_Normal);
+		   NULL, "\"Non sono un esperto di questo argomento, ma non va contro alle regole delle elezioni?\"", Line_Normal);
 	ClearMessage();
 //＠をページ送りに変更
 
@@ -94,7 +94,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700041", 256, TRUE);
 	OutputLine(NULL, "　公選法くらいは勉強して下さい。」",
-		   NULL, " Dovresti almeno studiare un po' i regolamenti elettorali.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Dovresti almeno studiare un po' i regolamenti elettorali.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -226,7 +226,7 @@ void main()
 //　園崎は県議も市議も恫喝タイプだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎は県議も市議も恫喝タイプだ。",
-		   NULL, "Sia il membro dell'assemblea prefetturale Sonozaki sia il consigliere cittadino Sonozaki hanno sempre un'aria intimiditoria.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sia il membro dell'assemblea prefetturale Sonozaki, sia il consigliere cittadino Sonozaki hanno sempre un'aria intimiditoria.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -371,7 +371,7 @@ void main()
 //　自家用車は辛いですねぇ＠退職前にして飲酒運転でパーってわけには行きませんから＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自家用車は辛いですねぇ。",
-		   NULL, "Ho la mia auto ma è meglio non usarla.", Line_WaitForInput);
+		   NULL, "Ho la mia auto, ma è meglio non usarla.", Line_WaitForInput);
 	OutputLine(NULL, "退職前にして飲酒運転でパーってわけには行きませんから。",
 		   NULL, " Non vorrei beccarmi una multa per guida in stato di ebbrezza.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -510,7 +510,7 @@ void main()
 		   NULL, " Però... ecco...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700057", 256, TRUE);
 	OutputLine(NULL, "私たちの給料が血税で支払われてることを思えば、",
-		   NULL, " Dicono che il nostro stipendio sia proporzionale al lavoro svolto,", Line_Continue);
+		   NULL, " dicono che il nostro stipendio sia proporzionale al lavoro svolto,", Line_Continue);
 	Wait (2800);
 	OutputLine(NULL, "まぁ時代の流れですかねぇ。」",
 		   NULL, " ma alla fine l'unica proporzione è quella con il tempo che è passato.\"", GetGlobalFlag(GLinemodeSp));

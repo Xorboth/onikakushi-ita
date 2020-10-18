@@ -185,7 +185,7 @@ void main()
 	OutputLine(NULL, "　嘘だろ…？",
 		   NULL, "Impossibile...", Line_WaitForInput);
 	OutputLine(NULL, "　絶対に気のせいだ…。",
-		   NULL, " Dev'essere la mia immaginazione...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " dev'essere la mia immaginazione...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -789,7 +789,7 @@ void main()
 	OutputLine(NULL, "　落ち着け前原圭一……。",
 		   NULL, "Calmati, Keiichi Maebara...", Line_WaitForInput);
 	OutputLine(NULL, "もっともっとクールに……。",
-		   NULL, " Ricomponiti...", Line_Normal);
+		   NULL, " ricomponiti...", Line_Normal);
 	ClearMessage();
 
 //　だがいくら冷静に考えても、...さっきの出来事は幻なんかじゃない＠
@@ -825,7 +825,7 @@ void main()
 //　......俺が「どなたですか？」と聞いたとき、後ろのそいつは答えようとして息を吸った＠その「音」ははっきりと俺の耳に聞こえたのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……俺が「どなたですか？」と聞いたとき、後ろのそいつは答えようとして息を吸った。",
-		   NULL, "... quando ho chiesto \"Chi è?\" ha inalato come se stesse per rispondere.", Line_WaitForInput);
+		   NULL, "... quando ho chiesto \"Chi sei?\" ha inalato come se stesse per rispondere.", Line_WaitForInput);
 	OutputLine(NULL, "その「音」ははっきりと俺の耳に聞こえたのだ。",
 		   NULL, " Quel 'suono' mi ha di sicuro raggiunto le orecchie.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1039,7 +1039,7 @@ void main()
 //　オヤシロさまの祟りは実在しないし、レナたちも相変わらず最高の友人で......￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　オヤシロさまの祟りは実在しないし、レナたちも相変わらず最高の友人で……。",
-		   NULL, "La maledizione di Oyashiro-sama non esisterebbe e io sarei ancora amico di Rena e delle altre..", Line_Normal);
+		   NULL, "La maledizione di Oyashiro-sama non esisterebbe e io sarei ancora amico di Rena e delle altre.", Line_Normal);
 	ClearMessage();
 
 //　俺は、おかしくなりたい＠
@@ -1601,7 +1601,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "あ、あとは新聞受けだ！！",
-		   NULL, " Ah, devo prendere il giornale!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ah, devo prendere il giornale!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　新聞はいつもお袋が持ってきてる。昼に出発したということは…夕刊が入りっ放しだ！！",
 		   NULL, "Mamma prende sempre il giornale. Da quando sono partiti nel pomeriggio... il giornale della sera è ancora là fuori!!", Line_Normal);
@@ -1734,7 +1734,7 @@ void main()
 		   NULL, " Non è niente di importante...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villd02005", 256, TRUE);
 	OutputLine(NULL, "では、失礼しますわね。」",
-		   NULL, " Perdona il disturbo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " perdona il disturbo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1772,7 +1772,7 @@ void main()
 //　今のうちに、両親は在宅しているけど電話には出られないという、上手な嘘を考えておく必要があるだろう￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今のうちに、両親は在宅しているけど電話には出られないという、上手な嘘を考えておく必要があるだろう。",
-		   NULL, "Devo inventarmi una bella storia per spiegare che i miei genitori sono a casa ma non possono rispondere al telefono al momento.", Line_Normal);
+		   NULL, "Devo inventarmi una bella storia per spiegare che i miei genitori sono a casa, ma non possono rispondere al telefono al momento.", Line_Normal);
 	ClearMessage();
 
 //　天ぷらを揚げているので手が離せない＠...ダメだな＠
@@ -2584,7 +2584,7 @@ void main()
 	OutputLine(NULL, "　今日の帰り、レナは俺に言った。",
 		   NULL, "Quello che ha detto Rena tornando a casa oggi...", Line_WaitForInput);
 	OutputLine(NULL, "……どうしてそんなにも悟史くんと同じなの？と。",
-		   NULL, " Del perché mi stia comportando come Satoshi-kun.", Line_Normal);
+		   NULL, " del perché mi stia comportando come Satoshi-kun.", Line_Normal);
 	ClearMessage();
 
 
@@ -2792,7 +2792,7 @@ void main()
 //　少し、と言ったのは多分、大石さんの遠回しな言い方だろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　少し、と言ったのは多分、大石さんの遠回しな言い方だろう。",
-		   NULL, "Probabilmente, stava minimizzando quando ha detto \"un po'.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Probabilmente, stava minimizzando quando ha detto \"un po'\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3908,7 +3908,7 @@ void main()
 		   NULL, "\"Mi dispiace... ne abbiamo già abbastanza...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100535", 256, TRUE);
 	OutputLine(NULL, "…うちのお袋ってさ、結構おかずをいっぱい作るんだよ。",
-		   NULL, " Mia madre ne ha fatti parecchi.", Line_WaitForInput);
+		   NULL, " mia madre ne ha fatti parecchi.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100536", 256, TRUE);
 	OutputLine(NULL, "だから…、」",
 		   NULL, " Perciò...\"", Line_Normal);
@@ -4144,7 +4144,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200289", 256, TRUE);
 	OutputLine(NULL, "「……圭一くん。",
-		   NULL, "\"...Keiichi-kun...", Line_WaitForInput);
+		   NULL, "\"... Keiichi-kun...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200290", 256, TRUE);
 	OutputLine(NULL, "……本当にお母さん、ご飯作ってってくれたの…？」",
 		   NULL, " tua madre... ti ha davvero lasciato la cena pronta...?\"", GetGlobalFlag(GLinemodeSp));
@@ -4208,7 +4208,7 @@ void main()
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "かな？」",
-		   NULL, "o no?\"", Line_Normal);
+		   NULL, " o no?\"", Line_Normal);
 	ClearMessage();
 
 //　もう...とぼけようもない＠
@@ -5281,7 +5281,7 @@ void main()
 		   NULL, "\"... mi stai facendo male, Keiichi-kun...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200334", 256, TRUE);
 	OutputLine(NULL, "………悪ふざけが過ぎたなら謝るよ",
-		   NULL, " scusa se ti ho preso un giro...", Line_Continue);
+		   NULL, " scusa se ti ho preso in giro...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 500 );
@@ -5470,7 +5470,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "やめろやめろやめろ！！！",
-		   NULL, " Smettila smettila smettila!!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " smettila smettila smettila!!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -5538,7 +5538,7 @@ void main()
 		   NULL, " mi dispiace,", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200341", 256, TRUE);
 	OutputLine(NULL, "……圭一君、",
-		   NULL, " ...Keiichi-kun,", Line_WaitForInput);
+		   NULL, " ... Keiichi-kun,", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200342", 256, TRUE);
 	OutputLine(NULL, "ごめんなさい…、",
 		   NULL, " mi dispiace...", Line_WaitForInput);
@@ -6120,7 +6120,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100585", 256, TRUE);
 	OutputLine(NULL, "「大石さんの捜査は俺の生死と無関係でしょうが、俺は死ねば終わりなんです！」",
-		   NULL, "\"Che io sia vivo o morto non sarà di alcun interesse per la vostra indagine ma, se morirò, per me sarà tutto finito!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Che io sia vivo o morto non sarà di alcun interesse per la vostra indagine, ma se morirò, per me sarà tutto finito!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6820,7 +6820,7 @@ void main()
 	OutputLine(NULL, "もちろん全身はずぶ濡れ…。",
 		   NULL, " Sarà fradicia dalla testa ai piedi...", Line_WaitForInput);
 	OutputLine(NULL, "滝のような雨に、髪の毛からぼたぼたと水を滴らせている…。",
-		   NULL, " La cascata di acqua piovana le fa cadere rigoli di pioggia lungo i capelli...", Line_Normal);
+		   NULL, " la cascata di acqua piovana le fa cadere rigoli di pioggia lungo i capelli...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 //	DrawFilm( 2,  34, 34, 255, 255, 0, 0, FALSE );

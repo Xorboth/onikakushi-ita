@@ -125,7 +125,7 @@ void dialog003()
 		   NULL, " L'erede di una qualche famiglia caduta in disgrazia che vuole sfogare il vecchio rancore dei suoi antenati... giusto?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700353", 256, TRUE);
 	OutputLine(NULL, "　うーん………私はそれにも反対ですねぇ。」",
-		   NULL, "Uhm... non mi convince.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Uhm... non mi convince.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

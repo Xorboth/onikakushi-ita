@@ -254,7 +254,7 @@ void main()
 		   NULL, "\"... uhm...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200120", 256, TRUE);
 	OutputLine(NULL, "…残念ですね。",
-		   NULL, " Che peccato.", Line_WaitForInput);
+		   NULL, " che peccato.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200121", 256, TRUE);
 	OutputLine(NULL, "ちょっとだけでも顔を出してくれればよかったのに。」",
 		   NULL, " Poteva almeno passare a salutare.\"", GetGlobalFlag(GLinemodeSp));
@@ -635,7 +635,7 @@ void main()
 		   NULL, "\"Che?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s20/08/440800075", 256, TRUE);
 	OutputLine(NULL, "　僕はてっきり、大石さんは人間説だと思ってましたけど。」",
-		   NULL, " Pensavo che Ooishi-san inclinasse verso la spiegazione 'umana.'\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Pensavo che Ooishi-san inclinasse verso la spiegazione 'umana'.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -675,7 +675,7 @@ void main()
 		   NULL, "\"Prima di tutto, se un umano è il colpevole, allora ci dev'essere un movente...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700347", 256, TRUE);
 	OutputLine(NULL, "…こういうことをして誰が得をするのか、ってことなんです。」",
-		   NULL, " Ovvero, qualcuno deve guadagnarci qualcosa.\"", Line_Normal);
+		   NULL, " ovvero, qualcuno deve guadagnarci qualcosa.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeBustshotWithFiltering( 3, "left", 1, FALSE, 0, 0, 300, TRUE );
@@ -803,7 +803,7 @@ void main()
 		   NULL, " Qualcosa di nativo della regione...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s20/08/440800081", 256, TRUE);
 	OutputLine(NULL, "…今回のシナリオでは語られなかった因縁だよ！」",
-		   NULL, " Qualcosa che non è stato affrontato in questo capitolo!\"", Line_Normal);
+		   NULL, " qualcosa che non è stato affrontato in questo capitolo!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(1, 11, "sprite/oisi1_1_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, FALSE );
@@ -854,7 +854,7 @@ void main()
 		   NULL, "Se, come Maebara-san ha detto durante la storia, è stato Oyashiro-sama a possedere Ryuugu-san e Sonozaki-san e a fargli commettere quegli atti... ", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700355", 256, TRUE);
 	OutputLine(NULL, "……一番つじつまが合うんです。",
-		   NULL, "Sarebbe la spiegazione più plausibile.", Line_WaitForInput);
+		   NULL, "sarebbe la spiegazione più plausibile.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700356", 256, TRUE);
 	OutputLine(NULL, "残念ながら。」",
 		   NULL, " Per quanto odi dirlo.\"", GetGlobalFlag(GLinemodeSp));
@@ -970,7 +970,7 @@ void main()
 		   NULL, "\"Significa che Ryuugu-san e Sonozaki-san avevano entrambe queste personalità sin dall'inizio, e stavano soltanto ingannando Maebara-san...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700358", 256, TRUE);
 	OutputLine(NULL, "…こういうわけですか？」",
-		   NULL, " Che ne dite?\".", GetGlobalFlag(GLinemodeSp));
+		   NULL, " che ne dite?\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1030,10 +1030,10 @@ void main()
 		   NULL, " Permettetemi di chiedere a tutti quelli che pensano che sia una maledizione...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300282", 256, TRUE);
 	OutputLine(NULL, "…祟りが起こるからにはそれなりの理由があるんでしょ？",
-		   NULL, " Ci deve'essere un motivo per venire maledetti, no?", Line_WaitForInput);
+		   NULL, " ci deve'essere un motivo per venire maledetti, no?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300283", 256, TRUE);
 	OutputLine(NULL, "　無差別に祟るとは思えないなー。",
-		   NULL, " Non ha senso che una maledizione si abbatta indiscriminatamente su qualcuno. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Non ha senso che si abbatta indiscriminatamente su qualcuno. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300284", 256, TRUE);
 	OutputLine(NULL, "そこんとこ説明できるの？」",
@@ -1370,7 +1370,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "私も自分のキャラがそんな悪魔みたいなヤツだとは思いたくないけどさ。",
-		   NULL, " Non voglio credere che la mia personalità fosse così contorta.", Line_WaitForInput);
+		   NULL, " non voglio credere che la mia personalità fosse così contorta.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300294", 256, TRUE);
 	OutputLine(NULL, "……部活モードの時にはクールでなきゃ！",
 		   NULL, " Ma devo mantenere la calma quando sono in modalità Club!", Line_WaitForInput);
@@ -1390,7 +1390,7 @@ void main()
 		   NULL, "\"Calma, calma...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700367", 256, TRUE);
 	OutputLine(NULL, "どっちを選んだっていいじゃあないですか。」",
-		   NULL, "Puoi scegliere qualsiasi spiegazione desideri.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " puoi scegliere qualsiasi spiegazione desideri.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1450,7 +1450,7 @@ void main()
 		   NULL, "\"Ma certo! Rika-chan è una sacerdotessa...!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200155", 256, TRUE);
 	OutputLine(NULL, "　うん。いい意見。」",
-		   NULL, " Sì. bel punto di vista.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sì. Bel punto di vista.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1498,7 +1498,7 @@ void main()
 		   NULL, "\"Cielo...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700369", 256, TRUE);
 	OutputLine(NULL, "…票がざっくり分かれましたねぇ！",
-		   NULL, " Siamo in situazione di parità!", Line_WaitForInput);
+		   NULL, " siamo in situazione di parità!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700370", 256, TRUE);
 	OutputLine(NULL, "　祟り派と人間派で半々ですか。」",
 		   NULL, " Metà di noi pensa che si sia trattato della maledizione, e l'altra metà che sia stato qualcuno?\"", GetGlobalFlag(GLinemodeSp));
@@ -1529,9 +1529,9 @@ void main()
 	OutputLine(NULL, "「えっとー。",
 		   NULL, "\"Uhm....", Line_WaitForInput);
 	OutputLine(NULL, "うん。",
-		   NULL, " Ecco...", Line_WaitForInput);
+		   NULL, " ecco...", Line_WaitForInput);
 	OutputLine(NULL, "人間派がとっても多かったの！」",
-		   NULL, " La maggior parte ha preferito la spiegazione 'umana'!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " la maggior parte ha preferito la spiegazione 'umana'!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
