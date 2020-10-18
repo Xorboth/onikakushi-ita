@@ -1346,7 +1346,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700226", 256, TRUE);
 	OutputLine(NULL, "「何でもですね、大昔は雛見沢は「鬼ヶ淵」って呼ばれてたんだそうです。」",
-		   NULL, "\"È venuto fuori che Hinamizawa si chiamava Onigafuchi, o Abisso dei Demoni.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"È venuto fuori che Hinamizawa si chiamava Onigafuchi, ovvero l'Abisso dei Demoni.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1436,7 +1436,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700233", 256, TRUE);
 	OutputLine(NULL, "　例えば…不治の病にかかった村人を鬼ヶ淵に運んで、治してもらったりとかしたんだそうです。」",
-		   NULL, "Gli abitanti dei villaggi con malattie incurabili venivano portati nell'Abisso dei Demoni per essere guariti, per esempio.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Gli abitanti dei villaggi limitrofi con malattie incurabili venivano portati a Onigafuchi per essere curati, per esempio.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
