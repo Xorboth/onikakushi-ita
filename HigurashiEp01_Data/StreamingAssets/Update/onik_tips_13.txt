@@ -125,7 +125,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Investigatore Forense</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200005", 256, TRUE);
 	OutputLine(NULL, "「分泌物から見て、仏は極度の興奮状態にあったのは間違いないのう。」",
-		   NULL, "\"In base all'anasili tossicologica, la vittima si trovava in un profondo stato di isteria prima della morte.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"In base all'analisi tossicologica, la vittima si trovava in un profondo stato di isteria prima della morte.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

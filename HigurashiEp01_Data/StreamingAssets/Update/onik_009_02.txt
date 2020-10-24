@@ -364,7 +364,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800008", 256, TRUE);
 	OutputLine(NULL, "「ダムについては……多分、ここの人に聞いたほうが詳しいと思うけどなぁ。",
-		   NULL, "\"Credo che gli autoctoni sappiamo della diga molto più di quanto ne so io.", Line_WaitForInput);
+		   NULL, "\"Credo che gli autoctoni sappiano della diga molto più di quanto ne so io.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800009", 256, TRUE);
 	OutputLine(NULL, "ま、僕が知っている範囲でいいんなら。",
 		   NULL, " Ma se ti va bene, posso dirti quel poco che so.", Line_WaitForInput);
@@ -389,7 +389,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800011", 256, TRUE);
 	OutputLine(NULL, "「ダムの計画が決まったのは７〜８年くらい前なんだ。",
-		   NULL, "\"La decisione di inziare a costruire una diga risale a sette, forse otto anni fa.", Line_WaitForInput);
+		   NULL, "\"La decisione di iniziare a costruire una diga risale a sette, forse otto anni fa.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800012", 256, TRUE);
 	OutputLine(NULL, "黒部に次ぐ巨大な計画だったと聞いてるね。」",
 		   NULL, " Ho sentito che si trattava del più grosso progetto dopo quello di Kurobe.\"", Line_Normal);
@@ -1435,7 +1435,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女性</color>", NULL, "<color=#f5e6d3>Donna</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 9, "ps3/s01/09/120900023", 256, TRUE);
 	OutputLine(NULL, "　人集めに苦労してる、って町会の人がぼやいてたもの。」",
-		   NULL, "Il membri del comitato municipale si stavano lamentando di quanto sia stato difficile trovare altra gente.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "I membri del comitato municipale si stavano lamentando di quanto sia stato difficile trovare altra gente.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1447,14 +1447,14 @@ void main()
 		   NULL, "\"In più, la polizia sta trattando ogni caso come isolato dall'altro; non credono che siano collegati.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800052", 256, TRUE);
 	OutputLine(NULL, "……警備ってことで私服警官をだいぶ立たせてたみたいだよ。」",
-		   NULL, " ... ma il numero di agenti in borghese presenti stasera è comunque altro.\"", Line_Normal);
+		   NULL, " ... ma il numero di agenti in borghese presenti stasera è comunque alto.\"", Line_Normal);
 	ClearMessage();
 
 
 //　レナや魅音の口が重かった理由が…少しずつ見えてきた気がした＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナや魅音の口が重かった理由が…少しずつ見えてきた気がした。",
-		   NULL, "Inizio finalmente a capire perché Rena e Mion non volessero evitare di parlarmene.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Inizio finalmente a capire perché Rena e Mion volessero evitare di parlarmene.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1755,7 +1755,7 @@ void main()
 		   NULL, "\"Ma la causa non è mai stata scoperta.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100029", 256, TRUE);
 	OutputLine(NULL, "　この医学の進歩した時代に原因不明なんて…。」",
-		   NULL, " Difficile credere che una cosa del genere possa esistere, con tutti i preogressi che abbiamo fatto nella medicina...\"", Line_Normal);
+		   NULL, " Difficile credere che una cosa del genere possa esistere, con tutti i progressi che abbiamo fatto nella medicina...\"", Line_Normal);
 	ClearMessage();
 
 //「尾ひれだよ＠噂が噂を呼んだだけさ＠

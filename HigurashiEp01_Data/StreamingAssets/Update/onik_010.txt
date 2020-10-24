@@ -3630,7 +3630,7 @@ void main()
 //　この雛見沢で…今一番のよそ者がいるとしたら……それは!w1000…うちだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この雛見沢で…今一番のよそ者がいるとしたら……それは",
-		   NULL, "Qui a Hinamizawa... le persone che sono da considerarsi le più \"estranee\" in questo momendo... sono...", Line_ContinueAfterTyping);
+		   NULL, "Qui a Hinamizawa... le persone che sono da considerarsi le più \"estranee\" in questo momento... sono...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -4254,7 +4254,7 @@ void main()
 //　……派手に自爆したようだな、おい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……派手に自爆したようだな、おい。",
-		   NULL, "... davvero un bel autogol.", Line_Normal);
+		   NULL, "... davvero un bell'autogol.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -4316,7 +4316,7 @@ void main()
 		   NULL, "\"Forza, che qui le cose si stanno scaldando!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300044", 256, TRUE);
 	OutputLine(NULL, "　もういい時間だから次で最後のゲームにしよう。」",
-		   NULL, " Dato che inizia a essere tardi, il prossimo giro sarà l'ultiimo.\"", Line_Normal);
+		   NULL, " Dato che inizia a essere tardi, il prossimo giro sarà l'ultimo.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -4327,7 +4327,7 @@ void main()
 		   NULL, "\"Se ben ricordo... sono a zero punti...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100145", 256, TRUE);
 	OutputLine(NULL, "…ビリ確定じゃないのかよ？」",
-		   NULL, " ... ormai è scritto che sarà io l'ultimo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... ormai è scritto che sarò io l'ultimo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

@@ -3193,7 +3193,7 @@ void main()
 //　このニンジンで作った花型は型じゃなく、包丁によるものだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　このニンジンで作った花型は型じゃなく、包丁によるものだ。",
-		   NULL, "Le carote sono fatte a forma di stella ed è chiaro che non abbia usato uno stampino; sono state tagliare con un coltello.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Le carote sono fatte a forma di stella ed è chiaro che non abbia usato uno stampino; sono state tagliate con un coltello.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

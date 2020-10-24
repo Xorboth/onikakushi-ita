@@ -1181,7 +1181,7 @@ void main()
 //　隣の屋台はかき氷だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　隣の屋台はかき氷だ。",
-		   NULL, "La brossima bancarella è quella delle granite.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La prossima bancarella è quella delle granite.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2181,7 +2181,7 @@ void main()
 //　レナは真っ赤になって頭をぐるんぐるんと回しながら興奮した様子で梨花ちゃんに抱き付き頬擦りを繰り返している…ッ！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナは真っ赤になって頭をぐるんぐるんと回しながら興奮した様子で梨花ちゃんに抱き付き頬擦りを繰り返している…ッ！！！",
-		   NULL, "La faccia di Rena diventa rossa, scuote la testa avanti e indietro per l'eccitazione, poi abbracchia Rika-chan e inizia a strusciarle la guancia sul volto...!!!", Line_Normal);
+		   NULL, "La faccia di Rena diventa rossa, scuote la testa avanti e indietro per l'eccitazione, poi abbraccia Rika-chan e inizia a strusciarle la guancia sul volto...!!!", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3231,7 +3231,7 @@ void main()
 		   NULL, " Mion-chan, Rena-chan,", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s19/08/500800013", 256, TRUE);
 	OutputLine(NULL, "沙都子ちゃんに梨花ちゃん。」",
-		   NULL, " Satono-chan, Rika-chan.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Satoko-chan, Rika-chan.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3801,7 +3801,7 @@ void main()
 //　レナが物欲しそうに眺めるのは大きなくまのぬいぐるみ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナが物欲しそうに眺めるのは大きなくまのぬいぐるみ。",
-		   NULL, "Rena ha lo sguardo fisso su un groppo peluche.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rena ha lo sguardo fisso su un grosso peluche.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5005,7 +5005,7 @@ void main()
 		   NULL, "\"... non ci sono dubbi!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300756", 256, TRUE);
 	OutputLine(NULL, "　富竹のおっさんの狙いは……！！！」",
-		   NULL, " Tomitake-san sta puntanto...!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tomitake-san sta puntando...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6269,7 +6269,7 @@ void main()
 //　社の前の祭壇はもうすごい人だかりだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　社の前の祭壇はもうすごい人だかりだ。",
-		   NULL, "Si è già radunata una bella folla di persone intorno all'altera del santuario.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Si è già radunata una bella folla di persone intorno all'altare del santuario.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
