@@ -1,17 +1,17 @@
 [HIGURASHI CAP. 1 ONIKAKUSHI - TRADUZIONE ITALIANA]
-[VERSIONE 1.0.0]
+[VERSIONE 1.0.1]
 
+Il team di CTH Translations è lieto di fornirvi la traduzione italiana di Higurashi Capitolo 1 - Onikakushi!
+La traduzione si basa sull'incredibile lavoro di 07th-Mod che permette di aggiungere molte feature al gioco base, tra le quali il doppiaggio e la grafica migliorata.
 
-[CAMBIAMENTI]
+Potete contattarci attraverso la nostra pagina Facebook:
+https://facebook.com/CTHTranslations/
 
- - Aggiunto il supporto per le piattaforme Linux e MacOS
- - Aggiunta la possibilità di installare la traduzione direttamente attraverso il 07th-Mod Installer
- - Aggiornata la traduzione, correggendo vari errori di battitura e sistemando varie frasi
- - Aggiornata la traduzione all'ultima versione della patch per Onikakushi di 07th-Mod (commit 2b48d45162adf15fd54ec76b07de2550e7e1841c del 15-10-2020)
- - Tradotto interamente &opening.txt che in precedenza era stato distribuito parzialmente tradotto per errore
- - Rimosso dummy.txt in quanto non è rilevante ai fini della traduzione
- - Ottimizzate le immagini con formato png, che ora occuperanno il 19% di spazio in meno
- - Corretto un errore su alcune texture che provocava artefatti bianchi attorno ad alcuni testi
+Per avere un contatto più diretto con noi potete entrare nel nostro server Discord, dove si parla delle traduzioni in corso e si fornisce supporto tecnico:
+https://discord.gg/nNHQxZ7
+
+Per informazioni più tecniche sul progetto puoi visitare la pagina GitHub del nostro repository:
+https://github.com/Xorboth/onikakushi-ita/
 
 
 [INSTALLAZIONE SEMPLIFICATA]
@@ -45,27 +45,15 @@ https://github.com/07th-mod/python-patcher/releases/latest
 
 4) Copiare la cartella della traduzione italiana "HigurashiEp01_Data" nella cartella del gioco, dove c'è un'altra cartella con lo stesso identico nome
 
-4.1) Sostituire i file quando richiesto. Se non dovesse venire richiesto significa che probabilmente si è scelta la cartella sbagliata dove incollare il contenuto della traduzione
+5) Sostituire i file quando richiesto. Se non dovesse venire richiesto significa che probabilmente si è scelta la cartella sbagliata dove incollare il contenuto della traduzione
 
-5) Aprire la cartella "Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledUpdateScripts" ed eliminare tutti i file al suo interno
+6) Aprire la cartella "Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledUpdateScripts" ed eliminare tutti i file al suo interno
 
-6.1) Se stai usando Windows, vai nella cartella del gioco "Higurashi When They Cry\HigurashiEp01_Data" ed elimina il file che si chiama "LinuxMac-GOG-MG-Steam-5.2.2f1.assets"
+7) Se stai usando Windows, vai nella cartella del gioco "Higurashi When They Cry\HigurashiEp01_Data" ed elimina il file che si chiama "LinuxMac-GOG-MG-Steam-5.2.2f1.assets"
 
-6.2) Se stai usando Linux o MacOS, vai nella cartella del gioco, elimina il file che si chiama "sharedassets0.assets". Successivamente rinomina il file che si chiama "LinuxMac-GOG-MG-Steam-5.2.2f1.assets" in "sharedassets0.assets"
+8) Se stai usando Linux o MacOS, vai nella cartella del gioco, elimina il file che si chiama "sharedassets0.assets". Successivamente rinomina il file che si chiama "LinuxMac-GOG-MG-Steam-5.2.2f1.assets" in "sharedassets0.assets"
 
-7) Finito!
-
-
-[CONTATTI]
-
-Puoi contattarci attraverso la nostra pagina di Facebook:
-https://facebook.com/CTHTranslations/
-
-Per avere un contatto più diretto puoi unirti anche al nostro server Discord:
-https://discord.gg/nNHQxZ7
-
-Per informazioni più tecniche sul progetto puoi visitare la pagina GitHub del nostro repository:
-https://github.com/Xorboth/onikakushi-ita/
+9) Finito!
 
 
 [CREDITI]
