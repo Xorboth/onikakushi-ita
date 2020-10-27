@@ -2898,7 +2898,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02020", 256, TRUE);
 	OutputLine(NULL, "「久しぶりって、…レナの用は、あの…ゴミの山かよ？！」",
-		   NULL, "\"Se è da un po' di tempo che non vieni...  significa che... sei già stata in questo mucchio di immondizia!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Se è da un po' di tempo che non vieni... significa che... sei già stata in questo mucchio di immondizia!?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

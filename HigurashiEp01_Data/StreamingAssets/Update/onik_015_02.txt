@@ -3969,7 +3969,7 @@ void main()
 //　...死体があるか、ないかの違いはあるでしょうが。"@
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…死体があるか、ないかの違いはあるでしょうが。”",
-		   NULL, "  ... ma non so se troverai il mio cadavere.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... ma non so se troverai il mio cadavere.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3992,7 +3992,7 @@ void main()
 //　鬼隠しで消えるのか......￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼隠しで消えるのか……。",
-		   NULL, "  o essere rapito dai demoni...", Line_Normal);
+		   NULL, " o essere rapito dai demoni...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

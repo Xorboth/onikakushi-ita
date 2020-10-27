@@ -2163,7 +2163,7 @@ void main()
 //　誰にも気を許すなって、誰も信用できないって、そういくら自分に言い聞かせても……あんな風に微笑まれたら……俺はッ！！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　誰にも気を許すなって、誰も信用できないって、そういくら自分に言い聞かせても……あんな風に微笑まれたら……俺はッ！！！",
-		   NULL, "Non permetterò a nessuno di avvicinarsi a me. Non devo fidarmi di nessuno.  Non importa quante volte mi dico che... se mi fanno sorridere così... io... ngh!!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Non permetterò a nessuno di avvicinarsi a me. Non devo fidarmi di nessuno. Non importa quante volte mi dico che... se mi fanno sorridere così... io... ngh!!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

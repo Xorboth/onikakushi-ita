@@ -3540,7 +3540,7 @@ void main()
 		   NULL, "\"Sì.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200148", 256, TRUE);
 	OutputLine(NULL, "あ、その中にね、レナが作ったのも混じってるんだよ！",
-		   NULL, "  Ah, ce n'è uno che ho preparato io!", Line_WaitForInput);
+		   NULL, " Ah, ce n'è uno che ho preparato io!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200149", 256, TRUE);
 	OutputLine(NULL, "　圭一くんに見つけられるかなぁ…。」",
 		   NULL, " Chissà se Keiichi-kun riuscirà a indovinare quale sia...\"", GetGlobalFlag(GLinemodeSp));

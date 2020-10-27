@@ -1429,7 +1429,7 @@ void main()
 		   NULL, "\"... mi hai fatto passare avanti,", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei00370", 256, TRUE);
 	OutputLine(NULL, "お手並み拝見ってことかよ。」",
-		   NULL, "  per testare le mie abilità.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " per testare le mie abilità.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3359,7 +3359,7 @@ void main()
 //　魅音の箸を払い、俺の分を確保しようと身を乗り出すと、沙都子と梨花ちゃんも一斉に身を乗り出してきて大変なことになった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音の箸を払い、俺の分を確保しようと身を乗り出すと、沙都子と梨花ちゃんも一斉に身を乗り出してきて大変なことになった。",
-		   NULL, "Spingendo le bacchette di Mion da parte, mi avvicino nel tentativo  di salvare la mia porzione. Satoko e Rika-chan arrivano nello stesso momento e la lotta inizia.", Line_Normal);
+		   NULL, "Spingendo le bacchette di Mion da parte, mi avvicino nel tentativo di salvare la mia porzione. Satoko e Rika-chan arrivano nello stesso momento e la lotta inizia.", Line_Normal);
 	ClearMessage();
 
 
@@ -4264,7 +4264,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300065", 256, TRUE);
 	OutputLine(NULL, "「圭ちゃんさ、まだこの雛見沢、ひとりじゃ回れないでしょ。」",
-		   NULL, "\"Stavo pensando, Kei-chan...  ancora non ti sai orientare per Hinamizawa da solo, oppure sì?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Stavo pensando, Kei-chan... ancora non ti sai orientare per Hinamizawa da solo, oppure sì?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

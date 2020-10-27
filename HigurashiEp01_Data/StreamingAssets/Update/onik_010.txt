@@ -552,7 +552,7 @@ void main()
 	OutputLine(NULL, "　犯人のカードを見ると…「魅音」やら「梨花」やら…みんなの名前が書いてある。",
 		   NULL, "Sulle carte dei sospettati sono scritti i nomi \"Mion\" e \"Rika\".", Line_WaitForInput);
 	OutputLine(NULL, "お、俺の名前のカードもあるぞ！",
-		   NULL, " Oh~  Ce n'è anche uno col mio nome!", Line_Normal);
+		   NULL, " Oh~ Ce n'è anche uno col mio nome!", Line_Normal);
 	ClearMessage();
 
 
@@ -693,7 +693,7 @@ void main()
 		   NULL, "\"Vediamo un po'...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300029", 256, TRUE);
 	OutputLine(NULL, "じゃ、昨日の疲れも多少あるだろうから今日はソフトに。「使いっぱしりの刑」はどう？",
-		   NULL, "  siamo ancora un po' stanchi da ieri, quindi non è meglio se oggi alleggeriamo la penitenza?", Line_WaitForInput);
+		   NULL, " siamo ancora un po' stanchi da ieri, quindi non è meglio se oggi alleggeriamo la penitenza?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300030", 256, TRUE);
 	OutputLine(NULL, "　みんなからお使いを頼まれてそれを買いに走るってわけ！」",
 		   NULL, " Chi perde, deve andare a comprare qualcosa per tutti!\"", GetGlobalFlag(GLinemodeSp));

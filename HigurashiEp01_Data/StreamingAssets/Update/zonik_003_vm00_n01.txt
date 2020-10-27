@@ -96,7 +96,7 @@ void dialog007()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200209", 256, TRUE);
 	OutputLine(NULL, "「……でも……ケンタくん人形…かぁいいんだもん……。",
-		   NULL, "\"... ma...  il Colonello Sanders... è cosìccarino...", Line_WaitForInput);
+		   NULL, "\"... ma... il Colonello Sanders... è cosìccarino...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200210", 256, TRUE);
 	OutputLine(NULL, "お店のケンタくんには鎖がついてるけど……これならお持ち帰りできる",
 		   NULL, " Il Colonnello Sanders del negozio è legato con una catena... questo invece potrei portarmelo a casa...", Line_Continue);

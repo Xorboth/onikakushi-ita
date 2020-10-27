@@ -4928,7 +4928,7 @@ void main()
 //　例えば……例の…バラバラ殺人の何かを…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　例えば……例の…バラバラ殺人の何かを……",
-		   NULL, "Per esempio...  quell'incidente... dello smembramento...", Line_Normal);
+		   NULL, "Per esempio... quell'incidente... dello smembramento...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 

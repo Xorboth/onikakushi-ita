@@ -3611,7 +3611,7 @@ void main()
 //　......あぁどんな漬物だよ...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……あぁどんな漬物だよ…。",
-		   NULL, "...  ah, non importa che tipo di sottaceti siano...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... ah, non importa che tipo di sottaceti siano...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

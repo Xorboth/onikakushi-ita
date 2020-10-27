@@ -4388,7 +4388,7 @@ void main()
 //　特集記事は後のページで、巻頭のカラーページに写真が出ているようだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　特集記事は後のページで、巻頭のカラーページに写真が出ているようだった。",
-		   NULL, "L'articolo  si trova dopo la cronaca. Tra le varie testate dei titoli c'è anche una fotografia.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "L'articolo si trova dopo la cronaca. Tra le varie testate dei titoli c'è anche una fotografia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
