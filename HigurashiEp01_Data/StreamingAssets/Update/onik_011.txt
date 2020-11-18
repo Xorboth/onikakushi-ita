@@ -1800,7 +1800,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200072", 256, TRUE);
 	OutputLine(NULL, "「圭一くん、早く片付けよ！」",
-		   NULL, "\"Keiichi-kun! Sbighiamoci a mettere a posto!\"", Line_Normal);
+		   NULL, "\"Keiichi-kun! Sbrighiamoci a mettere a posto!\"", Line_Normal);
 	ClearMessage();
 
 
@@ -3253,7 +3253,7 @@ void main()
 //　俺は喉の奥からやっと声を搾り出し、もう一度自問した＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺は喉の奥からやっと声を搾り出し、もう一度自問した。",
-		   NULL, "Riesco di nuovo a compiere un pensiero coerente e pongo una domanda e me stesso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Riesco di nuovo a compiere un pensiero coerente e pongo una domanda a me stesso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　あれは……竜宮レナの姿をした、!w1500…誰だったんだよ？￥
@@ -3736,7 +3736,7 @@ void main()
 		   NULL, "\"Vorrei saperlo anch'io.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100233", 256, TRUE);
 	OutputLine(NULL, "…レナと魅音が話してたんです。オヤシロさまの祟りなら必ず、祟りと鬼隠しが起こるって。」",
-		   NULL, " ... ho sentito Rena e Mion che ne parlavano. Hanno detto che, quando qualcuno cade vittima della maledizione, quest'utima avviene in contemporanea alla sparizione.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... ho sentito Rena e Mion che ne parlavano. Hanno detto che, quando qualcuno cade vittima della maledizione, quest'ultima avviene in contemporanea alla sparizione.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

@@ -1080,7 +1080,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300702", 256, TRUE);
 	OutputLine(NULL, "「たこ焼き早食い勝負〜ッ！！！",
-		   NULL, "\"Facciamo una gara a chi mangià più velocemente i takoyaki!!", Line_WaitForInput);
+		   NULL, "\"Facciamo una gara a chi mangia più velocemente i takoyaki!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300703", 256, TRUE);
 	OutputLine(NULL, "　各自購入の上、",
 		   NULL, " Ciascuno compra la propria porzione.", Line_Continue);

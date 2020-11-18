@@ -96,7 +96,7 @@ void main()
 //「加害者たちは皆、自らの罪深さに恐れおののきました＠警察へ出頭しようと言い出す者もいたのです。」
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「加害者たちは皆、自らの罪深さに恐れおののきました。",
-		   NULL, "\"Tutti i colpevoli erano terrorizzato dal loro crimine", Line_WaitForInput);
+		   NULL, "\"Tutti i colpevoli erano terrorizzati dal loro crimine", Line_WaitForInput);
 	OutputLine(NULL, "警察へ出頭しようと言い出す者もいたのです。」",
 		   NULL, " e uno di loro si è anche costituito alla polizia.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }

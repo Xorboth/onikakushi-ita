@@ -322,7 +322,7 @@ void main()
 //警務部ＸＸ・ＸＸ/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "警務部ＸＸ・ＸＸ",
-		   NULL, "Dipartimento XX XX Commissioni Polizesche", Line_ContinueAfterTyping);
+		   NULL, "Dipartimento XX XX Commissioni Poliziesche", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);

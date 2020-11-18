@@ -1911,7 +1911,7 @@ void main()
 //　もしも考えられるとしたら......！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もしも考えられるとしたら……！！！",
-		   NULL, "In che modo sarebbe possibiile...!?", Line_Normal);
+		   NULL, "In che modo sarebbe possibile...!?", Line_Normal);
 	ClearMessage();
 
 
@@ -2847,7 +2847,7 @@ void main()
 //　レナが俺にとびかかろうとしたので、思い切りの体当たりで、壁に打ちつけた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナが俺にとびかかろうとしたので、思い切りの体当たりで、壁に打ちつけた。",
-		   NULL, "Rena ha cercato di placcarmi, così lo presa con entrambe le mani e l'ho sbattuta addosso al muro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rena ha cercato di placcarmi, così l'ho presa con entrambe le mani e l'ho sbattuta contro il muro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

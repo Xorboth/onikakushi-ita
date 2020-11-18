@@ -438,7 +438,7 @@ void main()
 //　昼食、と言っても朝の残り物だが…を軽くつまむと、一応、病院へ行くことにした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昼食、と言っても朝の残り物だが…を軽くつまむと、一応、病院へ行くことにした。",
-		   NULL, "Faccio un pranzo leggero... anche se in realtà sono solo avanzi della mattina... e, in ogni caso, decido di andare in opedale.", Line_Normal);
+		   NULL, "Faccio un pranzo leggero... anche se in realtà sono solo avanzi della mattina... e, in ogni caso, decido di andare in ospedale.", Line_Normal);
 	ClearMessage();
 
 
@@ -801,7 +801,7 @@ void main()
 //　…俺、車の邪魔になるくらいど真ん中を歩いているか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…俺、車の邪魔になるくらいど真ん中を歩いているか？",
-		   NULL, "... ero così sovrapensiero da non essermi accorto di camminare nel mezzo della strada?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... ero così sovrappensiero da non essermi accorto di camminare nel mezzo della strada?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1131,7 +1131,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700215", 256, TRUE);
 	OutputLine(NULL, "……祟りでなく、人間が事件に関わっているのは疑いようがありませんよ。」",
-		   NULL, "Non è una maledizione, ma un'opera umana.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Non è una maledizione, ma un'opera umana.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1372,7 +1372,7 @@ void main()
 		   NULL, "\"Il nome è ancora conosciuto.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700228", 256, TRUE);
 	OutputLine(NULL, "…神主の妻が入水自殺した沼の名前は今でも鬼ヶ淵と言うんです。",
-		   NULL, " ... la palude dove si è annegata la moglie del prete shintoista si chiama ancora Onigafuchi.", Line_WaitForInput);
+		   NULL, " ... la palude dove si è lasciata annegare la moglie del prete shintoista si chiama ancora Onigafuchi.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700229", 256, TRUE);
 	OutputLine(NULL, "……沼の底の底は鬼たちの住む国とつながってると言われてたんだそうです。」",
 		   NULL, " ... si dice che le profondità di quella palude siano collegate al regno dei demoni.\"", GetGlobalFlag(GLinemodeSp));
@@ -2023,7 +2023,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700268", 256, TRUE);
 	OutputLine(NULL, "「３年目には神主夫婦が亡くなられますよね。",
-		   NULL, "\"Il prete scintoista e sua moglie, che sono morti il terzo anno. Ecco...", Line_WaitForInput);
+		   NULL, "\"Il prete shintoista e sua moglie, che sono morti il terzo anno. Ecco...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700269", 256, TRUE);
 	OutputLine(NULL, "そのお嬢さんが古手梨花さんです。」",
 		   NULL, " Rika Furude-san è la loro figlia.\"", GetGlobalFlag(GLinemodeSp));
@@ -2935,7 +2935,7 @@ void main()
 		   NULL, " ... ma continuerò comunque a indagare.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700324", 256, TRUE);
 	OutputLine(NULL, "オヤシロさまの祟りは今年で終わらせます。」",
-		   NULL, " Quest'anno, porrò fine alla maledizione di Oyashiro.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Quest'anno, porrò fine alla maledizione di Oyashiro-sama.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3449,7 +3449,7 @@ void main()
 //　全然病み上がりを気遣わない魅音と、心底から心配そうな顔をしているレナ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　全然病み上がりを気遣わない魅音と、心底から心配そうな顔をしているレナ。",
-		   NULL, "Mion mostra una totale mancanza di rispetto verso un convalscente, mentre Rena sembra preoccupata per me dal profondo del cuore.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mion mostra una totale mancanza di rispetto verso un convalescente, mentre Rena sembra preoccupata per me dal profondo del cuore.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4154,7 +4154,7 @@ void main()
 //　二人の低い笑い声が遠ざかり、静寂が戻ってきても、俺は指一本動かすことはできなかった……＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　二人の低い笑い声が遠ざかり、静寂が戻ってきても、俺は指一本動かすことはできなかった……。",
-		   NULL, "Nonostamte la loro risata si sia dissolta in lontananza e il silenzio sia tornato ad avvolgere la stanza... rimango immobile.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nonostante la loro risata si sia dissolta in lontananza e il silenzio sia tornato ad avvolgere la stanza... rimango immobile.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4451,7 +4451,7 @@ void main()
 //　引越して来て、右も左もわからない俺に本当に親切にしてくれた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　引越して来て、右も左もわからない俺に本当に親切にしてくれた。",
-		   NULL, "Quando mi sono trasferito qui e dovevo schiarimi le idee, sono state molto gentili con me.", Line_Normal);
+		   NULL, "Quando mi sono trasferito qui e dovevo schiarirmi le idee, sono state molto gentili con me.", Line_Normal);
 	ClearMessage();
 
 //　レナは本当に親切な、面倒見のいいヤツだ＠変な病気さえ出さなければ本当に可愛いヤツなんだ＠
@@ -4494,7 +4494,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…仲間さ！！",
-		   NULL, " ... sono le me amiche!", Line_Normal);
+		   NULL, " ... sono le mie amiche!", Line_Normal);
 	ClearMessage();
 	PlayBGM( 0, "lsys15", 56, 0 );
 ////dwaveplayloop 12

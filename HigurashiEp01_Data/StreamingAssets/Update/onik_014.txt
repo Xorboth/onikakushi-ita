@@ -2708,7 +2708,7 @@ void main()
 //　だが俺は騙されない。確かに足音がずっとつけてきていたのだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが俺は騙されない。確かに足音がずっとつけてきていたのだ。",
-		   NULL, "Ma non mi farò ingannare. Sono certo che mi stanno seguendo", Line_Normal);
+		   NULL, "Ma non mi farò ingannare. Sono certo che mi stanno seguendo.", Line_Normal);
 	ClearMessage();
 
 //　そして俺が立ち止まると同時にその足音も止んだ＠
@@ -3351,7 +3351,7 @@ void main()
 //　俺は左手で目をごしごしとこすり、そのわずかな隙を補うため、右手では闇雲にバットを振り回した￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺は左手で目をごしごしとこすり、そのわずかな隙を補うため、右手では闇雲にバットを振り回した。",
-		   NULL, "Mentre mi sfrego gli occhi con la mano sinistra, oscilla la mazza nella mano destra alla cieca, proteggendomi dall'apertura che le ho creato.", Line_Normal);
+		   NULL, "Mentre mi sfrego gli occhi con la mano sinistra, muovo la mazza nella mano destra alla cieca, proteggendomi dall'apertura che le ho creato.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/m_hi3", "left", 0, 0, 300 );

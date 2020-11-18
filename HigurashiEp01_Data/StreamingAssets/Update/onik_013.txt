@@ -753,7 +753,7 @@ void main()
 //　お袋の浮かれたような笑顔と、俺の顔の影がなんだか対照的だった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お袋の浮かれたような笑顔と、俺の顔の影がなんだか対照的だった。",
-		   NULL, "Il sorriso di mamma e la mia faccia preccupata sono completamente agli antipodi.", Line_Normal);
+		   NULL, "Il sorriso di mamma e la mia faccia preoccupata sono completamente agli antipodi.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/ma_g3_01", "right", 0, 0, 1300 );
@@ -1678,7 +1678,7 @@ void main()
 //　呆然とするクラスメートたち＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　呆然とするクラスメートたち。",
-		   NULL, "Lo sgomento dei tuoi compagni di classe.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Lo sgomento dei suoi compagni di classe.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3423,7 +3423,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300129", 256, TRUE);
 	OutputLine(NULL, "「圭ちゃんがリベンジ熱望してたってんで、今日はせっかくこの間の推理ゲームにしたってのになぁ。」",
-		   NULL, "\"Eri così deciso ad avere la rivincita, Kei-chan. che stavamo pensando di giocare a quel gioco di deduzione dell'altra volta.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Kei-chan, volevi così tanto la rivincita che stavamo pensando di fare quel gioco di deduzione dell'altra volta.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3434,7 +3434,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s01/04/120400059", 256, TRUE);
 	OutputLine(NULL, "「圭一さんにはリターンマッチに臨む熱いハートはありませんですの？",
-		   NULL, "\"Keiichi-san, non provi un desidero ardente di rivalsa?", Line_WaitForInput);
+		   NULL, "\"Keiichi-san, non provi un desiderio ardente di rivalsa?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s01/04/120400060", 256, TRUE);
 	OutputLine(NULL, "　なっさけないですわね〜！」",
 		   NULL, " Patetico~!\"", Line_Normal);
@@ -4320,7 +4320,7 @@ void main()
 //　あまりにミステリーめいた文章に、自嘲気味に苦笑いしてしまう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あまりにミステリーめいた文章に、自嘲気味に苦笑いしてしまう。",
-		   NULL, "Faccio una risa amara rileggendo queste poche righe che ho scritto, come se fossero un indovinello.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Faccio una risata amara rileggendo queste poche righe che ho scritto, come se fossero un indovinello.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

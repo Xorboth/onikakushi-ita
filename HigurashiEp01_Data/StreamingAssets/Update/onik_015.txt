@@ -2767,7 +2767,7 @@ void main()
 //　もう一度バットを握りなおし、...覚悟を決め、隠れていた木陰から姿を現した￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もう一度バットを握りなおし、…覚悟を決め、隠れていた木陰から姿を現した。",
-		   NULL, "Aggiusto la presa sula mazza ancora una volta... mi preparo mentalmente ed esco fuori da dietro l'albero.", Line_Normal);
+		   NULL, "Aggiusto la presa sulla mazza ancora una volta... poi mi preparo mentalmente ed esco dal mio nascondiglio.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModSetLayerFilter(2, 256, "none");

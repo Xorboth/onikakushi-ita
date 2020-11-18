@@ -1275,7 +1275,7 @@ void main()
 //　親父は芸術家特有のガラスのアイデンティティ、秋の空のような変わり易い感情の持ち主だ＠......単に打たれ弱いとも言うが￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　親父は芸術家特有のガラスのアイデンティティ、秋の空のような変わり易い感情の持ち主だ。",
-		   NULL, "Una caratteristiche della fragile personalità artistica di mio padre è che le sue emozioni cambiano tanto facilmente quanto il cielo autunnale.", Line_WaitForInput);
+		   NULL, "Una caratteristica della fragile personalità artistica di mio padre è che le sue emozioni cambiano tanto facilmente quanto il cielo autunnale.", Line_WaitForInput);
 	OutputLine(NULL, "……単に打たれ弱いとも言うが。",
 		   NULL, " ... diciamo che non sopporta le critiche.", Line_Normal);
 	ClearMessage();
@@ -4395,7 +4395,7 @@ void main()
 //　それは家という安全地帯に守られていると言うよりは、誰も助けてくれる者のいない袋小路と言える...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは家という安全地帯に守られていると言うよりは、誰も助けてくれる者のいない袋小路と言える…。",
-		   NULL, "La mia casa, che fino ad ora consideravo un rifugio sicuro, è diventata un vicolo buio e ciedo dove nessuno può salvarmi.", Line_Normal);
+		   NULL, "La mia casa, che fino ad ora consideravo un rifugio sicuro, è diventata un vicolo buio e cieco dove nessuno può salvarmi.", Line_Normal);
 	ClearMessage();
 
 //「............圭一くんのお夕飯、当てるよ？　えっとね。＠
@@ -5688,7 +5688,7 @@ void main()
 //　......受話器だった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……受話器だった。",
-		   NULL, "... è il telefono", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... è il telefono.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6154,7 +6154,7 @@ void main()
 		   NULL, "\"Ti prego, dimmi.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100587", 256, TRUE);
 	OutputLine(NULL, "レナのこと。」",
-		   NULL, " Dimmi tutto ciò che sai riguardo Rena\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Dimmi tutto ciò che sai riguardo Rena.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6283,7 +6283,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700394", 256, TRUE);
 	OutputLine(NULL, "「他言無用でお願いします。",
-		   NULL, "\"Intanto, che tu tenga questa covnersazione segreta.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Intanto, che tu tenga questa conversazione segreta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6341,7 +6341,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100597", 256, TRUE);
 	OutputLine(NULL, "「……レナの調査は警察としてでなく、",
-		   NULL, "\"... l'investigazione fatta su Rena non è opera dalla polizia...", Line_WaitForInput);
+		   NULL, "\"... l'investigazione fatta su Rena non è opera della polizia...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100598", 256, TRUE);
 	OutputLine(NULL, "個人として行なった、ということですか？」",
 		   NULL, " ma è un'indagine personale. È quello che mi stai dicendo?\"", GetGlobalFlag(GLinemodeSp));
@@ -6716,7 +6716,7 @@ void main()
 //　その時、遠雷と共に突然強い雨が降り出した＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その時、遠雷と共に突然強い雨が降り出した。",
-		   NULL, "In quell'istante, sento tuono in lontananza, e una forte pioggia inizia a cadere.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "In quell'istante, sento un tuono in lontananza, e una forte pioggia inizia a cadere.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

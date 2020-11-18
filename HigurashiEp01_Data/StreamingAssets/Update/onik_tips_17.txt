@@ -226,7 +226,7 @@ void main()
 //　園崎は県議も市議も恫喝タイプだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎は県議も市議も恫喝タイプだ。",
-		   NULL, "Sia il membro dell'assemblea prefetturale Sonozaki, sia il consigliere cittadino Sonozaki hanno sempre un'aria intimiditoria.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sia il membro dell'assemblea prefetturale Sonozaki, sia il consigliere cittadino Sonozaki hanno sempre un'aria intimidatoria.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
