@@ -49,11 +49,7 @@ https://github.com/07th-mod/python-patcher/releases/latest
 
 6) Aprire la cartella "Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledUpdateScripts" ed eliminare tutti i file al suo interno
 
-7) Se stai usando Windows, vai nella cartella del gioco "Higurashi When They Cry\HigurashiEp01_Data" ed elimina il file che si chiama "LinuxMac-GOG-MG-Steam-5.2.2f1.assets"
-
-8) Se stai usando Linux o MacOS, vai nella cartella del gioco, elimina il file che si chiama "sharedassets0.assets". Successivamente rinomina il file che si chiama "LinuxMac-GOG-MG-Steam-5.2.2f1.assets" in "sharedassets0.assets"
-
-9) Finito!
+7) Finito!
 
 
 [CREDITI]

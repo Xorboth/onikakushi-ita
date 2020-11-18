@@ -1,0 +1,21 @@
+[HIGURASHI CAP. 1 ONIKAKUSHI - TRADUZIONE ITALIANA]
+[VERSIONE 1.0.2]
+
+Il team di CTH Translations è lieto di fornirvi la traduzione italiana di Higurashi Capitolo 1 - Onikakushi!
+La traduzione si basa sull'incredibile lavoro di 07th-Mod che permette di aggiungere molte feature al gioco base, tra le quali il doppiaggio e la grafica migliorata.
+
+Potete contattarci attraverso la nostra pagina Facebook:
+https://facebook.com/CTHTranslations/
+
+Per avere un contatto più diretto con noi potete entrare nel nostro server Discord, dove si parla delle traduzioni in corso e si fornisce supporto tecnico:
+https://discord.gg/nNHQxZ7
+
+Per informazioni più tecniche sul progetto puoi visitare la pagina GitHub del nostro repository:
+https://github.com/Xorboth/onikakushi-ita/
+
+
+[CREDITI]
+
+Ringraziamo infinitamente il team di 07th-Mod per la loro incredibile patch e grandissimo supporto che ci ha permesso di portarvi la traduzione italiana che vedete oggi
+
+Traduzione italiana a cura di CTH Translations

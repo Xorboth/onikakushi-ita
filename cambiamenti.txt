@@ -1,5 +1,6 @@
-1.0.2 [XX-11-2020]:
+1.0.2 [18-11-2020]:
  - Aggiunto il supporto alla rimozione dei file .assets inutilizzati quando si usa lo 07th-Mod Installer
+ - Aggiornata la traduzione, correggendo vari errori segnalati
 
 1.0.1 [27-10-2020]:
  - Aggiornata la traduzione, correggendo vari errori di battitura e sistemando varie frasi

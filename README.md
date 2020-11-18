@@ -41,22 +41,20 @@ https://www.mangagamer.com/detail.php?goods_type=1&product_code=132
 2. Installare la patch per Onikakushi di 07th-Mod attraverso il 07th-Mod Installer:<br/>
 https://github.com/07th-mod/python-patcher/releases/latest
 
-3. Scaricare l'ultima versione della nostra traduzione, estrarne il contenuto ed aprire la cartella estratta:<br/>
+3. Scaricare l'ultima versione della nostra traduzione, prestando cura a scegliere la piattaforma corretta tra quelle disponibili (Windows o MacOS/Linux)<br/>
 https://github.com/Xorboth/onikakushi-ita/releases/latest
 
-4. Aprire la cartella del gioco (su Steam ad esempio sta in "Steam\steamapps\common\Higurashi When They Cry")
+4. Estrarre l'archivio appena scaricato
 
-5. Copiare la cartella della traduzione italiana "HigurashiEp01_Data" nella cartella del gioco, dove c'è un'altra cartella con lo stesso identico nome
+5. Aprire la cartella del gioco (su Steam ad esempio sta in "Steam\steamapps\common\Higurashi When They Cry")
 
-6. Sostituire i file quando richiesto. Se non dovesse venire richiesto significa che probabilmente si è scelta la cartella sbagliata dove incollare il contenuto della traduzione
+6. Copiare la cartella della traduzione italiana "HigurashiEp01_Data" nella cartella del gioco, dove c'è un'altra cartella con lo stesso identico nome
 
-7. Aprire la cartella "Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledUpdateScripts" ed eliminare tutti i file al suo interno
+7. Sostituire i file quando richiesto. Se non dovesse venire richiesto significa che probabilmente si è scelta la cartella sbagliata dove incollare il contenuto della traduzione
 
-8. Se stai usando Windows, vai nella cartella del gioco "Higurashi When They Cry\HigurashiEp01_Data" ed elimina il file che si chiama "LinuxMac-GOG-MG-Steam-5.2.2f1.assets"
+8. Aprire la cartella "Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledUpdateScripts" ed eliminare tutti i file al suo interno
 
-9. Se stai usando Linux o MacOS, vai nella cartella del gioco, elimina il file che si chiama "sharedassets0.assets". Successivamente rinomina il file che si chiama "LinuxMac-GOG-MG-Steam-5.2.2f1.assets" in "sharedassets0.assets"
-
-10. Finito!
+9. Finito!
 
 <br/>
 
