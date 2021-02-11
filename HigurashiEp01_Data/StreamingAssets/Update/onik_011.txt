@@ -513,7 +513,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300066", 256, TRUE);
 	OutputLine(NULL, "「婆っちゃと村長さんが話してたんだけどさ。",
-		   NULL, "\"La nonna e il sindaco ne hanno parlato.", Line_WaitForInput);
+		   NULL, "\"La nonna e il capovillaggio ne hanno parlato.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300067", 256, TRUE);
 	OutputLine(NULL, "……今年は事前に警察と話が付けてあるらしいんだよ。",
 		   NULL, " ... pare che ne avessero discusso in anticipo con la polizia.", Line_WaitForInput);

@@ -1565,7 +1565,7 @@ void main()
 	OutputLine(NULL, "「そうね。",
 		   NULL, "\"Questo è vero.", Line_WaitForInput);
 	OutputLine(NULL, "β版をプレイしてくれた方も、最後まで通して見てみたら、また意見が変わってるかもしれないね。」",
-		   NULL, " Persino giocatori della beta potrebbero cambiare idea se leggessero tutto fino alla fine.\"", Line_Normal);
+		   NULL, " Persino i giocatori della beta potrebbero cambiare idea se leggessero tutto fino alla fine.\"", Line_Normal);
 
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();

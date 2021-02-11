@@ -2974,7 +2974,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300211", 256, TRUE);
 	OutputLine(NULL, "「村長や村の有力者たちがね、方々に陳情した。",
-		   NULL, "\"Il sindaco e le altre figure illustri del villaggio firmarono tutti delle petizioni.", Line_WaitForInput);
+		   NULL, "\"Il capovillaggio e le altre figure illustri del villaggio firmarono tutti delle petizioni.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300212", 256, TRUE);
 	OutputLine(NULL, "　東京にも行ったし、いろんな政治家に根回しもした。",
 		   NULL, " Andarono a Tokyo e trovarono un compromesso con i legislatori...", Line_WaitForInput);

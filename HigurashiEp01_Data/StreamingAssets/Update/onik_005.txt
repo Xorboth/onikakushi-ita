@@ -710,7 +710,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200317", 256, TRUE);
 	OutputLine(NULL, "「でも去年は村長さんに怒られたし…。",
-		   NULL, "\"Ma l'anno scorso il sindaco si è arrabbiato molto...", Line_WaitForInput);
+		   NULL, "\"Ma l'anno scorso il capovillaggio si è arrabbiato molto...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200318", 256, TRUE);
 	OutputLine(NULL, "今年は迷惑をかけないようにしないとね…。」",
 		   NULL, " quindi dobbiamo fare in modo di non causare problemi questa volta...\"", GetGlobalFlag(GLinemodeSp));
@@ -746,7 +746,7 @@ void main()
 	OutputLine(NULL, "　なるほど、俺たちのあの騒がしさを祭り会場で「発表」するわけか。",
 		   NULL, "Capisco... allora ci 'esibiremo' sul palcoscenico affollato del festival.", Line_WaitForInput);
 	OutputLine(NULL, "そりゃあ、レナの言う通り、村長さんにも怒られるだろうなぁ！",
-		   NULL, " Rena ha ragione. È un buon motivo per far arrabbiare il sindaco!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Rena ha ragione. È un buon motivo per far arrabbiare il capovillaggio!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

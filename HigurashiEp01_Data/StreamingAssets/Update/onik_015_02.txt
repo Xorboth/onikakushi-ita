@@ -108,7 +108,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100769", 256, TRUE);
 	OutputLine(NULL, "「………意識がなくなってからのことは……全然………。」",
-		   NULL, "\"... ho perso conoscienza e... non ricordo nulla...\"", Line_Normal);
+		   NULL, "\"... ho perso conoscenza e... non ricordo nulla...\"", Line_Normal);
 	ClearMessage();
 
 //　体は俺が想像する以上に鈍重になっていた＠
@@ -4003,9 +4003,9 @@ void main()
 	OutputLine(NULL, "“これを読んだあなた。",
 		   NULL, "\"Tu, che stai leggendo.", Line_WaitForInput);
 	OutputLine(NULL, "どうか真相を暴いてください。",
-		   NULL, " Ti prego, svela la verità", Line_WaitForInput);
+		   NULL, " Ti prego, svela la verità.", Line_WaitForInput);
 	OutputLine(NULL, "それだけが私の望みです。”",
-		   NULL, " Questo è il mio unico desidero.\"", Line_Normal);
+		   NULL, " Questo è il mio unico desiderio.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("background/ma_j3_05", 1000 );
@@ -4050,7 +4050,7 @@ void main()
 //　祈らずにはいられない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　祈らずにはいられない。",
-		   NULL, "Adesso, posso soltano pregare.", Line_Normal);
+		   NULL, "Adesso, posso soltanto pregare.", Line_Normal);
 	ClearMessage();
 
 //　......大石さん＠

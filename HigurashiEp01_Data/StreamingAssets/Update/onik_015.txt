@@ -5814,7 +5814,7 @@ void main()
 		   NULL, " ... perdonami, ma non saprei dire.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700503", 256, TRUE);
 	OutputLine(NULL, "この辺りは婆さまの受け売りでして…。」",
-		   NULL, " Queste sono cose che mi sono solo state raccontate da mia nonna...\"", Line_Normal);
+		   NULL, " Queste sono cose che mi sono solo state raccontate da mia madre...\"", Line_Normal);
 	ClearMessage();
 
 

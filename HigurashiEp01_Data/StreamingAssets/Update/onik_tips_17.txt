@@ -123,7 +123,7 @@ void main()
 //　それから...雛見沢の村長もいたな＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それから…雛見沢の村長もいたな。",
-		   NULL, "E anche... il sindaco di Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "E anche... il capovillaggio di Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
