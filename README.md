@@ -4,7 +4,7 @@ Il team di CTH Translations è lieto di fornirvi la traduzione italiana di Higur
 La traduzione si basa sull'incredibile lavoro di 07th-Mod che permette di aggiungere molte feature al gioco base, tra le quali il doppiaggio e la grafica migliorata.
 
 Potete contattarci attraverso la nostra pagina Facebook:<br/>
-https://facebook.com/CTHTranslations/
+https://facebook.com/CTHTranslations
 
 Per avere un contatto più diretto con noi potete entrare nel nostro server Discord, dove si parla delle traduzioni in corso e si fornisce supporto tecnico:<br/>
 https://discord.gg/nNHQxZ7
@@ -15,7 +15,7 @@ https://discord.gg/nNHQxZ7
 L'installazione semplificata, che è quella che raccomandiamo di fare, consiste nell'usare direttamente l'installer di 07th-Mod per installare molto facilmente e velocemente la nostra traduzione.
 
 1. Scaricare ed installare il gioco da Steam, GOG o MangaGamer:<br/>
-https://store.steampowered.com/app/310360/Higurashi_When_They_Cry_Hou__Ch1_Onikakushi/<br/>
+https://store.steampowered.com/app/310360/Higurashi_When_They_Cry_Hou__Ch1_Onikakushi<br/>
 https://www.gog.com/game/higurashi_when_they_cry_hou_ch1_onikakushi<br/>
 https://www.mangagamer.com/detail.php?goods_type=1&product_code=132
 
@@ -34,8 +34,8 @@ https://github.com/07th-mod/python-patcher/releases/latest
 L'installazione manuale consiste nel gestire manualmente i file della nostra traduzione, per tale motivo la consigliamo solo per utenti esperti che sanno cosa stanno facendo.
 
 1. Scaricare ed installare il gioco da Steam, GOG o MangaGamer:<br/>
-https://store.steampowered.com/app/310360/Higurashi_When_They_Cry_Hou__Ch1_Onikakushi/ <br/>
-https://www.gog.com/game/higurashi_when_they_cry_hou_ch1_onikakushi <br/>
+https://store.steampowered.com/app/310360/Higurashi_When_They_Cry_Hou__Ch1_Onikakushi<br/>
+https://www.gog.com/game/higurashi_when_they_cry_hou_ch1_onikakushi<br/>
 https://www.mangagamer.com/detail.php?goods_type=1&product_code=132
 
 2. Installare la patch per Onikakushi di 07th-Mod attraverso il 07th-Mod Installer:<br/>
