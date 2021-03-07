@@ -1,6 +1,10 @@
-1.0.3 [XX-02-2020]:
+1.0.3 [07-03-2020]:
  - Aggiornata la traduzione, correggendo vari errori segnalati
  - Aggiornata la traduzione all'ultima versione della patch per Onikakushi di 07th-Mod (commit 7bb38bd470184099778e4409a43974ad3e9bb19c del 01-01-2021)
+ - Aggiornata la texture shortcuts.png rendendo più comprensibili alcuni punti
+ - Tradotto il titolo "Opening" quando si inizia una nuova partita
+ - Aggiornata la texture si_onikakusi.png
+ - Aggiunta la texture si_onikakushi.png precedentemente assente
 
 1.0.2 [18-11-2020]:
  - Aggiunto il supporto alla rimozione dei file .assets inutilizzati quando si usa lo 07th-Mod Installer
