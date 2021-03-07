@@ -60,6 +60,6 @@ https://github.com/Xorboth/onikakushi-ita/releases/latest
 
 ## Crediti
 
-Ringraziamo infinitamente il team di 07th-Mod per la loro incredibile patch e grandissimo supporto che ci ha permesso di portarvi la traduzione italiana che vedete oggi
+Ringraziamo infinitamente il team di 07th-Mod per la loro incredibile patch e grandissimo supporto che ci ha permesso di portarvi la traduzione italiana che vedete oggi.
 
 Traduzione italiana a cura di CTH Translations
