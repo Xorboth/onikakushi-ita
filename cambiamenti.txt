@@ -1,5 +1,6 @@
-1.0.4 [XX-XX-XXXX]:
+1.0.4 [XX-XX-2021]:
  - Ripristinata l'ultima riga erroneamente tolta da ogni script
+ - Rimosso il file init.txt in quanto non necessario per la traduzione
 
 1.0.3 [07-03-2021]:
  - Aggiornata la traduzione, correggendo vari errori segnalati
