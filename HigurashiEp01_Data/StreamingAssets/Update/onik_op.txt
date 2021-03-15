@@ -154,7 +154,7 @@ void main()
 //　ひぐらしの声だけが...いやに騒がしい。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ひぐらしの声だけが…いやに騒がしい。",
-		   NULL, "Soltanto il piangere delle cicale permane... rumoroso oltre ogni immaginazione.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Soltanto il frinire delle cicale permane... rumoroso oltre ogni immaginazione.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -175,7 +175,7 @@ void main()
 //　...聞こえるはずはない。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…聞こえるはずはない。",
-		   NULL, "... ma questo non è possibile.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... ma non è possibile.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -267,7 +267,7 @@ void main()
 //　...そして何度も、その痛む心を捨てるべきかどうか迷ったんだ。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…そして何度も、その痛む心を捨てるべきかどうか迷ったんだ。",
-		   NULL, "... e infinite volte ho pensato se fosse la cosa giusta gettare via questo dolore.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... e infinite volte ho pensato se fosse giusto abbandonare questo dolore.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -283,14 +283,14 @@ void main()
 //　捨てれば...もっと心が楽になれる...。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "捨てれば…もっと心が楽になれる…。",
-		   NULL, "Mi sentirei meglio se gettassi via tutto.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mi sentirei meglio se lo abbandonassi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　それを知りながらも、俺は信じることを選んだんじゃないか。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それを知りながらも、俺は信じることを選んだんじゃないか。",
-		   NULL, "E nonostante ne sia consapevole, io ho scelto comunque di credere.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ma, nonostante ne sia consapevole, ho scelto comunque di credere.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -321,7 +321,7 @@ void main()
 //　......俺がそれを認めてやる。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…俺がそれを認めてやる。",
-		   NULL, "... lo riconosco.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... te lo concedo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -345,7 +345,7 @@ void main()
 //　それに.........捨てるんじゃない。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それに…捨てるんじゃない。",
-		   NULL, "In fondo... non lo sto gettando via.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "In fondo... non lo sto abbandonando.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -399,7 +399,7 @@ void main()
 //　ひとつ振る度に忘れるんだ。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ひとつ振る度に忘れるんだ。",
-		   NULL, "E con ogni colpo, dimentica poco alla volta.", Line_Normal);
+		   NULL, "E, con ogni colpo, dimentica poco alla volta.", Line_Normal);
 	ClearMessage();
 	DrawScene("black", 1500 );
 

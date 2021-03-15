@@ -7,7 +7,7 @@ void dialog000()
 //　魅音の目線が俺の胸元からつーっと下がって行き、!d400俺の下腹部に集まり始める＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音の目線が俺の胸元からつーっと下がって行き、",
-		   NULL, " Lo sguardo di Mion si posa sul mio petto e poi si sposta subito più in basso,", Line_Continue);
+		   NULL, " Lo sguardo di Mion si posa sul mio petto e si sposta subito più in basso,", Line_Continue);
 
 	Wait( 400 );
 
@@ -52,31 +52,31 @@ void dialog000()
 //「毎朝、元気全開で大変なんだ＠今度見せてやるから挨拶してみろ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「毎朝、元気全開で大変なんだ。",
-		   NULL, "\"Essere così *gonfio* di energia ogni giorno è un bel problema, però.", Line_WaitForInput);
+		   NULL, "\"Essere così 'gonfio' di energia ogni giorno è un bel problema, però.", Line_WaitForInput);
 	OutputLine(NULL, "今度見せてやるから挨拶してみろ。」",
-		   NULL, " Vi presenterò la prossima volta, quindi vedi di salutarlo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ve lo presenterò la prossima volta, quindi siate cortesi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //「今度なんて言わないで今がいいなぁ＠朝の新鮮な空気を吸わせてあげたらぁ？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「今度なんて言わないで今がいいなぁ。",
-		   NULL, "\"Non dire 'la prossima volta', facci vedere adesso.", Line_WaitForInput);
+		   NULL, "\"Non dire 'la prossima volta'. Facci vedere adesso.", Line_WaitForInput);
 	OutputLine(NULL, "朝の新鮮な空気を吸わせてあげたらぁ？」",
-		   NULL, " Perché non fai prendere al piccolino una boccata di aria fresca mattutina?\"", Line_Normal);
+		   NULL, " Perché non fai prendere al piccolino una boccata d'aria fresca?\"", Line_Normal);
 	ClearMessage();
 
 
 //　朝の新鮮な空気をここまで台無しにする下品トークは聞いたことないぞ...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　朝の新鮮な空気をここまで台無しにする下品トークは聞いたことないぞ…。",
-		   NULL, "Non credo di aver mai sentito nessuno parlare in maniera così sporca da poter contaminare con l'odore delle proprie parole l'aria pura del mattino.",  GetGlobalFlag(GLinemodeSp));
+		   NULL, "Non ho mai sentito nessuno parlare in maniera così sporca da contaminare l'aria pura del mattino.",  GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　魅音ってヤツはたまにノリにおっさんぽいところがあるのだ＠
 	OutputLine(NULL, "　魅音ってヤツはたまにノリにおっさんぽいところがあるのだ。",
-		   NULL, "Mion si comporta davvero come se fosse un vecchio pervertito, certe volte.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mion si comporta davvero come un vecchio pervertito, certe volte.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -87,12 +87,12 @@ void dialog000()
 	OutputLine(NULL, "大公開だ。",
 		   NULL, " È l'ora del grande spettacolo.", Line_WaitForInput);
 	OutputLine(NULL, "後悔するなよ…ッ？！？！」",
-		   NULL, " Non rimpiangerlo però...!!\"", Line_Normal);
+		   NULL, " Spero non ti metterai a piangere...!!\"", Line_Normal);
 	ClearMessage();
 
 //　俺がジッパーに手をかけたところで、レナが慌てふためきながらまくし立てた＠
 	OutputLine(NULL, "　俺がジッパーに手をかけたところで、レナが慌てふためきながらまくし立てた。",
-		   NULL, "Mentre la mia mano si avvicina alla zip, Rena comincia a tremare dal panico.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mentre la mia mano si avvicina alla zip, Rena comincia a tremare di terrore.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 

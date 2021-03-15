@@ -226,7 +226,7 @@ void main()
 //　多分という曖昧な表現を使いながら、絶対という矛盾した形容詞を使ってしまうことに苦笑する...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　多分という曖昧な表現を使いながら、絶対という矛盾した形容詞を使ってしまうことに苦笑する…。",
-		   NULL, "Faccio un sorrisetto amaro mentre penso che mi sto contraddicendo da solo usando parole come \"probabilmente\" e \"sicuramente\" in due frasi una dopo l'altra.", Line_Normal);
+		   NULL, "Faccio un sorrisetto amaro mentre penso che mi sto contraddicendo da solo usando parole come \"probabilmente\" e \"sicuramente\" una dopo l'altra.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 1000, TRUE );
@@ -285,7 +285,7 @@ void main()
 //　だが...その背後には常に気配がぴったりと。影のように付きまとっていたのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが…その背後には常に気配がぴったりと。影のように付きまとっていたのだ。",
-		   NULL, "In quei momenti... c'era sempre questa presenza come appiccicata alla mia schiena, come una vera e propria ombra.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "In quel momento... c'era sempre questa presenza appiccicata alla mia schiena, come una vera e propria ombra.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -351,7 +351,7 @@ void main()
 //　俺が走るのとまったく同じように、そのぺたぺたというまるで素足のような足音が、俺の後ろをつけていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺が走るのとまったく同じように、そのぺたぺたというまるで素足のような足音が、俺の後ろをつけていた。",
-		   NULL, "Mentre stavo correndo, quel rumore di passi che facevano 'tip tip' erano proprio dietro di me.", Line_Normal);
+		   NULL, "Mentre stavo correndo, quel rumore di passi che facevano \"tip tip\" erano proprio dietro di me.", Line_Normal);
 	ClearMessage();
 
 //　終わった時間の世界を......俺が嬉々として走り抜けている＠
@@ -365,14 +365,14 @@ void main()
 //　だがそれは......聞こえていないから＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だがそれは……聞こえていないから。",
-		   NULL, "Ma io... non li sentii.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ma io... non li ho sentiti.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　いや。聞こえていたからこうして思い出せる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いや。聞こえていたからこうして思い出せる。",
-		   NULL, "Anzi, li sentii. È per questo che adesso sto ricordando.", Line_Normal);
+		   NULL, "Anzi, li ho sentiti. È per questo che adesso sto ricordando.", Line_Normal);
 	ClearMessage();
 
 //　...聞こえていたが気にしなかった＠
@@ -386,7 +386,7 @@ void main()
 //　だから振り返らなかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから振り返らなかった。",
-		   NULL, "Ecco perché non mi voltai.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ecco perché non mi sono voltato.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -394,7 +394,7 @@ void main()
 //　だから、俺は振り返られない...！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、俺は振り返られない…！！！",
-		   NULL, "Ecco perché... non mi voltai...!!!", Line_Normal);
+		   NULL, "Ecco perché... non mi sono voltato...!!!", Line_Normal);
 	ClearMessage();
 
 
@@ -431,7 +431,7 @@ void main()
 //　終わった時間の俺は、一度も後ろなんか振り返らなかったから＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　終わった時間の俺は、一度も後ろなんか振り返らなかったから。",
-		   NULL, "Non mi voltai in quel momento, figuriamoci adesso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Non mi sono voltato in quel momento, figuriamoci adesso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -439,7 +439,7 @@ void main()
 //　そして、両親の元にたどり着き、会話を始めるのだ＠影のような気配を背負ったまま￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、両親の元にたどり着き、会話を始めるのだ。",
-		   NULL, "Tornai dai miei genitori e iniziai a parlare con loro.", Line_WaitForInput);
+		   NULL, "Sono tornato dai miei genitori e ho iniziato a parlare con loro.", Line_WaitForInput);
 	OutputLine(NULL, "影のような気配を背負ったまま。",
 		   NULL, " L'ombra era ancora alle mie spalle.", Line_Normal);
 	ClearMessage();
@@ -447,9 +447,9 @@ void main()
 //　俺が動かないから、影も動かない＠だから音がしない＠それだけのこと＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺が動かないから、影も動かない。",
-		   NULL, "Dato che non mi mossi, nemmeno l'ombra si mosse.", Line_WaitForInput);
+		   NULL, "Dato che non mi movevo, nemmeno l'ombra lo faceva.", Line_WaitForInput);
 	OutputLine(NULL, "だから音がしない。",
-		   NULL, " Motivo per cui non sentii alcun rumore.", Line_WaitForInput);
+		   NULL, " Motivo per cui non ho sentito alcun rumore.", Line_WaitForInput);
 	OutputLine(NULL, "それだけのこと。",
 		   NULL, " Molto semplice.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -459,14 +459,14 @@ void main()
 //　その時、俺は一歩も歩かずに両親と会話をしていたはずだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その時、俺は一歩も歩かずに両親と会話をしていたはずだった。",
-		   NULL, "In quel momento, non mossi un solo passo mentre stavo parlando con i miei genitori.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "In quel momento, non ho mosso un solo passo mentre stavo parlando con i miei genitori.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　立ち尽くしたままだった＠間違いなく＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　立ち尽くしたままだった。",
-		   NULL, "Rimasi semplicemente fermo lì, in piedi.", Line_WaitForInput);
+		   NULL, "Sono rimasto semplicemente fermo lì, in piedi.", Line_WaitForInput);
 	OutputLine(NULL, "間違いなく。",
 		   NULL, " È innegabile.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -488,9 +488,9 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……ぺた。",
-		   NULL, " lo sentii...", Line_WaitForInput);
+		   NULL, " ho sentito...", Line_WaitForInput);
 	OutputLine(NULL, "…と音がした。",
-		   NULL, " un tip...", Line_Normal);
+		   NULL, " un passo...", Line_Normal);
 	ClearMessage();
 
 //　そんなはずはない＠
@@ -516,7 +516,7 @@ void main()
 //　もうそれ以上は音はしなかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もうそれ以上は音はしなかった。",
-		   NULL, "Non potevano esserci rumori di passi in più.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Non poteva esserci rumori di passi in più.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -576,7 +576,7 @@ void main()
 //　ぺた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ぺた。",
-		   NULL, "Tip.", Line_Normal);
+		   NULL, "Tap.", Line_Normal);
 	ClearMessage();
 
 //　前身の毛が逆立つ￥
@@ -604,7 +604,7 @@ void main()
 //　俺は歩いてない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺は歩いてない！",
-		   NULL, "Io non mi mossi!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Io non mi sono mosso!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -631,7 +631,7 @@ void main()
 //　ぺた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ぺた。",
-		   NULL, "Tip.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tap.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -659,7 +659,7 @@ void main()
 //　後ろの気配が動けるように、どうして俺は動けないんだ？！？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　後ろの気配が動けるように、どうして俺は動けないんだ？！？！",
-		   NULL, "Perché non mi mossi... come invece fece la presenza dietro di me!?!?", Line_Normal);
+		   NULL, "Perché non mi sono mosso... come invece ha fatto la presenza dietro di me?!?!", Line_Normal);
 	ClearMessage();
 
 //　...すぐに気付いた＠
@@ -770,13 +770,13 @@ void main()
 //　後ろを振り向いた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　後ろを振り向いた。",
-		   NULL, "Mi voltai.", Line_Normal);
+		   NULL, "Mi volto.", Line_Normal);
 	ClearMessage();
 
 //　......そこには、.........始めそれの意味はわからなかった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そこには、………始めそれの意味はわからなかった。",
-		   NULL, "... all'inizio... non riuscivo a capire cosa fosse.", Line_Normal);
+		   NULL, "... all'inizio... non riesco a capire cosa sia.", Line_Normal);
 	ClearMessage();
 
 //「.........え、..................え？＠
@@ -798,7 +798,7 @@ void main()
 //　自分の目の前の状況を、まるで人の口がリンゴをかじって汁を啜り、リンゴであることを知るように.........脳がリンゴを食べ始める＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分の目の前の状況を、まるで人の口がリンゴをかじって汁を啜り、リンゴであることを知るように………脳がリンゴを食べ始める。",
-		   NULL, "La scena davanti ai miei occhi... era simile a una bocca che morde una mela rossa e succosa, solo che... era il mio cervello a mangiare quella mela.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "È come una persona che morde una mela, ne assapora i succhi e solo dopo di accorge di aver morso una mela. La mia mente elabora la scena davanti ai miei occhi solo quando \"morde la mela\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -813,13 +813,13 @@ void main()
 //　汁を啜り.........リンゴであることを知る￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　汁を啜り………リンゴであることを知る。",
-		   NULL, "Leccandone i succhi... consapevole che si trattasse di una mela.", Line_Normal);
+		   NULL, "Leccandone i succhi... consapevole che si tratta di una mela.", Line_Normal);
 	ClearMessage();
 
 //　つまり......俺の目の前のそれは＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり……俺の目の前のそれは、",
-		   NULL, "Ovvero... quello che vidi davanti ai miei occhi fu...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ovvero... quello che vedono i miei occhi è...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -833,7 +833,7 @@ void main()
 //ぎゃああああぁあぁあぁああああぁあぁああぁああぁあああぁあぁぁぁ.........!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ぎゃああああぁあぁあぁああああぁあぁああぁああぁあああぁあぁぁぁ………",
-		   NULL, "GwAAAAaAaAaAAAAAaAaAAaAAaAAAAaAah...!", Line_ContinueAfterTyping);
+		   NULL, "GyAAAAaAaAaAAAAAaAaAAaAAaAAAAaAah...!", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 2000 );

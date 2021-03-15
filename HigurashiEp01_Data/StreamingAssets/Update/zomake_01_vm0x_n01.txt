@@ -34,7 +34,7 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 5, "ps3/s20/05/440500083", 256, TRUE);
 	OutputLine(NULL, "「…まだ第一話ですよ。ボクは次のお話が楽しみなのです。」",
-		   NULL, "\"... siamo solo il primo capitolo. Non vedo l'ora di leggere il prossimo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... siamo solo al primo capitolo. Non vedo l'ora di leggere il prossimo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -124,7 +124,7 @@ void dialog002()
 		   NULL, " Maebara-san ha linee a sufficienza per coprire un cast completo in una novel normale~", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700338", 256, TRUE);
 	OutputLine(NULL, "んっふっふっふ！」",
-		   NULL, " eheheheheh!\"", Line_Normal);
+		   NULL, " Nfufufu!\"", Line_Normal);
 }
 
 void dialog003()

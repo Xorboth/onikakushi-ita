@@ -48,6 +48,6 @@ void dialog003()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　どうッ？！？！」",
-		   NULL, " Che ve ne pare!?!?\"", Line_Normal);
+		   NULL, " Che ve ne pare?!?!\"", Line_Normal);
 	ClearMessage();
 }

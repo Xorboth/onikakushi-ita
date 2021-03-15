@@ -80,13 +80,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s20/04/440400011", 256, TRUE);
 	OutputLine(NULL, "「レナさんですの？",
-		   NULL, "\"Rena, dici?", Line_Continue);
+		   NULL, "\"Rena-san, dici?", Line_Continue);
 	Wait (1000)
 	OutputLine(NULL, "　さっき廊下ですれ違いましてよ。",
 		   NULL, " L'ho vista passare poco fa in corridoio.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s20/04/440400012", 256, TRUE);
 	OutputLine(NULL, "レナさんは日直だから、花壇にお水をやらないといけませんので。」",
-		   NULL, " Rena era di turno per le pulizie oggi ed è andata ad annaffiare i fiori.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Rena-san era di turno per le pulizie oggi ed è andata ad annaffiare i fiori.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -125,7 +125,7 @@ void main()
 	OutputLine(NULL, "　人の名前にこんなこと言っちゃ失礼だが、……変わった名前だよな。",
 		   NULL, "Forse è brutto a dirsi ma... il suo nome è proprio strano.", Line_WaitForInput);
 	OutputLine(NULL, "外人さんみたいな名前だ。",
-		   NULL, " Non sembra un nome giapponese.", Line_Normal);
+		   NULL, " Non sembra giapponese.", Line_Normal);
 	ClearMessage();
 
 //「レナってどういう名前なんだろうな＠...レナって漢字だとどうなるんだ？＠
@@ -135,7 +135,7 @@ void main()
 		   NULL, "\"Che razza di nome è Rena...?", Line_Continue);
 	Wait( 2500 );
 	OutputLine(NULL, "…レナって漢字だとどうなるんだ？」",
-		   NULL, " Con che kanji si scrive?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Con che ideogrammi si scrive?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -156,7 +156,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s20/01/440100030", 256, TRUE);
 	OutputLine(NULL, "「え、そうなのか？！",
-		   NULL, "\"Eh? Davvero!?", Line_Continue);
+		   NULL, "\"Eh? Davvero?!", Line_Continue);
 	Wait (1000)
 	OutputLine(NULL, "　俺はてっきり竜宮レナってのが本名だと思ってたよ。」",
 		   NULL, " Ero convinto che il suo nome completo fosse Rena Ryuugu.\"", GetGlobalFlag(GLinemodeSp));
@@ -172,7 +172,7 @@ void main()
 	OutputLine(NULL, "「まぁ確かに。",
 		   NULL, "\"Beh...", Line_Continue);
 	OutputLine(NULL, "レナさんとしか呼んでませんから間違えるのも無理はないですわね。」",
-		   NULL, " è comprensibile visto che la chiamiamo sempre e soltanto Rena.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " è comprensibile, visto che la chiamiamo sempre e soltanto Rena.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -259,10 +259,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s20/04/440400015", 256, TRUE);
 	OutputLine(NULL, "「レナさんが言ったのですわ。レナと呼んで欲しいって。",
-		   NULL, "\"Rena ci ha detto che vuole essere chiamata 'Rena'", Line_WaitForInput);
+		   NULL, "\"Rena-san ci ha detto che vuole essere chiamata 'Rena'", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s20/04/440400016", 256, TRUE);
 	OutputLine(NULL, "だからレナさんなのですわ。」",
-		   NULL, " e quindi la chiamiamo Rena.\"", Line_Normal);
+		   NULL, " e quindi la chiamiamo così.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(1, 3, "sprite/me1b_wink_a1_", "2", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, FALSE );
@@ -334,7 +334,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s20/01/440100036", 256, TRUE);
 	OutputLine(NULL, "「越後屋。」",
-		   NULL, "\"Echigoya [Uno dei cattivi della serie Tenchu.].\"", Line_Normal);
+		   NULL, "\"Echigoya.\" [Uno dei cattivi della serie Tenchu.]", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 1000 );
@@ -399,7 +399,7 @@ void main()
 		   NULL, "\"Echigoya, sei proprio malvagio...", Line_Continue);
 	Wait (2800)
 	OutputLine(NULL, "…ふぉっふぉっふぉ！！！」",
-		   NULL, " bwahahahah!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ohohohoh!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -410,13 +410,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200036", 256, TRUE);
 	OutputLine(NULL, "「なな、何かな何かな？！",
-		   NULL, "\"C-cosa succede, cosa succede!?", Line_Continue);
+		   NULL, "\"C-cosa succede, cosa succede?!", Line_Continue);
 	Wait (2000)
 	OutputLine(NULL, "　圭一くんと魅ぃちゃんが悪代官だよ？",
 		   NULL, " Keiichi-kun e Mii-chan sono diventati due cattivi?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200037", 256, TRUE);
 	OutputLine(NULL, "　越後屋だよ？！」",
-		   NULL, " Echigoya!?\"", Line_Normal);
+		   NULL, " Echigoya?!\"", Line_Normal);
 	ClearMessage();
 
 //「おのれ竜宮レナの助＠　ここで会ったが百年目でおじゃる＠いざ覚悟～！！＠
@@ -527,7 +527,7 @@ void main()
 		   NULL, "\"... spero che Rena intraprenda un viaggio per rendere il mondo un posto migliore.", Line_Continue);
 	Wait (2600)
 	OutputLine(NULL, "…永田町なんかどうだ？」",
-		   NULL, " Che ne dici di iniziare da Nagata-chou? [Quartiere di Tokyo dove ha sede la Dieta del Giappone.]\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Che ne dici di iniziare da Nagata-chou?\" [Quartiere di Tokyo dove ha sede la Dieta del Giappone.]", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //「......ダメだよ＠旅先でかぁいいものをチョロまかすから。」/
@@ -552,7 +552,7 @@ void main()
 //　振鈴が休み時間の終わりを告げる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　振鈴が休み時間の終わりを告げる。",
-		   NULL, "Il risuonare della campanella ci avvisa che la pausa è finita.", Line_Normal);
+		   NULL, "Il suonare della campanella ci avvisa che la pausa è finita.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

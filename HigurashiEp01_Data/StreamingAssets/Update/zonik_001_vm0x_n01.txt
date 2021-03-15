@@ -27,7 +27,7 @@ void dialog000()
 	OutputLine(NULL, "「こんなに立派に育ってくれて…",
 		   NULL, "\"Sei cresciuto così bene...", Line_Continue);
 	OutputLine(NULL, "…おじさん苦労した甲斐があったよ」",
-		   NULL, " Ne è valsa la pena di farmi in quattro per te.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "È valsa la pena di farmi in quattro per te.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //ご丁寧にハンカチまで取り出して泣きまねをする。
@@ -106,7 +106,7 @@ void dialog000()
 
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300011", 256, TRUE);
 	OutputLine(NULL, " 圭ちゃんの昨日の夕食からレナのスリーサイズまで、すべておじさんはお見通しさ」",
-		   NULL, " Dalla cena di ieri alle tre misure di Rena, questo zietto sa ogni cosa.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Dalla cena di ieri alle tre misure di Rena, questo zio sa ogni cosa.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //そう言って、不敵に笑う魅音の肩を俺はポンと叩く
@@ -140,7 +140,7 @@ void dialog000()
 //よからぬ交渉に感づいたのか、レナが慌てふためきながらまくし立てた。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　よからぬ交渉に感づいたのか、レナが慌てふためきながらまくし立てた。",
-		  NULL, "Rena, avendo sentito la nostra conversazione. diventa rossa e inizia ad andare nel panico.", GetGlobalFlag(GLinemodeSp));
+		  NULL, "Rena, avendo sentito la nostra conversazione. diventa rossa e inizia a non capire più nulla.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

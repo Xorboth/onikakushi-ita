@@ -29,7 +29,7 @@ void dialog002()
 {
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700160", 256, TRUE);
 	OutputLine(NULL, "覚醒剤の常習歴もあるトンチンカンでしてね。",
-		   NULL, " Aveva un passato da tossico dipendente.", Line_WaitForInput);
+		   NULL, " Aveva un passato da tossicodipendente.", Line_WaitForInput);
 }
 
 void dialog003()

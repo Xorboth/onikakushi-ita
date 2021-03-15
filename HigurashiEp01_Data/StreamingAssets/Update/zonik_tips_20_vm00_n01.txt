@@ -10,7 +10,7 @@ void dialog000()
 	OutputLine(NULL, "こんなにたくさん！",
 		   NULL, " Quanti sono!", Line_WaitForInput);
 	OutputLine(NULL, "　全部違う種類にすることはないでしょ？！」",
-		   NULL, " Che motivo c'è di prenderne così tanti tipi!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Che motivo c'è di prenderne così tanti tipi?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -39,7 +39,7 @@ void dialog002()
 {
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Mamma di Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「決められないならお母さんが決めちゃうわよ。」",
-		   NULL, "\"Se non riesci a deciderti, allora sceglierà mamma per te.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Se non riesci a deciderti, allora sceglierà la mamma per te.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -56,9 +56,9 @@ void dialog002()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Mamma di Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「豚骨ショウガ味、デカカップ？",
-		   NULL, "\"Tonkotsu & Zenzero, extra-large? [Tonkotsu ramen = tipo di ramen con brodo di ossa di maiale]", Line_WaitForInput);
+		   NULL, "\"Maiale & Zenzero, extra-large?", Line_WaitForInput);
 	OutputLine(NULL, "　ねぇ圭一、もう少し普通のにしない？」",
-		   NULL, " Ehi, Keiichi, non puoi prenderne uno più normale?\"", Line_Normal);
+		   NULL, "Ehi, Keiichi, non puoi prenderne uno più normale?\"", Line_Normal);
 	ClearMessage();
 }
 

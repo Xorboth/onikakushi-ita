@@ -41,13 +41,13 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300718", 256, TRUE);
 	OutputLine(NULL, "「…凡カレーに…緊張蚊取線香…オロ波ンＣぃッ！！！",
-		   NULL, "\"... francobolli... zampironi... ed effervescente per lo stomaco!!!", Line_Continue);
+		   NULL, "\"... francobolli... zampironi... e Oronamin C!!!", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 400 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　どうッ？！？！」",
-		   NULL, " Che ve ne pare!?!?\"", Line_Normal);
+		   NULL, " Che ve ne pare?!?!\" [Bevanda energetica a base di vitamina C, in gran voga negli anni '60.]", Line_Normal);
 	ClearMessage();
 }

@@ -37,7 +37,7 @@ void main()
 //　外ではセミがミンミンと鳴き、夜は蚊まで出る＠...これって完全に夏だよなぁ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　外ではセミがミンミンと鳴き、夜は蚊まで出る。",
-		   NULL, "Si sentono le cicale che friniscono facendo \"miii miii,\" e la notte è piena di zanzare.", Line_WaitForInput);
+		   NULL, "Si sentono le cicale che friniscono, facendo \"crii crii,\" e la notte è piena di zanzare.", Line_WaitForInput);
 	OutputLine(NULL, "…これって完全に夏だよなぁ。",
 		   NULL, " ... è davvero estate.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -91,7 +91,7 @@ void main()
 		   NULL, "\"Vedere Keiichi con solo la camicia a maniche corte mi dà una sensazione di freschezza...", Line_Continue);
 	Wait( 2000 );
 	OutputLine(NULL, "羨ましいですわ。」",
-		   NULL, " sono invidiosa.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " che invidia.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -113,7 +113,7 @@ void main()
 		   NULL, "\"Gli abiti di Rena hanno un colore davvero fresco ed estivo.", Line_Continue);
 	Wait( 1900 );
 	OutputLine(NULL, "見てるこっちも涼しくなる。」",
-		   NULL, " Mi sento rinfrescare anche solo a guardarli.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mi sento meglio anche solo a guardarli.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -155,7 +155,7 @@ void main()
 		   NULL, "\"Satoko-chan, il tuo vestitino estivo è così carino!", Line_Continue);
 	Wait( 2900 );
 	OutputLine(NULL, "　レナは沙都子ちゃんの夏服、着てみたいなー☆」",
-		   NULL, " Anche a me piacerebbe indossarlo.☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Anche a me piacerebbe indossarlo☆.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -180,7 +180,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200024", 256, TRUE);
 	OutputLine(NULL, "「でもかぁいい服の方がきっと楽しいよ。……はぅ！」",
-		   NULL, "\"Ma sarebbe così divertente se indossassi dei vestiti più carini... hao!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Ma sarebbe così divertente se indossassi dei vestiti più carini... hau!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -222,7 +222,7 @@ void main()
 	OutputLine(NULL, "　私服の生徒は確かに多い。",
 		   NULL, "Sono molti gli studenti che frequentano le lezioni con i loro abiti di sempre.", Line_WaitForInput);
 	OutputLine(NULL, "制服を着ている生徒もいるが、みんなデザインは同じ、地味なものだ。",
-		   NULL, " Prima ce n'erano alcuni con l'uniforme ma il design era troppo piatto e basilare.\"", Line_Normal);
+		   NULL, " Prima ce n'erano alcuni con l'uniforme, ma il design era troppo piatto e basilare.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/gk3", "left", 0, 0, 300 );
@@ -248,7 +248,7 @@ void main()
 		   NULL, "\"Quella è l'uniforme scolastica cittadina.", Line_Continue);
 	Wait( 1800 );
 	OutputLine(NULL, "別に決まってるわけじゃないですけど、みんな着てますわね。」",
-		   NULL, " Non è che ci sia una regola ma la indossano in molti.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Non è che ci sia una regola, ma la indossano in molti.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -294,7 +294,7 @@ void main()
 //　...魅音のヤツ、仲間を着せ替え人形にして楽しんでるな、絶対＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…魅音のヤツ、仲間を着せ替え人形にして楽しんでるな、絶対。",
-		   NULL, "... quella Mion... immagino che si diverta a usare le sue compagne come bamboline da vestire.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... quella Mion... immagino che si diverte a usare le sue compagne come bamboline da vestire.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -361,7 +361,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s20/04/440400007", 256, TRUE);
 	OutputLine(NULL, "「……でも、いつも魅音さんが自信満々に言いますのよ？",
-		   NULL, "\"... però Mion-san dice 'Farà il botto e diventerà un negozio fantastico!'", Line_Continue);
+		   NULL, "\"... però Mion-san dice che 'Farà il botto e diventerà un negozio fantastico!'", Line_Continue);
 	OutputLine(NULL, "　今にきっと大ブレイクしてすごい商売になる！！って。」",
 		   NULL, " con un tono molto fiducioso.\"", Line_Normal);
 	ClearMessage();

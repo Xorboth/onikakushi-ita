@@ -19,7 +19,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５６年６月ＸＸ日夕刊より",
-		   NULL, "Edizione di luglio del 1981", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Edizione del giugno 1981", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -27,7 +27,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　ＸＸ日午後１０時頃、鹿骨市雛見沢村Ｘ丁目、古手神社神主のＸＸＸＸさんが不調を訴え病院で手当てを受け一時は回復したが、深夜に容態が急変、死亡した。",
-		   NULL, "La sera del giorno XX intorno alle 22, nel distretto X del villaggio di Hinamizawa nella prefettura di Shishibone, il prete shinto del santuario Furude è spirato in seguito al peggioramento di una malattia pre-esistente che stava cercando di curare.", Line_Normal);
+		   NULL, "La sera del giorno XX intorno alle 22, nel distretto X del villaggio di Hinamizawa, prefettura di Shishibone, il prete del santuario Furude è spirato per il peggioramento di una malattia pre-esistente che stava curando.", Line_Normal);
 	ClearMessage();
 
 

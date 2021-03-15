@@ -58,7 +58,7 @@ void dialog004()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400135", 256, TRUE);
 	OutputLine(NULL, "「圭一さんは気付きませんの？！！",
-		   NULL, "\"Keiichi-san, non capisci!?!", Line_WaitForInput);
+		   NULL, "\"Keiichi-san, non capisci?!?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400136", 256, TRUE);
 	OutputLine(NULL, "　校長先生は頭髪が薄いことを恥ずかしがってますの！！」",
 		   NULL, " Il preside si vergogna dei capelli che gli cadono!!\"", GetGlobalFlag(GLinemodeSp));
@@ -121,6 +121,6 @@ void dialog006()
 //　きゅぴーんという音が３回した。３ゲージ技かッ？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　きゅぴーんという音が響いた。いきなり奥義発動かよ？！",
-		   NULL, "Sento qualcosa di simile a uno 'srhing'. Sarà la sua super mossa finale caricata!?", Line_Normal);
+		   NULL, "Sento qualcosa di simile a uno 'srhing'. Sarà la sua super mossa finale caricata?!", Line_Normal);
 	ClearMessage();
 }

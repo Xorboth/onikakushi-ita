@@ -14,9 +14,9 @@ void dialog000()
 		   NULL, " sarà il mio ultimo compito.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700054", 256, TRUE);
 	OutputLine(NULL, "退職金は、まぁススキノで楽しむことにします。",
-		   NULL, " E la pensione, beh, la userò per divertirmi un po' a Susukino. [Quartiere a luci rosse di Sapporo.]", Line_WaitForInput);
+		   NULL, " E la pensione, beh, la userò per divertirmi un po' a Susukino.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700055", 256, TRUE);
 	OutputLine(NULL, "なっはっはっは！！」",
-		   NULL, " Nahahahah!!\"", Line_Normal);
+		   NULL, "Nahahahah!!\" [Quartiere a luci rosse di Sapporo.]", Line_Normal);
 	ClearMessage();
 }

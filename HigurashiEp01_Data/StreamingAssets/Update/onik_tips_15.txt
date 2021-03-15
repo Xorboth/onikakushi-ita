@@ -39,7 +39,7 @@ void main()
 //総総管イ１－１２号
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "総総管イ１−１２号",
-		   NULL, "Ai dipartimenti dall'1 al 12", Line_ContinueAfterTyping);
+		   NULL, "Ai dipartimenti dall'1 al 12.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -92,7 +92,7 @@ void main()
 //雛見沢村における事件について（通達）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "雛見沢村における事件について（通達）",
-		   NULL, "Riguardo i casi situati nel villaggio di Hinamizawa. (Notifica)", Line_ContinueAfterTyping);
+		   NULL, "Riguardo i casi siti nel villaggio di Hinamizawa. (Notifica)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -115,7 +115,7 @@ void main()
 //世間の好奇の目を引き地域住民の穏便な生活に重大な影響を及ぼしつつある、大変憂慮すべき事態となっている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "世間の好奇の目を引き地域住民の穏便な生活に重大な影響を及ぼしつつある、大変憂慮すべき事態となっている。",
-		   NULL, "addirittura a livello globale, causando molte ripercussioni sui residenti locali. La situazione si è fatta molto seria.", Line_ContinueAfterTyping);
+		   NULL, "addirittura a livello globale, causando molte ripercussioni sui residenti locali. La situazione si è fatta seria.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -126,7 +126,7 @@ void main()
 //　地域住民の生活と財産を保護するため、以下の遵守を通達する。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　地域住民の生活と財産を保護するため、以下の遵守を通達する。",
-		   NULL, "La seguente notifica è stata distribuita al fine di proteggere le vite e la prosperità degli abitanti.", Line_ContinueAfterTyping);
+		   NULL, "La seguente notifica è stata distribuita al fine di proteggere le vite e il benessere degli abitanti.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -137,7 +137,7 @@ void main()
 //（１） 秘匿捜査指定
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（１）秘匿捜査指定",
-		   NULL, "1. Etichettare le seguenti investigazioni criminali come informazioni riservate.", Line_ContinueAfterTyping);
+		   NULL, "1. Etichettare le seguenti investigazioni come informazioni riservate.", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );

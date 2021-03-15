@@ -36,7 +36,7 @@ void main()
 	OutputLine(NULL, "・宿帳に富竹ジロウと記名",
 		   NULL, "・Registrato con il nome di Jirou Tomitake", Line_WaitForInput);
 	OutputLine(NULL, "　＞　ペンネーム",
-		   NULL, " > pseudonimo?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " > Pseudonimo?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -102,7 +102,7 @@ void main()
 	OutputLine(NULL, "・野鳥専門のフリーカメラマン",
 		   NULL, "・Fotografo freelance specializzato in uccelli selvatici", Line_WaitForInput);
 	OutputLine(NULL, "　＞　雑誌社調べろ！",
-		   NULL, " > controllare le riviste specializzate!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " > Controllare le riviste specializzate!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -120,7 +120,7 @@ void main()
 	OutputLine(NULL, "・遺品に財布",
 		   NULL, "・Il portafogli non è stato rubato", Line_WaitForInput);
 	OutputLine(NULL, "　＞　たんなる暴行？",
-		   NULL, " > un atto di mera violenza?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " > Un atto di mera violenza?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -141,7 +141,7 @@ void main()
 //・都内各区の住民基本台帳に富竹ジロウの同姓同名な＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "・都内各区の住民基本台帳に富竹ジロウの同姓同名なし",
-		   NULL, "Non è stato trovato alcun individio di nome 'Jirou Tomitake' negli archivi residenziali dei quartieri di Tokyo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Non è stato trovato alcun individio di nome \"Jirou Tomitake\" negli archivi residenziali dei quartieri di Tokyo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -151,7 +151,7 @@ void main()
 	OutputLine(NULL, "・歯型から都内歯科へ照合",
 		   NULL, "・Comparare la dentatura con i calchi dentali", Line_WaitForInput);
 	OutputLine(NULL, "　＞　警視庁へ",
-		   NULL, " > spedire alla polizia metropolitana", GetGlobalFlag(GLinemodeSp));
+		   NULL, " > Spedire alla polizia metropolitana", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -161,7 +161,7 @@ void main()
 	OutputLine(NULL, "・顔写真の送付",
 		   NULL, "・Foto allegata", Line_WaitForInput);
 	OutputLine(NULL, "　＞　警視庁へ",
-		   NULL, " > spedire alla polizia metropolitana", GetGlobalFlag(GLinemodeSp));
+		   NULL, " > Spedire alla polizia metropolitana", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -169,7 +169,7 @@ void main()
 //・各雑誌社に富竹ジロウ問い合わ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "・各雑誌社に富竹ジロウ問い合わせ",
-		   NULL, "・Contattare le riviste associate al nome 'Jirou Tomitake'", Line_Normal);
+		   NULL, "・Contattare le riviste associate al nome \"Jirou Tomitake\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 4, "wa_021", 56, 64 );
@@ -223,9 +223,9 @@ void main()
 	OutputLine(NULL, "・誘拐された？",
 		   NULL, "・Rapita?", Line_WaitForInput);
 	OutputLine(NULL, "　それとも容疑者？",
-		   NULL, " O forse una sospetta?", Line_WaitForInput);
+		   NULL, " O forse una sospettata?", Line_WaitForInput);
 	OutputLine(NULL, "　＞　重要参考人！",
-		   NULL, " > persona di grande interesse!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " > Persona di grande interesse!", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -235,7 +235,7 @@ void main()
 	OutputLine(NULL, "・仏を殺す動機がない",
 		   NULL, "・Non aveva nessun motivo per uccidere la vittima", Line_WaitForInput);
 	OutputLine(NULL, "　＞　痴情のもつれ？",
-		   NULL, " > litigio per gelosia?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " > Litigio per gelosia?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -245,7 +245,7 @@ void main()
 	OutputLine(NULL, "・人間関係を徹底的に調べる！",
 		   NULL, "・Necessaria investigazione approfondita della loro relazione!", Line_WaitForInput);
 	OutputLine(NULL, "　＞　勤務先他",
-		   NULL, " > luogo di lavoro, eccetera.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " > Luogo di lavoro, eccetera.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

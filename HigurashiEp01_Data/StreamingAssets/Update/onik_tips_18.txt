@@ -49,7 +49,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300033", 256, TRUE);
 	OutputLine(NULL, "「うっひゃっひゃっひゃっひゃ！！」",
-		   NULL, "\"Uhyahyahyahya!!\"", Line_Normal);
+		   NULL, "\"Uhyahyahyahyah!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawBustshot(5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 400, TRUE );
@@ -140,7 +140,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300038", 256, TRUE);
 	OutputLine(NULL, "「………あのねぇ、",
-		   NULL, "\"Sai...", Line_Continue);
+		   NULL, "\"Ecco...", Line_Continue);
 	Wait (1400);
 	OutputLine(NULL, "レナはよく知らないだろうけど、",
 		   NULL, " forse non lo sai, Rena...", Line_WaitForInput);
@@ -213,7 +213,7 @@ void main()
 		   NULL, "\"Trasferito~?", Line_Continue);
 	Wait (1600);
 	OutputLine(NULL, "　あはははははは、レナはいいヤツだよなぁ。」",
-		   NULL, " Ahahahahahaha! Come sei innocente, Rena.\"", Line_Normal);
+		   NULL, " Ahahahahahah! Come sei innocente, Rena.\"", Line_Normal);
 	ClearMessage();
 
 //「で、今度は圭一くんの前に現れたんだ＠......じゃあ圭一くんも鬼隠しになっちゃう？＠

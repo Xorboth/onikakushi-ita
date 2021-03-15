@@ -138,13 +138,13 @@ void main()
 		   NULL, "\"Eh?", Line_Continue);
 	Wait( 400 );
 	OutputLine(NULL, "　え？！",
-		   NULL, " Eh!?", Line_WaitForInput);
+		   NULL, " Eh?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200006", 256, TRUE);
 	OutputLine(NULL, "　なんでだろ？",
 		   NULL, " Perché?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200007", 256, TRUE);
 	OutputLine(NULL, "　なんでだろ？！」",
-		   NULL, " Perché!?\"", Line_Normal);
+		   NULL, " Perché?!\"", Line_Normal);
 	ClearMessage();
 
 	//VoiceMatching
@@ -156,7 +156,7 @@ void main()
 //　しかし...、たかだか誕生日程度でこうもうろたえてくれると、楽しくて仕方がないぞ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし…、たかだか誕生日程度でこうもうろたえてくれると、楽しくて仕方がないぞ。",
-		   NULL, "È solo che... vederla impanicare per una cosa così banale come il compleanno è troppo divertente, e non riesco a fermarmi.", Line_Normal);
+		   NULL, "È solo che... vederla in difficoltà per una cosa così banale come il compleanno è troppo divertente, e non riesco a fermarmi.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModSetLayerFilter(3, 256, "none");
@@ -193,7 +193,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200008", 256, TRUE);
 	OutputLine(NULL, "「へぇー！",
-		   NULL, "\"Eeeh!?", Line_Continue);
+		   NULL, "\"Eeeh?!", Line_Continue);
 	Wait( 350 );
 	OutputLine(NULL, "　そうなんだ！",
 		   NULL, " Capisco!", Line_WaitForInput);
@@ -247,7 +247,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300004", 256, TRUE);
 	OutputLine(NULL, "「下級生の方が萌えるってんなら、今日から下級生ってことでもいいけどー？」",
-		   NULL, "\"Se ti piacciono di più le kouhai, allora da oggi posso far finta di essere una tua kouhai, se vuoi!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Se ti piacciono di più le kouhai, allora da oggi posso far finta di essere una tua kouhai, se vuoi!\" [I kouhai sono compagni di scuola di classi inferiori.]", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -276,7 +276,7 @@ void main()
 		   NULL, "\"Satoko e Rika-chan sono in classi più basse.", Line_Continue);
 	Wait( 2000 );
 	OutputLine(NULL, "……どころか学校が違うくらいの下級生だよな？」",
-		   NULL, " ... e sono talmente piccole che in verità dovrebbero frequentare anche una scuola di livello inferiore, giusto?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... e sono talmente piccole che in verità dovrebbero frequentare anche una scuola di grado inferiore, giusto?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -288,7 +288,7 @@ void main()
 		   NULL, "\"Ke... Keiichi-kun, i tuoi gusti in fatto di età iniziano a farsi preoccupanti...", Line_Continue);
 	Wait( 4000 );
 	OutputLine(NULL, "思うな……。」",
-		   NULL, " credo...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " preoccupanti...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -314,7 +314,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200012", 256, TRUE);
 	OutputLine(NULL, "「はぅ〜〜〜！！　やーめーてーー……！」",
-		   NULL, "\"Hao~~~!! Fer~ma~ti~~...!\"", Line_Normal);
+		   NULL, "\"Hau~~~!! Fer~ma~ti~~...!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("black", "left", 0, 0, 1300 );
@@ -347,7 +347,7 @@ void main()
 		   NULL, " C'è poco da fare.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300006", 256, TRUE);
 	OutputLine(NULL, "　営林署の建物を間借りしてんだからさー。」",
-		   NULL, " Questo edificio è stato affittato dal comitato forestale, dopotutto~\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Questo edificio è stato affittato dalla guardia forestale, dopotutto~.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -387,10 +387,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300007", 256, TRUE);
 	OutputLine(NULL, "「戦前からずーっと立ってたらしいからねぇ…。",
-		   NULL, "\"Pare che prima ce ne fosse una sin da molto prima dall'inizio della guerra...", Line_Continue);
+		   NULL, "\"Pare che prima ce ne fosse una antecedente all'inizio della guerra...", Line_Continue);
 	Wait( 2300 );
 	OutputLine(NULL, "老朽化でね。",
-		   NULL, " è stata demolita.", Line_WaitForInput);
+		   NULL, " ma fu demolita.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300008", 256, TRUE);
 	OutputLine(NULL, "廃校ってわけよ。」",
 		   NULL, " E poi chiusa.\"", GetGlobalFlag(GLinemodeSp));
@@ -441,7 +441,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200014", 256, TRUE);
 	OutputLine(NULL, "「え、えーーーーーッ？！？！",
-		   NULL, "\"C-cosaaaa!?!?", Line_Continue);
+		   NULL, "\"C-cosaaaa?!?!", Line_Continue);
 	Wait( 2450 );
 	OutputLine(NULL, "　と、遠いよぅ…！」",
 		   NULL, " M-ma è lontanissima...!\"", GetGlobalFlag(GLinemodeSp));
@@ -452,7 +452,7 @@ void main()
 //　地理的なものはさっぱりだが、レナの驚きようからかなり遠いことがわかる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　地理的なものはさっぱりだが、レナの驚きようからかなり遠いことがわかる。",
-		   NULL, "Non ho ben capito la posizione esatta ma la reazione di Rena mi fa capire che dev'essere molto lontana.", Line_Normal);
+		   NULL, "Non ho ben capito la posizione esatta, ma la reazione di Rena mi fa capire che dev'essere molto lontana.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(1, 3, "sprite/me1a_wink_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
@@ -465,7 +465,7 @@ void main()
 		   NULL, "\"E questo è il motivo.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300012", 256, TRUE);
 	OutputLine(NULL, "　興宮の学校に通いたくない連中は、こうして営林署の建物を間借りした仮校舎に通ってるってわけさ。」",
-		   NULL, " Chi non voleva fare il pendolare fino a Okinomiya, ha affittato questo edificio dal comitato forestale e ha creato questa scuola di paese.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Chi non voleva fare il pendolare fino a Okinomiya, ha affittato questo edificio dalla guardia forestale e ha creato una scuola di paese.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -545,7 +545,7 @@ void main()
 		   NULL, "\"E datevi da fare anche tutti voi.", Line_Continue);
 	Wait( 1600 );
 	OutputLine(NULL, "おじさんはささやかに応援しとりますわ。」",
-		   NULL, " Questo vecchio zio farà il tifo per voi.\"", Line_Normal);
+		   NULL, " Lo zio farà il tifo per voi.\"", Line_Normal);
 	ClearMessage();
 
 //「俺たちがじゃないぞ、魅音がだぞ＠　お前、受験生だろ？＠　こんな成績じゃお先真っ暗だぞ？！＠
@@ -555,7 +555,7 @@ void main()
 		   NULL, "\"Vale lo stesso per te, Mion!", Line_Continue);
 	Wait( 1900 );
 	OutputLine(NULL, "　お前、受験生だろ？！",
-		   NULL, " Devi prepararti per gli esami, no!?", Line_WaitForInput);
+		   NULL, " Devi prepararti per gli esami, no?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s20/01/440100015", 256, TRUE);
 	OutputLine(NULL, "　こんな成績じゃお先真っ暗だぞ？！」",
 		   NULL, " Con i voti che hai adesso, il tuo futuro è buio!\"", GetGlobalFlag(GLinemodeSp));
@@ -572,7 +572,7 @@ void main()
 		   NULL, "\"Sì, sì.", Line_Continue);
 	Wait( 1100 );
 	OutputLine(NULL, "路頭に迷ったら永久就職して圭ちゃんに食わせてもらうから☆」",
-		   NULL, " Se rimarrò bloccata con gli studi, allora scroccherò da Kei-chan mentre lavorerà per sempre.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Se rimarrò bloccata con gli studi, allora offrirò la mia mano a Kei-chan e farò lavorare solo lui.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -583,10 +583,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200019", 256, TRUE);
 	OutputLine(NULL, "「え、え、永久就職って何だろ？！",
-		   NULL, "\"C-c-che vuoi dire con 'lavorare per sempre'!?", Line_Continue);
+		   NULL, "\"I-i-in che senso 'offrirai la tua mano'?!", Line_Continue);
 	Wait( 2200 );
 	OutputLine(NULL, "　何だろ？！」",
-		   NULL, " Che significa!?\"", Line_Normal);
+		   NULL, " In che senso?!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/gk3", "right", 0, 0, 300 );

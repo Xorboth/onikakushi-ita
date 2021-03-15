@@ -10,7 +10,7 @@ void dialog000()
 		   NULL, "\"Non saprei.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02320", 256, TRUE);
 	OutputLine(NULL, "昔、殺して埋めたバラバラ死体でも確認してるんじゃないすか？」",
-		   NULL, " Forse sta controllando quel cadavere smembrato qui qualche tempo fa.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Forse sta cercando un cadavere fatto a pezzi qui qualche tempo fa.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -23,7 +23,7 @@ void dialog001()
 		   NULL, "\"Oh, sì! Ascolta!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200155", 256, TRUE);
 	OutputLine(NULL, "　あ、…あのね！",
-		   NULL, " Ah... uhm, vedi!", Line_WaitForInput);
+		   NULL, " Ah... uhm, dunque!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200156", 256, TRUE);
 	OutputLine(NULL, "　あったの！",
 		   NULL, " C'era...!", Line_WaitForInput);
@@ -37,10 +37,10 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02350", 256, TRUE);
 	OutputLine(NULL, "「ケンタくん人形？！",
-		   NULL, "\"Una statua del Colonnello Sanders!?", Line_WaitForInput);
+		   NULL, "\"Una statua del Colonnello Sanders?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02360", 256, TRUE);
 	OutputLine(NULL, "　…ってあれか、ケンタくんフライドチキンの店の前に必ず置いてある…",
-		   NULL, " ... oh, quello... quello uguale alle statue che sono sempre fuori da quel locale che vende pollo fritto...", Line_Continue);
+		   NULL, " ... oh, quello... delle statue che sono sempre fuori da quel locale che vende pollo fritto...", Line_Continue);
 
 	Wait( 600 );
 	OutputLine(NULL, "あの等身大人形の？」",
@@ -68,7 +68,7 @@ void dialog002()
 		   NULL, "\"Keiichi-kun mi aiuterà.☆", Line_Continue);
 	Wait( 1500 );
 	OutputLine(NULL, "…ケンタくんをお持ち帰りできる……はぅ…。」",
-		   NULL, " ... potrò portare il Colonnello Sanders a casa... hao...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... potrò portare il Colonnello Sanders a casa... hau...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

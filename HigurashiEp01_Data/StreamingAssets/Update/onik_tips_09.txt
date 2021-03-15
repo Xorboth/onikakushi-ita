@@ -20,7 +20,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５５年６月ＸＸ日夕刊より",
-		   NULL, "Edizione del luglio 1980.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Edizione del giugno 1980.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -30,7 +30,7 @@ void main()
 	OutputLine(NULL, "　ＸＸ日午後２時頃、鹿骨市雛見沢村Ｘ丁目、会社員ＸＸＸさんと妻ＸＸＸＸさんが、",
 		   NULL, "Alle 14 del giorno XX, l'impiegato XXXX e sua moglie XXXX del villaggio di Hinamizawa nella prefettura di Shishibone", Line_WaitForInput);
 	OutputLine(NULL, "　県立白川自然公園内の展望台から２７ｍ下の渓流へ転落、行方不明になった。",
-		   NULL, " sono scomparsi dopo essere caduti per 27 metri dall'osservatorio della prefettura di Shirakawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " sono scomparsi dopo essere caduti per 27 metri dalla terrazza panoramica della prefettura di Shirakawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -67,7 +67,7 @@ void main()
 //　柵は老朽化しており、警察は公園内の設備管理が適正だったか関係者から事情を聞いている￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　柵は老朽化しており、警察は公園内の設備管理が適正だったか関係者から事情を聞いている。",
-		   NULL, "I responsabili della struttura sono stati interrogati dalla polizia in merito al deterioramento dell'osservatorio e alla regolare manutenzione del parco.", Line_Normal);
+		   NULL, "I responsabili della struttura sono stati interrogati dalla polizia in merito al deterioramento della terrazza e alla regolare manutenzione del parco.", Line_Normal);
 	ClearMessage();
 
 	SetValidityOfInput( FALSE );

@@ -70,13 +70,13 @@ void main()
 //　ですが被害者がシャベルを振り回して抵抗を始めると、加害者たちも一斉に得物を手にし、一気に殺し合いにエスカレートしたのです。＠と前述の捜査関係者Ａ氏は語る￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "と前述の捜査関係者Ａ氏は語る。",
-		   NULL, "Così riferisce l'Investigatore A di cui sopra.", Line_Normal);
+		   NULL, "Così riferisce l'Investigatore A, di cui sopra.", Line_Normal);
 	ClearMessage();
 
 //　血の惨劇が終われば、そこには誰の眼にも生きているとは思えない無残な屍...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　血の惨劇が終われば、そこには誰の眼にも生きているとは思えない無残な屍…。",
-		   NULL, "Al termine di questa tragedia, sono rimasti con un corpo che non dava l'impressione di essere ancora in vita...", Line_Normal);
+		   NULL, "Al termine di questa tragedia, si sono ritrovati tra le mani un corpo privo di vita...", Line_Normal);
 	ClearMessage();
 
 //　日頃から粗暴な振る舞いで容疑者たちをいじめていたＸＸさん＠
@@ -90,7 +90,7 @@ void main()
 //　始めはちょっとした仕返しのつもりだった...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　始めはちょっとした仕返しのつもりだった…。",
-		   NULL, "All'inizio voleva essere solo una vendetta...", Line_Normal);
+		   NULL, "All'inizio, voleva essere solo una vendetta...", Line_Normal);
 	ClearMessage();
 
 //「加害者たちは皆、自らの罪深さに恐れおののきました＠警察へ出頭しようと言い出す者もいたのです。」
@@ -212,7 +212,7 @@ void main()
 //　犯人たちは芋づる式に逮捕されたが、リーダー格のＸＸの行方だけは掴めていない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犯人たちは芋づる式に逮捕されたが、リーダー格のＸＸの行方だけは掴めていない。",
-		   NULL, "I criminali sono stati arrestati uno dopo l'altro ma del leader de facto, XX, ancora non si hanno tracce.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "I criminali sono stati arrestati uno dopo l'altro, ma del leader de facto, XX, ancora non si hanno tracce.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -244,7 +244,7 @@ void main()
 	OutputLine(NULL, "「ＸＸが死体（右腕）を沼に捨てに行くと言っていたらしいのです。",
 		   NULL, "\"Pare che XX avesse detto che avrebbe buttato il corpo (braccio destro) nella palude.", Line_WaitForInput);
 	OutputLine(NULL, "実際、沼の近くにＸＸの乗用車が乗り捨ててあったのですが、その後の足取りはまったくわかりません。」",
-		   NULL, " L'auto di XX è stata trovata abbandonata vicino alla palude ma del sospetto non c'era alcuna traccia.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " L'auto di XX è stata trovata abbandonata vicino alla palude, ma del sospettato non c'era alcuna traccia.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -278,7 +278,7 @@ void main()
 	OutputLine(NULL, "　この沼、地元では底なし沼と恐れられ、",
 		   NULL, "Gli abitanti del posto credono che la palude sia senza fondo.", Line_WaitForInput);
 	OutputLine(NULL, "その名を鬼ヶ淵と言い、沼の底の底は地獄の鬼の国につながっているのだという。",
-		   NULL, " Si chiama Onigafuchi, l'Abisso dei Demoni, e si dice anche che il fondo della palude sia collegato con le porte del regno degli inferi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Si chiama Onigafuchi, \"Abisso dei Demoni\", e si dice anche che il fondo della palude sia collegato con le porte del regno degli inferi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -346,7 +346,7 @@ void main()
 //　２７，８００￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　２７，８００円",
-		   NULL, "27,800 Yen", Line_Normal);
+		   NULL, "27,800 yen", Line_Normal);
 	ClearMessage();
 
 	SetValidityOfInput( FALSE );

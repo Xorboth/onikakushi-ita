@@ -9,10 +9,10 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300130", 256, TRUE);
 	OutputLine(NULL, "「ランディーくん人形ー？！",
-		   NULL, "\"Una statua del Colonnello Randy!?", Line_WaitForInput);
+		   NULL, "\"Una statua del Colonnello Randy?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300131", 256, TRUE);
 	OutputLine(NULL, "　あ〜そりゃあレナのツボだわなぁ！」",
-		   NULL, " Ah~ beh, è proprio degno di Rena!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sigh~ Beh, è proprio degno di Rena!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -24,7 +24,7 @@ void dialog000()
 		   NULL, "\"... posso capire il volersi portare a casa Satoko e Rika-chan.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02900", 256, TRUE);
 	OutputLine(NULL, "だが、ランディーくん人形だけは理解できないぞ！　あんな眼鏡親父のどこがいいんだ！」",
-		   NULL, " Ma non riesco a capacitarmi del Colonnello Randy! Cosa ci trova in quel vecchio quattrocchi bislacco!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ma non riesco a capacitarmi del Colonnello Randy! Cosa ci trova in quel vecchio quattrocchi?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -86,7 +86,7 @@ void dialog006()
 //　横たわるランディーくん人形を、複雑に絡み合った木材や建材がまるで牢屋のように閉じこめていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　横たわるランディーくん人形を、複雑に絡み合った木材や建材がまるで牢屋のように閉じこめていた。",
-		   NULL, "Il Colonnello Randy è incastrato lateralmente, circondato da tavole e altri materiali da costruzione, come se lo avessero intrappolato all'interno.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il Colonnello Randy è incastrato di lato, circondato da tavole e altri materiali da costruzione, come se lo avessero intrappolato all'interno.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -104,7 +104,7 @@ void dialog007()
 	Wait( 200 );
 
 	OutputLine(NULL, "……はぅ……。」",
-		   NULL, " hao...\"", Line_Normal);
+		   NULL, " hau...\"", Line_Normal);
 	ClearMessage();
 
 
@@ -131,7 +131,7 @@ void dialog009()
 	OutputLine(NULL, "　…鉈で。",
 		   NULL, "... con delle accette.", Line_WaitForInput);
 	OutputLine(NULL, "…つるはしで。",
-		   NULL, "... con delle piccozze", Line_WaitForInput);
+		   NULL, "... con dei picconi", Line_WaitForInput);
 	OutputLine(NULL, "…鉈、で。",
 		   NULL, "... con... un'ascia.", Line_Normal);
 	ClearMessage();
@@ -177,10 +177,10 @@ void dialog009()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200220", 256, TRUE);
 	OutputLine(NULL, "「きゃッ！、ごご、ごめんなさい…！！！",
-		   NULL, "\"Kyaah! S-S-Scusa...!!!", Line_WaitForInput);
+		   NULL, "\"Kyaah! S-s-scusa...!!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200221", 256, TRUE);
 	OutputLine(NULL, "　驚いたかな？！驚いたかな？！」",
-		   NULL, "Ti ho spaventato!? Ti ho spaventato!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ti ho spaventato?! Ti ho spaventato?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //　レナもまた、俺の声に驚き、その手の斧をどさりと草むらに落とした￥
@@ -197,10 +197,10 @@ void dialog009()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200222", 256, TRUE);
 	OutputLine(NULL, "「圭一くんね、さっきほら、斧とかがあると便利だって言ったじゃない？！",
-		   NULL, "\"Keiichi-kun, ecco, prima, sì, hai detto che ti avrebbe fatto comodo un'ascia, giusto!?", Line_WaitForInput);
+		   NULL, "\"Keiichi-kun, ecco, prima hai detto che ti avrebbe fatto comodo un'ascia, giusto?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200223", 256, TRUE);
 	OutputLine(NULL, "　そ、それでねレナ、物置からちゃんと鉈、持ってきたんだよ…！！」",
-		   NULL, " Q-Quindi io ti ho... portato un'ascia... dal capannone...!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Q-quindi io ti ho... portato un'ascia... dal capannone...!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -222,7 +222,7 @@ void dialog011()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05060", 256, TRUE);
 	OutputLine(NULL, "「なにしょんぼりしてるんだよ。明日にはランディーくんが掘り出せるんだぜ？！」",
-		   NULL, "\"Come mai quel muso lungo? Domani tireremo fuori il Colonnello Randy o sbaglio!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Come mai quel muso lungo? Domani tireremo fuori il Colonnello Randy o sbaglio?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -235,7 +235,7 @@ void dialog011()
 		   NULL, "\"Hai ragione. ... ahahah!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200227", 256, TRUE);
 	OutputLine(NULL, "　早くランディーくんをお持ち帰りしたい〜！」",
-		   NULL, " Voglio davvero portarmi il Colonnello Randy a casa il più presto possibile~!\"", Line_Normal);
+		   NULL, " Voglio davvero portarmi il Colonnello Randy a casa il prima possibile~!\"", Line_Normal);
 	ClearMessage();
 }
 
@@ -269,9 +269,9 @@ void dialog014()
 {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（……嫌な事件だったね。",
-		   NULL, "\"... fu un incidente alquanto disturbante.", Line_WaitForInput);
+		   NULL, "\"... fu un incidente inquietante.", Line_WaitForInput);
 	OutputLine(NULL, "…まだ見つかってないんだろ？）",
-		   NULL, "... a quanto pare non sono riusciti a ritrovarlo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... e ancora non l'hanno trovato.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

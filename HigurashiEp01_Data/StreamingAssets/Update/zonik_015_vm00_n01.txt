@@ -15,7 +15,7 @@ void dialog001()
 //　...だがあの斧はなんだよッ？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だがあの斧はなんだよッ？！",
-		   NULL, " Ma un'ascia!?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ma un'ascia?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -31,7 +31,7 @@ void dialog001()
 //　そのまんまの...斧だッ？！？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そのまんまの…斧だッ？！？！",
-		   NULL, "Un'ascia... così in bella vista!?", Line_Normal);
+		   NULL, "Un'ascia... così in bella vista?!", Line_Normal);
 	ClearMessage();
 }
 
@@ -41,7 +41,7 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100687", 256, TRUE);
 	OutputLine(NULL, "「じゃあその斧は何だよッ？！」",
-		   NULL, "\"E quell'ascia allora!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"E quell'ascia allora?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

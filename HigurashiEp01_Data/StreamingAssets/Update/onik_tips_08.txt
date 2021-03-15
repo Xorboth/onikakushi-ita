@@ -43,7 +43,7 @@ void main()
 //　つきましては、皆さんのご協力をよろしくお願いいたします￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つきましては、皆さんのご協力をよろしくお願いいたします。",
-		   NULL, "Inoltre, vorrei la partecipazione di tutti quanti per alcune cosette...", Line_Normal);
+		   NULL, "Inoltre, vorrei la partecipazione di tutti quanti per alcune cose...", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 4, "wa_021", 56, 64 );

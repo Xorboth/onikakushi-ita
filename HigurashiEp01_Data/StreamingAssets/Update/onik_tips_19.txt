@@ -20,7 +20,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>リポーター</color>", NULL, "<color=#f5e6d3>Giornalista</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/repoa44001", 256, TRUE);
 	OutputLine(NULL, "「よく映画などに登場しますが、簡単にいうとどのようなものでしょうか。」",
-		   NULL, "\"Nei film succede spesso ma di cosa si tratta esattamente?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Nei film succede spesso, ma di cosa si tratta esattamente?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -118,7 +118,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>リポーター</color>", NULL, "<color=#f5e6d3>Giornalista</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/repoa44006", 256, TRUE);
 	OutputLine(NULL, "「でもでも〜、二重人格なんて何だかカッコイイですよね〜！",
-		   NULL, "\"Però, sai, non è in un certo senso intrigante avere due personalità~?", Line_Continue);
+		   NULL, "\"Però, sa, non è in un certo senso intrigante avere due personalità~?", Line_Continue);
 	Wait (3000);
 	OutputLine(NULL, "　どういう人が二重人格になれるんですかぁ？」",
 		   NULL, " Che tipo di persone sviluppano personalità multiple?\"", Line_Normal);
@@ -144,7 +144,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>リポーター</color>", NULL, "<color=#f5e6d3>Giornalista</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/repoa44007", 256, TRUE);
 	OutputLine(NULL, "「そう言えば、このＡ君も幼児虐待を受けてるんですよね〜。カワイソ〜…。」",
-		   NULL, "\"A questo proposito, Persona A è stato abusato da bambino, vero~? Poveretto~...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"A questo proposito, Persona A fu vittima di abusi in tenera età, vero~? Che pena~...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

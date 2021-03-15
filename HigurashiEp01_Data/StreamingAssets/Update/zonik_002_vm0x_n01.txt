@@ -24,7 +24,7 @@ void dialog001()
 		   NULL, "\"Oh sì~ Ascolta\"", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200155", 256, TRUE);
 	OutputLine(NULL, "　あ、…あのね！",
-		   NULL, "Ah... uhn, vedi!", Line_WaitForInput);
+		   NULL, "Ah... uhm, dunque!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200156", 256, TRUE);
 	OutputLine(NULL, "　あったの！",
 		   NULL, " C'era...!", Line_WaitForInput);
@@ -39,7 +39,7 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02350", 256, TRUE);
 	OutputLine(NULL, "「ランディーくん人形？！",
-		   NULL, "\"Una statua del Colonnello Randy!?", Line_WaitForInput);
+		   NULL, "\"Una statua del Colonnello Randy?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei02360", 256, TRUE);
 	OutputLine(NULL, "　…ってあれか、ランディーくんフライドチキンの店の前に必ず置いてある…",
 		   NULL, "... oh, quello... quello uguale alle statue che sono sempre fuori da quel locale che vende pollo fritto...", Line_Continue);
@@ -71,7 +71,7 @@ void dialog002()
 		   NULL, "\"Keiichi-kun mi aiuterà.☆", Line_Continue);
 	Wait( 1500 );
 	OutputLine(NULL, "…ランディーくんをお持ち帰りできる……はぅ…。」",
-		   NULL, " ... potrò portare il Colonnello Randy a casa... hao...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... potrò portare il Colonnello Randy a casa... hau...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -81,7 +81,7 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s19/08/990800016", 256, TRUE);
 	OutputLine(NULL, "「……嫌な事件だったね。……………まだ見つかってないんだろ？」",
-		   NULL, "\"... fu un incidente inquietante... e ancora non l'hanno trovato, giusto?\"", Line_Continue);
+		   NULL, "\"... fu un incidente inquietante... e ancora non l'hanno trovato.\"", Line_Continue);
 }
 
 void dialog004()

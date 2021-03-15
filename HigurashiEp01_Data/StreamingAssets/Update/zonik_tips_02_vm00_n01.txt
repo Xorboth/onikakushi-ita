@@ -11,7 +11,7 @@ void dialog000()
 		   NULL, "\"Dal mio punto di vista, la gonna che indossate voi sembra molto più fresca.", Line_Continue);
 	Wait ( 1500 );
 	OutputLine(NULL, "この時期のズボンの股座がどれだけ蒸すか、女のお前にゃわかるまい！」",
-		   NULL, " Ma una ragazza non può capire. Indossare i pantaloni in questa stagione mi fa sudare fin nelle mutande!\"", Line_Normal);
+		   NULL, " Una ragazza non può capire. Indossare i pantaloni in questa stagione mi fa sudare fin nelle mutande!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModSetLayerFilter(1, 256, "none");
@@ -21,6 +21,6 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200020", 256, TRUE);
 	OutputLine(NULL, "「……む、…蒸すんだ………、はぅ……。」",
-		   NULL, "\"... n... nelle mutande... hao...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... n... nelle mutande... hau...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }

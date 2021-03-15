@@ -33,7 +33,7 @@ void main()
 //どうしてこんな日当たりの悪い廊下の奥に、喫煙家が押し込まれなければならないのか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうしてこんな日当たりの悪い廊下の奥に、喫煙家が押し込まれなければならないのか？",
-		   NULL, "Perché i fumatori devono rintanarsi in questo corridoio dove non giunge nemmeno la luce del sole?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Perché i fumatori devono rintanarsi in questo corridoio dove non arriva nemmeno la luce del sole?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -149,13 +149,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 19, "ps3/s01/19/123100007", 256, TRUE);
 	OutputLine(NULL, "「え？！　どうしてっすか？！」",
-		   NULL, "\"Cosa!? E perché!?\"", Line_Normal);
+		   NULL, "\"Cosa?! E perché?!\"", Line_Normal);
 	ClearMessage();
 
 //その時、廊下の向こうから声が聞こえてきた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その時、廊下の向こうから声が聞こえてきた。",
-		   NULL, "In quel momento, sento una voce provenire dall corridoio.", Line_Normal);
+		   NULL, "In quel momento, sento una voce provenire dal corridoio.", Line_Normal);
 	ClearMessage();
 
 //「大石さん、いますかー＠　一般の方から外線でーす。＠
@@ -176,7 +176,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700520", 256, TRUE);
 	OutputLine(NULL, "「ありゃ、こりゃどうも。それじゃ、ちょいと失礼！」",
-		   NULL, "\"Wow, che sorpresa. A presto, gente!\"", Line_Normal);
+		   NULL, "\"Accidenti, che sorpresa. A presto, gente!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("black", "left", 0, 0, 1300 );
@@ -185,7 +185,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 19, "ps3/s01/19/123100008", 256, TRUE);
 	OutputLine(NULL, "「ど、どうしてロンしちゃダメなんすかぁ？！",
-		   NULL, "\"P-perché non posso chiamare il ron!?", Line_WaitForInput);
+		   NULL, "\"P-perché non posso chiamare il ron?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 19, "ps3/s01/19/123100009", 256, TRUE);
 	OutputLine(NULL, "　あ、待ってくださいよ大石さぁん！」",
 		   NULL, " A-aspetta un secondo, Ooishi-san!\"", Line_Normal);
@@ -233,10 +233,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100808", 256, TRUE);
 	OutputLine(NULL, "「お、大石さんですか？！",
-		   NULL, "\"Ah, Ooishi-san!?", Line_WaitForInput);
+		   NULL, "\"Ah, Ooishi-san?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100809", 256, TRUE);
 	OutputLine(NULL, "　もしもし？！」",
-		   NULL, " Pronto!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Pronto?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -264,7 +264,7 @@ void main()
 //　…前原くんからこちらに電話をかけてくるのは始めて＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…前原くんからこちらに電話をかけてくるのは初めて。",
-		   NULL, "... è la prima volta che Maebara-kun mi telefona.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... è la prima volta che mi telefona lui per primo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -326,7 +326,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700528", 256, TRUE);
 	OutputLine(NULL, "「何があったんです？！」",
-		   NULL, "\"Che è successo!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Che è successo?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -335,7 +335,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100811", 256, TRUE);
 	OutputLine(NULL, "「あぁぁあぁあの…お、…ぉぉ……俺……、」",
-		   NULL, "\"UhhhUhhm... io... io... io...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"AaAaaAAah... io... io... io...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -389,7 +389,7 @@ void main()
 //　……まさか、電話をかけながら、すでに何者かに囲まれている？！!w3000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……まさか、電話をかけながら、すでに何者かに囲まれている？！",
-		   NULL, "... non sarà mica circondato mentre sta facendo questa telefonata, vero!?", Line_ContinueAfterTyping);
+		   NULL, "... non sarà mica circondato mentre sta facendo questa telefonata, vero?!", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 3000 );
@@ -407,7 +407,7 @@ void main()
 		   NULL, "\"Maebara-san, mi stai chiamando da un telefono pubblico, vero?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700533", 256, TRUE);
 	OutputLine(NULL, "　どこの公衆電話ですか？！」",
-		   NULL, " Dov'è quel telefono!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Dov'è quel telefono?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -457,7 +457,7 @@ void main()
 		   NULL, "\"... calmati, Maebara-san!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700535", 256, TRUE);
 	OutputLine(NULL, "　今はどういう状況なんです…？！」",
-		   NULL, " Dove ti trovi esattamente...!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Dove ti trovi esattamente...?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -472,7 +472,7 @@ void main()
 //　…前原くんは危機に襲われ、逃げて電話をかけてるんじゃない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…前原くんは危機に襲われ、逃げて電話をかけてるんじゃない。",
-		   NULL, "... Maebara-kun non è solo in pericolo, è scappato per poi telefonarmi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... Maebara-kun non è solo in pericolo, ma è scappato per poi telefonarmi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -579,7 +579,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700538", 256, TRUE);
 	OutputLine(NULL, "「雛見沢の駐在さんには電話しました？！」",
-		   NULL, "\"Hai chiamato l'agente di stanza a Hinamizawa!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Hai chiamato l'agente di stanza a Hinamizawa?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -676,7 +676,7 @@ void main()
 //　それともまさか…血？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それともまさか…血？！",
-		   NULL, "Oppure... sangue!?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Oppure... sangue?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -684,7 +684,7 @@ void main()
 //　すでに襲われ負傷している？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　すでに襲われ負傷している？！",
-		   NULL, "È già stato attaccato!? È ferito!?", Line_Normal);
+		   NULL, "È già stato attaccato?! È ferito?!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/denwa", "left", 0, 0, 300 );
@@ -699,10 +699,10 @@ void main()
 		   NULL, " Saranno lì tra pochi minuti, quindi cerca di resistere!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700546", 256, TRUE);
 	OutputLine(NULL, "　もしもし？！",
-		   NULL, " Pronto!?", Line_WaitForInput);
+		   NULL, " Pronto?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700547", 256, TRUE);
 	OutputLine(NULL, "　聞こえてますか？！",
-		   NULL, " Mi senti!?", Line_WaitForInput);
+		   NULL, " Mi senti?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700548", 256, TRUE);
 	OutputLine(NULL, "　前原さん？！」",
 		   NULL, " Maebara-san!?\"", GetGlobalFlag(GLinemodeSp));
@@ -734,10 +734,10 @@ void main()
 		   NULL, "\"Maebara-san!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700550", 256, TRUE);
 	OutputLine(NULL, "　犯人は誰です？！",
-		   NULL, " Chi è il colpevole!?", Line_WaitForInput);
+		   NULL, " Chi è il colpevole?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700551", 256, TRUE);
 	OutputLine(NULL, "　何人なんですッ？！」",
-		   NULL, " Quanti sono!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Quanti sono?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -767,7 +767,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "げぼッ！！」",
-		   NULL, " gwah!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " bluogh!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -782,7 +782,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700552", 256, TRUE);
 	OutputLine(NULL, "「大丈夫ですか！！　前原さん！！」",
-		   NULL, "\"Stai bene!? Maebara-san!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Stai bene?! Maebara-san!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -798,7 +798,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "オヤシロさまの祟りなんかないんだって、",
-		   NULL, " il colpevole fosse qualcuno", Line_Continue);
+		   NULL, " il colpevole fosse qualcuno,", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -830,7 +830,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "げほげほ…ッ！！」",
-		   NULL, " *coff... bleurgh...!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " coff... bleurgh...!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -979,7 +979,7 @@ void main()
 		   NULL, " Ma dimmi!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700558", 256, TRUE);
 	OutputLine(NULL, "　……あなたの後ろに……誰がいるんですッ？！」",
-		   NULL, " ... chi c'è... dietro di te!?\"", Line_Normal);
+		   NULL, " ... chi c'è... dietro di te?!\"", Line_Normal);
 	ClearMessage();
 
 //「振り向けるわけ…ないじゃないですか…＠振り向いたら……俺!w800……俺…、＠
@@ -1021,7 +1021,7 @@ void main()
 
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700562", 256, TRUE);
 	OutputLine(NULL, "誰がいるんですッ？！？！」",
-		   NULL, " Chi c'è alle tue spalle, Maebara-san!?!?\"", Line_Normal);
+		   NULL, " Chi c'è alle tue spalle, Maebara-san?!?!\"", Line_Normal);
 	ClearMessage();
 
 //　直後に激しい嘔吐が聞こえる＠それから何か嫌な音￥
@@ -1029,7 +1029,7 @@ void main()
 	OutputLine(NULL, "　直後に激しい嘔吐が聞こえる。",
 		   NULL, "In risposta, sento il rantolo di un forte reflusso di vomito.", Line_WaitForInput);
 	OutputLine(NULL, "それから何か嫌な音。",
-		   NULL, " Seguito da un suono da incubo.", Line_Normal);
+		   NULL, " Seguito da un rumore da incubo.", Line_Normal);
 	ClearMessage();
 
 //「…前原さん＠……あんたまさか＠…喉を引っ掻いてたりは…しないでしょうね…？￥
@@ -1064,7 +1064,7 @@ void main()
 //　ガタンガシャン！　とぶつかり合う音がした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ガタンガシャン！　とぶつかり合う音がした。",
-		   NULL, "Poi, un forte rumore, come se qualcuno fosse stato colpito.", Line_Normal);
+		   NULL, "Poi, un forte curto, come se qualcuno fosse stato colpito.", Line_Normal);
 	ClearMessage();
 
 //　…前原くんが受話器を落としたのだろう＠
@@ -1087,16 +1087,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700566", 256, TRUE);
 	OutputLine(NULL, "「もしもし！",
-		   NULL, "\"Pronto!?", Line_WaitForInput);
+		   NULL, "\"Pronto?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700567", 256, TRUE);
 	OutputLine(NULL, "　もしもし？！",
-		   NULL, " Pronto!?", Line_WaitForInput);
+		   NULL, " Pronto?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700568", 256, TRUE);
 	OutputLine(NULL, "　前原さん？！",
 		   NULL, " Maebara-san!?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700569", 256, TRUE);
 	OutputLine(NULL, "　もしもーしッ？！？！」",
-		   NULL, " Prontooo!?!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Prontooo?!?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1158,7 +1158,7 @@ void main()
 //　それはつぶやきというより……お経みたいな、単調な何かの繰り返しだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それはつぶやきというより……お経みたいな、単調な何かの繰り返しだった。",
-		   NULL, "Più che un sussurro, sembra un mantra che si ripete più e più volte.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Più che un sussurro, sembra un mantra che si ripete all'infinito.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1181,7 +1181,7 @@ void main()
 //　一体……何を………！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一体……何を………！！！",
-		   NULL, "Cosa... esattamente...!?", Line_Normal);
+		   NULL, "Cosa... esattamente...?!", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 1000, TRUE );
@@ -1191,7 +1191,7 @@ void main()
 //　ぶつん￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ぶつん！",
-		   NULL, "Beep!", Line_Normal);
+		   NULL, "Click!", Line_Normal);
 	ClearMessage();
 
 //　あまりに唐突に切れた＠……１０円が切れたのか？＠
@@ -1199,7 +1199,7 @@ void main()
 	OutputLine(NULL, "　あまりに唐突に切れた。",
 		   NULL, "D'un tratto, cade la linea.", Line_WaitForInput);
 	OutputLine(NULL, "……１０円が切れたのか？！",
-		   NULL, " Ha finito il tempo a disposizione...!?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ha finito il tempo a disposizione...?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1295,7 +1295,7 @@ void main()
 //　……その時、開け放たれた窓の向こうから…ひぐらしの声が聞こえてきた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……その時、開け放たれた窓の向こうから…ひぐらしの声が聞こえてきた。",
-		   NULL, "... fuori dalla finestra, sento il frinire delle higurashi.", Line_Normal);
+		   NULL, "... fuori dalla finestra sento il frinire delle higurashi.", Line_Normal);
 	ClearMessage();
 
 //　カナカナカナカナカナ……￥
@@ -1339,7 +1339,7 @@ void main()
 	OutputLine(NULL, "　ひぐらしだけが知っている。",
 		   NULL, "Solo le higurashi conoscono la verità.", Line_WaitForInput);
 	OutputLine(NULL, "……そんな気がした。",
-		   NULL, " ... ecco cosa penso.", Line_Normal);
+		   NULL, " ... nessun altro.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("white", 3000 );
@@ -1366,7 +1366,7 @@ void main()
 //昭和５８年６月。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和５８年６月。",
-		   NULL, "Giugno, 1983", Line_ContinueAfterTyping);
+		   NULL, "Giugno, 1983.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1390,7 +1390,7 @@ void main()
 //　容疑者は、前原圭一（１Ｘ歳）/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　容疑者は、前原圭一（１Ｘ歳）",
-		   NULL, "Il sospetto è: Keiichi Maebara (Età 1x)", Line_ContinueAfterTyping);
+		   NULL, "Il sospettato è: Keiichi Maebara (Età 1x)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -1429,7 +1429,7 @@ void main()
 //　犯行現場は自宅２階の容疑者の自室だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犯行現場は自宅２階の容疑者の自室だった。",
-		   NULL, "La scena del crimine è la stanza del sospetto, al primo piano di casa sua.", Line_ContinueAfterTyping);
+		   NULL, "La scena del crimine è la stanza del sospettato, al primo piano di casa sua.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1440,7 +1440,7 @@ void main()
 //　室内は凄まじい返り血に彩られ、被害者ともみ合った形跡が認められた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　室内は凄まじい返り血に彩られ、被害者ともみ合った形跡が認められた。",
-		   NULL, "L'interno è ricoperto di una gran quantità di sangue e ci sono segni di una colluttazione.", Line_ContinueAfterTyping);
+		   NULL, "L'interno è ricoperto di una gran quantità di sangue e ci sono segni di colluttazione.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1568,7 +1568,7 @@ void main()
 //　容疑者は何らかの理由でゴミを出し、それを掌で叩いたものと考えられる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　容疑者は何らかの理由でゴミを出し、それを掌で叩いたものと考えられる。",
-		   NULL, "Si crede che il sospetto abbia tirato fuori la spazzatura per qualche motivo, per poi colpirla con il pugno.", Line_ContinueAfterTyping);
+		   NULL, "Si crede che il sospetto abbia tirato fuori la spazzatura per qualche motivo, per poi colpirla con le mani.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1628,7 +1628,7 @@ void main()
 //　荒らされてはいなかったが、引越し以来、開放したままになっているガレージのシャッターが閉じられていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　荒らされてはいなかったが、引越し以来、開放したままになっているガレージのシャッターが閉じられていた。",
-		   NULL, "Nonostante funzionasse, la porta del garage è sempre rimasta aperta sin dal giorno del trasferimento della famiglia. La porta, stavolta, è stata trovata chiusa.", Line_ContinueAfterTyping);
+		   NULL, "Nonostante funzionasse, la porta del garage era sempre rimasta aperta sin dal giorno del trasferimento della famiglia. La porta, stavolta, è stata trovata chiusa.", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );
@@ -1640,7 +1640,7 @@ void main()
 //　シャッターからは容疑者の指紋を検出。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　シャッターからは容疑者の指紋を検出。",
-		   NULL, "Anche qui, sono state rinvenute le tracce del sospetto.", Line_ContinueAfterTyping);
+		   NULL, "Anche qui, sono state rinvenute le impronte del sospettato.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1664,7 +1664,7 @@ void main()
 //　容疑者は犯行現場から逃走したが、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　容疑者は犯行現場から逃走したが、",
-		   NULL, "Il sospetto è scappato dalla scena del crimine.", Line_ContinueAfterTyping);
+		   NULL, "Il sospettato è poi scappato dalla scena del crimine.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -1673,7 +1673,7 @@ void main()
 
 //警邏中の警察官（雛見沢駐在所）が電話ボックス内で倒れているのを発見する。/
 	OutputLine(NULL, "警邏中の警察官（雛見沢駐在所）が電話ボックス内で倒れているのを発見する。",
-		   NULL, " Tuttavia, un agente di pattuglia (Polizia Locale di Hinamizawa) ha trovato il sospetto dentro a una cabina telefonica.", Line_ContinueAfterTyping);
+		   NULL, " Tuttavia, un agente di pattuglia (Polizia Locale di Hinamizawa) ha trovato il sospettato dentro una cabina telefonica.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -1686,7 +1686,7 @@ void main()
 //　発見時、容疑者は意識不明の重体。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　発見時、容疑者は意識不明の重体。",
-		   NULL, "Al momento della scoperta, il sospetto era svenuto e in condizioni critiche.", Line_ContinueAfterTyping);
+		   NULL, "Al momento della scoperta, il sospettato era svenuto e in condizioni critiche.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1724,7 +1724,7 @@ void main()
 //　自らの爪で喉を引き裂き、その結果の出血で死に至ったと断定した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自らの爪で喉を引き裂き、その結果の出血で死に至ったと断定した。",
-		   NULL, "Si reputa che il sospetto si sia dilaniato la gola con le sue stesse unghie, causando dissanguamento e successiva morte.", Line_ContinueAfterTyping);
+		   NULL, "Si reputa che il sospettato si sia dilaniato la gola con le sue stesse unghie, causando dissanguamento e successiva morte.", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );
@@ -1760,7 +1760,7 @@ void main()
 //　異常な死に方に何らかの薬物の使用を疑うが、富竹氏事件と同様に一切検出されない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　異常な死に方に何らかの薬物の使用を疑うが、富竹氏事件と同様に一切検出されない。",
-		   NULL, "Vista la natura anormale della morte, si crede che siano state utilizzate delle droghe. Nel caso di Tomitake-san, però, non ne sono state rinvenute alcune.", Line_ContinueAfterTyping);
+		   NULL, "Vista la natura anomala della morte, si crede che siano state utilizzate delle droghe. Nel caso di Tomitake-san, però, non ne sono state rinvenute alcune.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -1784,7 +1784,7 @@ void main()
 //　だが、容疑者の犯行直前までの奇行が次々と露呈するに従い、その方針は変更されることとなる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、容疑者の犯行直前までの奇行が次々と露呈するに従い、その方針は変更されることとなる。",
-		   NULL, "Tuttavia, molteplici testimonianze di comportamenti bizzarri da parte del sospetto portano a pensare che sia stato tutto premeditato.", Line_ContinueAfterTyping);
+		   NULL, "Tuttavia, molteplici testimonianze di comportamenti bizzarri da parte del sospettato portano a pensare che sia stato tutto premeditato.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -1808,7 +1808,7 @@ void main()
 //　犯行の数日前からは金属バットを持ち歩くようになっていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犯行の数日前からは金属バットを持ち歩くようになっていた。",
-		   NULL, "Giorni prima dell'incidente, il sospetto aveva iniziato a portare con sé una mazza di metallo.", Line_ContinueAfterTyping);
+		   NULL, "Giorni prima dell'incidente, il sospettato aveva iniziato a portare con sé una mazza di metallo.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1819,7 +1819,7 @@ void main()
 //　攻撃的な言動、独り言は学校でもしばしば見られ、クラスメートが実際にその一部を聞いている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　攻撃的な言動、独り言は学校でもしばしば見られ、クラスメートが実際にその一部を聞いている。",
-		   NULL, "Il sospetto mostrava comportamenti aggressivi, oltre a parlare da solo a scuola. I compagni di classe hanno sentito alcune porzioni dei suoi monologhi.", Line_ContinueAfterTyping);
+		   NULL, "Il sospettato mostrava comportamenti aggressivi, oltre a parlare da solo a scuola. I compagni di classe hanno sentito alcune porzioni dei suoi monologhi.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -1832,7 +1832,7 @@ void main()
 //　犯行の前々日には、両親に自らの死をほのめかす発言もしていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犯行の前々日には、両親に自らの死をほのめかす発言もしていた。",
-		   NULL, "Due giorni prima dell'incidente, il sospetto ha dichiarato ai propri genitori la sua imminente morte.", Line_ContinueAfterTyping);
+		   NULL, "Due giorni prima dell'incidente, il sospettato ha dichiarato ai propri genitori la sua imminente morte.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1866,7 +1866,7 @@ void main()
 
 //　容疑者の自室から直筆のメモが発見された。
 	OutputLine(NULL, "　容疑者の自室から直筆のメモが発見された。",
-		   NULL, " è stata trovata una nota scritta dal sospetto stesso nella sua stanza.", Line_ContinueAfterTyping);
+		   NULL, " è stata trovata una nota scritta dal sospettato stesso nella sua stanza.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1934,7 +1934,7 @@ void main()
 //　容疑者が、何らかの事件に巻き込まれていた可能性があるとして再び捜査方針を転換した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　容疑者が、何らかの事件に巻き込まれていた可能性があるとして再び捜査方針を転換した。",
-		   NULL, "L'investigazione ha virato sulla possibilità che il sospetto fosse coinvolto anch'esso in un qualche incidente.", Line_ContinueAfterTyping);
+		   NULL, "L'investigazione ha virato sulla possibilità che il sospettato fosse coinvolto anch'esso in un qualche incidente.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1967,7 +1967,7 @@ void main()
 
 //　真相もわからず進展もなく、事件は文字通り迷宮入りの様相となった。/
 	OutputLine(NULL, "　真相もわからず進展もなく、事件は文字通り迷宮入りの様相となった。",
-		   NULL, " Data la scarsità di informazioni, il caso è stato dichiarato come 'Irrisolto'.", Line_ContinueAfterTyping);
+		   NULL, " Data la scarsità di informazioni, il caso è stato dichiarato come \"Irrisolto\".", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -1991,7 +1991,7 @@ void main()
 
 //　そのメモにひとつの不審が浮上した。/
 	OutputLine(NULL, "　そのメモにひとつの不審が浮上した。",
-		   NULL, " sono nati sospetto in merito alla natura della nota.", Line_ContinueAfterTyping);
+		   NULL, " sono nati dei sospetti in merito alla natura della nota.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -2004,7 +2004,7 @@ void main()
 //　２枚のメモは、Ｂ５のページを半分にしたものが１枚ずつではなく…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　２枚のメモは、Ｂ５のページを半分にしたものが１枚ずつではなく…。",
-		   NULL, "La nota non era stata scritta su una metà di un foglio strappato in due...", Line_ContinueAfterTyping);
+		   NULL, "La nota non era stata scritta su due metà di un foglio strappato in due...", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -2026,7 +2026,7 @@ void main()
 //　"真ん中の数行を削除するために"/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　“真ん中の数行を削除するために”",
-		   NULL, "Qualcuno le ha strappate per nascondere...", Line_ContinueAfterTyping);
+		   NULL, "Qualcuno l'ha strappato per nascondere...", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -2058,7 +2058,7 @@ void main()
 //　削除した人物は容疑者以外である可能性が高い。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　削除した人物は容疑者以外である可能性が高い。",
-		   NULL, "È molto probabile che chi ha eliminato le righe in questione non sia il sospetto.", Line_ContinueAfterTyping);
+		   NULL, "È molto probabile che chi ha eliminato le righe in questione non sia il sospettato.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -2123,7 +2123,7 @@ void main()
 //容疑者のメモ
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "容疑者のメモ",
-		   NULL, "La nota del sospetto riporta quanto segue:", Line_ContinueAfterTyping);
+		   NULL, "La nota del sospettato riporta quanto segue:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);

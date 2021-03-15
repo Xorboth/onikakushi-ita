@@ -22,7 +22,7 @@ void dialog001()
 //　はぁああぁッ？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　はぁああぁッ？！",
-		   NULL, "HaouUuh!?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eeehhh?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -39,7 +39,7 @@ void dialog001()
 //　誰がぁぁああぁあッ？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　誰がぁぁああぁあッ？！",
-		   NULL, "Che diavolo stanno dicendo!?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Che diavolo stanno dicendo?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -91,7 +91,7 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05860", 256, TRUE);
 	OutputLine(NULL, "「あぁ！　ジャンボ機なんか目じゃないぞ！",
-		   NULL, "\"Proprio così! Un aeroplano è una cosa da nulla al confronto!", Line_WaitForInput);
+		   NULL, "\"Proprio così! Un aeroplano è cosa da nulla al confronto!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05870", 256, TRUE);
 	OutputLine(NULL, "　レナんちに墜落したのはなんと……",
 		   NULL, " Sopra casa di Rena è caduta...", Line_Continue);
@@ -119,7 +119,7 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400106", 256, TRUE);
 	OutputLine(NULL, "「ス、スペースコロニーですってぇえぇッ？！」",
-		   NULL, "\"U-una colonia aliena!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"U-una colonia aliena?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -131,7 +131,7 @@ void dialog003()
 		   NULL, "\"Già, è un disastro pazzesco!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05900", 256, TRUE);
 	OutputLine(NULL, "　半径数百キロは壊滅だ！",
-		   NULL, " Ogni cosa nel raggio di 100 chilometri è stata completamente rasa al suolo!", Line_WaitForInput);
+		   NULL, " Ogni cosa nel raggio di cento chilometri è stata completamente rasa al suolo!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05910", 256, TRUE);
 	OutputLine(NULL, "　だがこれは悲劇の序章にしか過ぎない！！",
 		   NULL, " E questo è solo l'inizio di quella che sarà una storia tragica!!", GetGlobalFlag(GLinemodeSp));
@@ -217,7 +217,7 @@ void dialog005()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200256", 256, TRUE);
 	OutputLine(NULL, "「みんなが何を言ってるのかわかんないよ！",
-		   NULL, "\"Di cosa state parlando!?", Line_WaitForInput);
+		   NULL, "\"Di cosa state parlando?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200257", 256, TRUE);
 	OutputLine(NULL, "　レナはロボットの操縦なんか出来ないよー！」",
 		   NULL, " Io non so pilotare un robot!\"", Line_Normal);
@@ -251,7 +251,7 @@ void dialog008()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s19/08/990800023", 256, TRUE);
 	OutputLine(NULL, "「あ、あれは一体何だったんだい？！",
-		   NULL, "\"C-che stava andando a fare!?", Line_WaitForInput);
+		   NULL, "\"C-che stava andando a fare?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s19/08/990800024", 256, TRUE);
 	OutputLine(NULL, "　彼女が剥き身の斧を持って歩いてるんだよ？！",
 		   NULL, " Aveva un'ascia con sé!", Line_WaitForInput);
@@ -361,7 +361,7 @@ void dialog014()
 		   NULL, " ... ti ringrazio.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200279", 256, TRUE);
 	OutputLine(NULL, "……ケンタくん……お休みのキス……はぅ……。」",
-		   NULL, " ... un bacio della buonanotte... al Colonnello Sanders... hao...\"", Line_Normal);
+		   NULL, " ... un bacio della buonanotte... al Colonnello Sanders... hau...\"", Line_Normal);
 	ClearMessage();
 }
 
@@ -392,7 +392,7 @@ void dialog017()
 //　斧にかけた重さが、梁を割っただけでなく、その下の人形の肩を打ち砕く＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　斧にかけた重さが、梁を割っただけでなく、その下の人形の肩を打ち砕く。",
-		   NULL, "Il peso che ho messo sull'ascia è però troppo e finisco per colpire anche la spalla della statua.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il peso che ho messo sull'ascia è però troppo, e finisco per colpire anche la spalla della statua.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -411,7 +411,7 @@ void dialog018()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200298", 256, TRUE);
 	OutputLine(NULL, "「…わぁあ…ケンタくんだ…やっぱ、かぁいいよぅ！！」",
-		   NULL, "\"Waah... Colonnello Sanders... checcarino!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Waah... Colonnello Sanders... che carino!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -455,7 +455,7 @@ void dialog021()
 //"... 腕が一本、まだ見つかってないんだろ？"@
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "“…腕が一本、まだ見つかってないんだろ？”",
-		   NULL, "\"... pare che non siano riusciti a trovare una delle braccia.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... e ancora non hanno trovato un braccio\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

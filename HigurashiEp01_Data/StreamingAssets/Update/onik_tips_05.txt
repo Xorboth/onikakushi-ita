@@ -62,14 +62,14 @@ void main()
 	OutputLine(NULL, "農協支所一、",
 		   NULL, " 1 cooperativa agricola,", Line_WaitForInput);
 	OutputLine(NULL, "営林署貯木場一、",
-		   NULL, " 1 dipartimento del comitato forestale,", Line_WaitForInput);
+		   NULL, " 1 distaccamento della guardia forestale,", Line_WaitForInput);
 	OutputLine(NULL, "神社五、",
 		   NULL, " 5 santuari,", Line_WaitForInput);
 	OutputLine(NULL, "寺院二、",
 		   NULL, " 2 templi", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魚族増殖場一、",
-		   NULL, " e 1 acquario.", Line_WaitForInput);
+		   NULL, " e 1 laghetto da pesca.", Line_WaitForInput);
 	OutputLine(NULL, "等多数の公共的文化的生産的施設と信仰の対象を永久に湖底に没するものである。",
 		   NULL, " Tutte queste aree comuni, culturali, agricole e i luoghi di culto saranno definitivamente sommersi sul fondo del bacino del lago.", Line_Normal);
 	ClearMessage();
@@ -99,7 +99,7 @@ void main()
 //　平和的かつ民主的な話し合いを求めるも、政府とその傀儡である電源会社総裁ＸＸＸＸＸはこれを拒否＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　平和的かつ民主的な話し合いを求めるも、政府とその傀儡である電源会社総裁ＸＸＸＸＸはこれを拒否。",
-		   NULL, "I cittadini desideravano delle negoziazioni pacifiche ma il governo e la sua compagnia marionetta, la XXXX, si sono rifiutate categoricamente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "I cittadini desideravano delle negoziazioni pacifiche, ma il governo e la sua compagnia marionetta, la XXXX, si sono rifiutate categoricamente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -113,7 +113,7 @@ void main()
 //　だが村民はこれに怯むことなく益々団結、郷土死守の決意をさらに強固にしていくのである￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが村民はこれに怯むことなく益々団結、郷土死守の決意をさらに強固にしていくのである。",
-		   NULL, "Ma questi ultimi non si sono piegati. Anzi, si sono stretti ancora di più e hanno rafforzato la loro volontà di proteggere il villaggio anche a costo della vita.", Line_Normal);
+		   NULL, "Ma questi ultimi non si sono piegati. Anzi, si sono stretti ancora di più e hanno rafforzato la loro volontà di proteggere il villaggio, anche a costo della vita.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("background/mo_b1", 1000 );
@@ -136,7 +136,7 @@ void main()
 //　すでに鬼ヶ淵死守同盟はその役割を終え解散しているが、そこで育まれた団結の炎は消えていない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　すでに鬼ヶ淵死守同盟はその役割を終え解散しているが、そこで育まれた団結の炎は消えていない。",
-		   NULL, "L'Alleanza per la Difesa di Onigafuchi è stata sciolta dopo aver portato a termine il suo compito ma i sentimenti di unità sono ancora incisi negli animi dei membri.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "L'Alleanza per la Difesa di Onigafuchi è stata sciolta dopo aver portato a termine il suo compito, ma i sentimenti di unità sono ancora incisi negli animi dei membri.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

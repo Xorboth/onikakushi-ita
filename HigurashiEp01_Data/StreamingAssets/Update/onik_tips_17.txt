@@ -115,7 +115,7 @@ void main()
 //　いたのは園崎県議と園崎市議＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いたのは園崎県議と園崎市議。",
-		   NULL, "C'erano il membro dell'assemblea prefetturale Sonozaki e il consigliere cittadino Sonozaki.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "C'erano il deputato prefetturale Sonozaki e il consigliere cittadino Sonozaki.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -163,7 +163,7 @@ void main()
 //　その日の夜、おでんを食いに行かないかと課長に誘われた時、やっぱりなぁと思った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その日の夜、おでんを食いに行かないかと課長に誘われた時、やっぱりなぁと思った。",
-		   NULL, "Quella sera, quando il caposezione mi ha invitato a mangiare dell'oden, ho pensato che fosse proprio come pensavo.", Line_Normal);
+		   NULL, "Quella sera, quando il caposezione mi ha invitato a mangiare dell'oden, ho pensato che fosse proprio come immaginavo.", Line_Normal);
 	ClearMessage();
 
 ////setwindow 31,16,22,16,26,26,0,2,20,1,1,#ffffff,0,0,639,479
@@ -207,10 +207,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>高杉</color>", NULL, "<color=#f5e6d3>Takasugi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/442700002", 256, TRUE);
 	OutputLine(NULL, "「お母さん、ガンモにはんぺん頼みます。",
-		   NULL, "\"Signora, prendo una frittella di tofu e un hanpen [Triangolini di pasta di pesce].", Line_Continue);
+		   NULL, "\"Signora, prendo una frittella di tofu e un hanpen.", Line_Continue);
 	Wait ( 2800 );
 	OutputLine(NULL, "……署長んとこに議員の怒鳴り込みがあったんだよ。」",
-		   NULL, " Un membro dell'assemblea è venuto a lamentarsi dal capo della polizia.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Un membro dell'assemblea è venuto a lamentarsi dal capo della polizia.\"  [Triangolini di pasta di pesce.]", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //「あれま。そうなんですか＠...お母さん、私にもう一杯下さい。￥
@@ -220,13 +220,13 @@ void main()
 		   NULL, "\"Oh cielo, davvero?", Line_Continue);
 	Wait ( 2600 );
 	OutputLine(NULL, "…お母さん、私にもう一杯下さい。」",
-		   NULL, " Signora, un'altra ciotola.\"", Line_Normal);
+		   NULL, " Signora, un'altra ciotola, per favore.\"", Line_Normal);
 	ClearMessage();
 
 //　園崎は県議も市議も恫喝タイプだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎は県議も市議も恫喝タイプだ。",
-		   NULL, "Sia il membro dell'assemblea prefetturale Sonozaki, sia il consigliere cittadino Sonozaki hanno sempre un'aria intimidatoria.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sia il deputato prefetturale Sonozaki, sia il consigliere cittadino Sonozaki hanno sempre un'aria intimidatoria.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -240,7 +240,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>高杉</color>", NULL, "<color=#f5e6d3>Takasugi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/442700003", 256, TRUE);
 	OutputLine(NULL, "「雛見沢事件の捜査の仕方で、君を指名して陳情してきたよ。」",
-		   NULL, "\"È venuta fuori il tuo nome in merito a come stanno venendo trattate le investigazioni sull'incidente di Hinamizawa.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"È venuta fuori il tuo nome in merito a come stanno venendo trattate le indagini sull'incidente di Hinamizawa.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -363,7 +363,7 @@ void main()
 //　課長はハイヤー＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　課長はハイヤー。",
-		   NULL, "Il caposezione prende un taxi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il caposezione prenderà un taxi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -429,7 +429,7 @@ void main()
 		   NULL, " Smettila di mettere tutto sullo stesso piano.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/442700011", 256, TRUE);
 	OutputLine(NULL, "村の連中は半ば本気で祟りを信じてるんだから。」",
-		   NULL, " Quelli del villaggio sono seri quando dicono che si tratta davvero di una maledizione.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Quelli del villaggio sono seri quando dicono che si tratta di una maledizione.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -453,7 +453,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>高杉</color>", NULL, "<color=#f5e6d3>Takasugi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/442700013", 256, TRUE);
 	OutputLine(NULL, "　退職金でローン返して、お母さんと北海道に引っ越すんじゃなかったっけ？」",
-		   NULL, "Non avevi detto che avresti pagato i tuoi debiti con la pensione e che saresti tornato in Hokkaido da tua madre?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Non avevi detto che avresti ripagato i tuoi prestiti con la pensione e che saresti tornato in Hokkaido da tua madre?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -480,7 +480,7 @@ void main()
 //　そこで、退職直前に特別昇格で二号給（２年分）給料を昇給させることによって＠退職金を水増しするなんてことが、この辺の地方では慣習で行なわれている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこで、退職直前に特別昇格で二号給（２年分）給料を昇給させることによって、",
-		   NULL, "Quindi, se ottenesse un aumento prima della pensione, il suo bonus (due anni di salario) aumenterebbe,", Line_WaitForInput);
+		   NULL, "Se questo ottenesse un aumento prima della pensione, il suo bonus (due anni di salario) aumenterebbe,", Line_WaitForInput);
 	OutputLine(NULL, "退職金を水増しするなんてことが、この辺の地方では慣習で行なわれている。",
 		   NULL, " e otterrebbe un grosso vantaggio sulla somma. È così che si fa da queste parti.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -504,7 +504,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700056", 256, TRUE);
 	OutputLine(NULL, "「さすがインテリの若署長は言い出すことが模範的です。",
-		   NULL, "\"Certo che quel capo ne dice di cose esemplari.", Line_Continue);
+		   NULL, "\"Certo che il capo ne dice di cose esemplari.", Line_Continue);
 	Wait (3400);
 	OutputLine(NULL, "…でもまぁ。",
 		   NULL, " Però... ecco...", Line_WaitForInput);
@@ -560,7 +560,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700059", 256, TRUE);
 	OutputLine(NULL, "「運転手さん、引き止めてすみませんね。",
-		   NULL, "\"Perdoni l'attesa, conducente.", Line_Continue);
+		   NULL, "\"Perdoni l'attesa, tassista.", Line_Continue);
 	Wait (2100);
 	OutputLine(NULL, "お願いします。」",
 		   NULL, " Con permesso.\"", GetGlobalFlag(GLinemodeSp));
@@ -570,7 +570,7 @@ void main()
 //　威勢良くドアを閉め、課長の会話を少し乱暴に遮る＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　威勢良くドアを閉め、課長の会話を少し乱暴に遮る。",
-		   NULL, "Chiudo la porta con fare stufato, interrompendo bruscamente la conversazione con il caposezione.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Chiudo la porta con aria stufa, interrompendo bruscamente la conversazione con il caposezione.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -578,7 +578,7 @@ void main()
 //　課長はまだ何か言いたげだったが、苦笑すると手を振った。こちらも手を振って応える￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　課長はまだ何か言いたげだったが、苦笑すると手を振った。こちらも手を振って応える。",
-		   NULL, "Pare che avesse qualcos'altro da dire ma si limita a sorridermi e a salutarmi con la mano.", Line_Normal);
+		   NULL, "Pare che avesse qualcos'altro da dire, ma si limita a sorridermi e a salutarmi con la mano.", Line_Normal);
 	ClearMessage();
 
 //　タクシーは徐々に加速し、すぐに光の川に飲み込まれていった￥
@@ -604,7 +604,7 @@ void main()
 		   NULL, " ... accidenti...", Line_Continue);
 	Wait (2000);
 	OutputLine(NULL, "ローン返済できるかなぁ…。」",
-		   NULL, " riuscirò davvero a pagare quel debito...?\"", Line_Normal);
+		   NULL, " riuscirò davvero a pagare quel prestito...?\"", Line_Normal);
 	ClearMessage();
 
 	SetValidityOfInput( FALSE );

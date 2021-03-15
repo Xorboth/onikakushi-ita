@@ -83,7 +83,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 5, "ps3/s20/05/440500001", 256, TRUE);
 	OutputLine(NULL, "「……お弁当のおかずも普通ですよ。",
-		   NULL, "\"... anche i bentou che porta a scuola sono normali.", Line_Continue);
+		   NULL, "\"... anche i bento che porta a scuola sono normali.", Line_Continue);
 	Wait( 1800 );
 	OutputLine(NULL, "お金持ちじゃないです。」",
 		   NULL, " Non è ricco.\"", Line_Normal);
@@ -94,7 +94,7 @@ void main()
 //　一体の何の話だ？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一体の何の話だ？！",
-		   NULL, "Ma di che diavolo stanno parlando!?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ma di che diavolo stanno parlando?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -142,7 +142,7 @@ void main()
 //　ま、前原屋敷ぃ～？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ま、前原屋敷ぃ〜？！",
-		   NULL, "R-Residenza Maebara~!?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "R-Residenza Maebara~?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -210,7 +210,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s20/01/440100025", 256, TRUE);
 	OutputLine(NULL, "「あー、諸君らの楽しい想像をぶち壊すようで悪いが、うちは金持ちでも貧乏でもないぞ。",
-		   NULL, "\"Scusate se rovino la vostra immaginazione ma non siamo né milionari né poveri.", Line_Continue);
+		   NULL, "\"Scusate se rovino la vostra immaginazione, ma non siamo né milionari né poveri.", Line_Continue);
 	Wait( 4200 );
 	OutputLine(NULL, "極めて平均的な普通の家庭だ。」",
 		   NULL, " Siamo la perfetta immagine di una famiglia normale.\"", GetGlobalFlag(GLinemodeSp));
@@ -258,7 +258,7 @@ void main()
 //　作業場はいくつもあるし、過去の作品があちこちに飾られ...＠しかもサイズはどれもデカイ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　作業場はいくつもあるし、過去の作品があちこちに飾られ…。",
-		   NULL, "Ci sono vari banchi di lavoro e un sacco di sue opere appese da tutte le parti.", Line_WaitForInput);
+		   NULL, "Ci sono vari banchi di lavoro e un sacco di sue opere appese ovunque.", Line_WaitForInput);
 	OutputLine(NULL, "しかもサイズはどれもデカイ。",
 		   NULL, " E sono tutte enormi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -267,7 +267,7 @@ void main()
 //　そんなこんなで、家族が生活する部分はせいぜい全体の三分の一ってところか￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんなこんなで、家族が生活する部分はせいぜい全体の三分の一ってところか。",
-		   NULL, "Ed è per questo che la nostra famiglia usa in verità un terzo della casa per le funzioni di vita giornaliera.", Line_Normal);
+		   NULL, "Motivo per cui la nostra famiglia usa in verità un terzo della casa per le funzioni di vita giornaliera.", Line_Normal);
 	ClearMessage();
 
 //　将来、自宅で個展を開くことも考えての設計なので、人や車の出入りに気遣ったものになっているのだ＠
@@ -305,10 +305,10 @@ void main()
 		   NULL, "\"Un giorno, mi piacerebbe esplorare casa di Kei-chan...", Line_Continue);
 	Wait( 1600 );
 	OutputLine(NULL, "…お金持ちじゃないと主張しながらもあの邸宅！！",
-		   NULL, " dici di non essere ricco ma hai una casa come quella!!", Line_WaitForInput);
+		   NULL, " dici di non essere ricco, ma hai una casa come quella!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300022", 256, TRUE);
 	OutputLine(NULL, "　一体何が隠されているのか！！」",
-		   NULL, " Che cosa ci stai nascondendo!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Che cosa ci stai nascondendo?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -319,7 +319,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200032", 256, TRUE);
 	OutputLine(NULL, "「か、かぁいいものが隠されてるといいなぁ！　はぅ〜！」",
-		   NULL, "\"F-forse dentro c'è qualcosa di carino! Hao~!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"F-forse dentro c'è qualcosa di carino! Hau~!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -331,7 +331,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s20/04/440400010", 256, TRUE);
 	OutputLine(NULL, "「きっと家具を買うお金もなくなってて、殺風景な部屋がいっぱいなのですわ！」",
-		   NULL, "\"Sono sicura che non abbiano nemmeno i soldi per i mobili e che quindi ci siano solamente stanze come le celle di un penitenziario!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Sono sicura che non abbiano nemmeno i soldi per i mobili e che ci siano solamente stanze come le celle di un penitenziario!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -351,7 +351,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200033", 256, TRUE);
 	OutputLine(NULL, "「わぁぁ〜！　それいいねそれいいね！　レナもごろごろしたい〜！」",
-		   NULL, "\"Waa~! Sarebbe davvero divertente! Anch'io voglio rotolare~!\"", Line_Normal);
+		   NULL, "\"Waah~! Sarebbe davvero divertente! Anch'io voglio rotolare~!\"", Line_Normal);
 	ClearMessage();
 
 //　...なんか楽しそうに想像が膨らんでいってるな...＠
@@ -372,7 +372,7 @@ void main()
 //　...親父は女の子には甘いから、アトリエの見学を許してくれるかもしれない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…親父は女の子には甘いから、アトリエの見学を許してくれるかもしれない。",
-		   NULL, "... papà è debole davanti alle ragazze giovani e potrebbe addirittura mostrar loro il suo studio.", Line_Normal);
+		   NULL, "... papà è debole con le ragazze giovani e potrebbe addirittura mostrar loro il suo studio.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("background/g1", 1000 );
@@ -389,7 +389,7 @@ void main()
 //　暑いけど澄んだ、初夏の匂いがした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　暑いけど澄んだ、初夏の匂いがした。",
-		   NULL, "Fa caldo ma l'aria è pulita. È proprio l'odore dell'estate.", Line_Normal);
+		   NULL, "Fa caldo, ma l'aria è pulita. È proprio l'odore dell'estate.", Line_Normal);
 	ClearMessage();
 
 	SetValidityOfInput( FALSE );
