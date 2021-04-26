@@ -248,7 +248,7 @@ void main()
 //　彼女がいくら謝ったって、どうにもならないのだから￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼女がいくら謝ったって、どうにもならないのだから。",
-		   NULL, "Non importa quanto si scusi: non cambierà niente.", Line_Normal);
+		   NULL, "Non importa quanto si scusi, non cambierà niente.", Line_Normal);
 	ClearMessage();
 
 //　それでも彼女は、こんなにもみじめな声で謝り続けている...￥

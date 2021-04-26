@@ -418,7 +418,7 @@ void main()
 //　中でも発電と治水、そして莫大な経済効果を生み出すダム建設はラッシュだったという＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　中でも発電と治水、そして莫大な経済効果を生み出すダム建設はラッシュだったという。",
-		   NULL, "Ci fu un boom di costruzioni di dighe visto il grosso stimolo economico che dava la possibile generazione di energia elettrica insieme al controllo delle inondazioni.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ci fu un boom di costruzioni di dighe, visto il grosso stimolo economico previsto dalla generazione di energia elettrica e dal controllo delle inondazioni.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -480,7 +480,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800016", 256, TRUE);
 	OutputLine(NULL, "「裁判にもなったし議会でも取り上げられたんだ。",
-		   NULL, "\"Ci fu un processo e la faccenda venne anche portata all'attenzione della Dieta Nazionale.", Line_WaitForInput);
+		   NULL, "\"Ci fu un processo, e la faccenda venne anche portata all'attenzione della Dieta Nazionale.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800017", 256, TRUE);
 	OutputLine(NULL, "東京の新聞にも載ったよ。」",
 		   NULL, " Persino i giornali di Tokyo ne parlarono.\"", GetGlobalFlag(GLinemodeSp));
@@ -491,7 +491,7 @@ void main()
 //　魅音も確かそんなことを話してたな＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音も確かそんなことを話してたな。",
-		   NULL, "Mion me ne ha già parlato.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mion mi ha accennato qualcosa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -520,7 +520,7 @@ void main()
 		   NULL, "\"Di conseguenza, vennero a galla scandali e corruzione.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800019", 256, TRUE);
 	OutputLine(NULL, "ややこしいことになっている内に工事中止が決まったんだそうだよ。」",
-		   NULL, " Più le cose si facevano complicate, più crebbe il rischio di dover interrompere i lavori, e così fu.\"", Line_Normal);
+		   NULL, " Più le cose si facevano complicate, più cresceva il rischio di dover interrompere i lavori, e così fu.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -602,7 +602,7 @@ void main()
 //　ダム工事の継続を巡って論議が紛糾、相次ぐ不祥事に揺れに揺れたダム騒動の末期の出来事＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ダム工事の継続を巡って論議が紛糾、相次ぐ不祥事に揺れに揺れたダム騒動の末期の出来事。",
-		   NULL, "Il dibattito in merito alla costruzione o non costruzione stava andando alla deriva, di pari passi con tutti gli scandali che venivano fuori verso la fine del progetto.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il dibattito in merito alla costruzione o non costruzione stava andando alla deriva, di pari passo con tutti gli scandali che venivano fuori verso la fine del progetto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　…ダム計画に終止符を打った事件だった￥
@@ -648,7 +648,7 @@ void main()
 //　大まかな内容は、以前拾った写真週刊誌で読んだのと同じだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大まかな内容は、以前拾った写真週刊誌で読んだのと同じだ。",
-		   NULL, "Questi dettagli sono in linea con quello che ho letto in quel tabloid.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Questi dettagli sono in linea con ciò che ho letto in quel tabloid.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　確かに悲惨な事件だが……レナや魅音が俺にひた隠すほどのものとは思わなかった＠
@@ -668,7 +668,7 @@ void main()
 //　そんな友人たちの気遣いに感謝すると共に、にも関わらず興味をもたげてしまった自分をちょっぴり悔いた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな友人たちの気遣いに感謝すると共に、にも関わらず興味をもたげてしまった自分をちょっぴり悔いた。",
-		   NULL, "Sono grato di avere delle amiche che si preoccupano per me, e al tempo stesso mi imbarazza essere così curioso.", Line_Normal);
+		   NULL, "Sono grato di avere delle amiche che si preoccupano per me e, al tempo stesso, mi imbarazza essere così curioso.", Line_Normal);
 	ClearMessage();
 
 
@@ -938,7 +938,7 @@ void main()
 //　これまで怪死した人々は、みんなダム関係者やオヤシロさまに縁がある人ばかりだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これまで怪死した人々は、みんなダム関係者やオヤシロさまに縁がある人ばかりだった。",
-		   NULL, "Finora, le morti misteriose erano di persone legate in qualche modo alla diga o a Oyashiro-sama.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Finora, le morti misteriose erano di persone legate in qualche modo alla diga o ad Oyashiro-sama.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -986,7 +986,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…その２年前に転落死したダム誘致派の男の弟一家に当たるのよ。」",
-		   NULL, " era quella del fratello minore dell'uomo che era morto due anni prima e che supportava il progetto della diga.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " era quella del fratello minore dell'uomo morto due anni prima e che supportava il progetto della diga.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1063,7 +1063,7 @@ void main()
 //　……俺は、基本的に現代っ子だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……俺は、基本的に現代っ子だ。",
-		   NULL, " Sono un ragazzo moderno.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sono un ragazzo moderno.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1509,7 +1509,7 @@ void main()
 //　女の人は緩く髪をかきあげながらため息をつく＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　女の人は緩く髪をかきあげながらため息をつく。",
-		   NULL, "Sospira la donna mentre si passa le dita nei capelli.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sospira la donna mentre si passa le dita tra i capelli.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1532,7 +1532,7 @@ void main()
 //　精一杯強がったつもりだったが、かえって狼狽ぶりを露呈するだけだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　精一杯強がったつもりだったが、かえって狼狽ぶりを露呈するだけだ。",
-		   NULL, "Cerco di comportarmi da duro, ma non faccio altro che enfatizzare quando queste informazioni mi abbiano scosso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cerco di comportarmi da duro, ma non faccio altro che enfatizzare quanto queste informazioni mi abbiano scosso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1603,7 +1603,7 @@ void main()
 //　祟りというキーワードと最も対に位置すると思ったからだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　祟りというキーワードと最も対に位置すると思ったからだ。",
-		   NULL, "Repelle alla perfezione la parola \"maledizione\".", Line_Normal);
+		   NULL, "Repelle perfettamente la parola \"maledizione\".", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2006,7 +2006,7 @@ void main()
 //　あれだけいた大勢の人々の姿はすっかり減り、今では夕涼みを楽しむ何組かの家族連れが目に留まるだけだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あれだけいた大勢の人々の姿はすっかり減り、今では夕涼みを楽しむ何組かの家族連れが目に留まるだけだ。",
-		   NULL, "Ci sono molte meno persone rispetto a prima. In giro si vede soltanto qualche famiglia riamasta a godersi l'aria della sera.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ci sono molte meno persone rispetto a prima. In giro si vede soltanto qualche famiglia rimasta a godersi l'aria della sera.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　時計を見ると…たっぷり小一時間くらいは話しこんでしまったようだった￥
@@ -2307,7 +2307,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800102", 256, TRUE);
 	OutputLine(NULL, "「え？　あ、……忘れてた！！」",
-		   NULL, "\"Eh? Oh, me n'ero completamente dimenticato!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Eh? Ah, me n'ero completamente dimenticato!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

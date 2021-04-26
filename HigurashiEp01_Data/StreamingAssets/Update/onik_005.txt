@@ -3606,7 +3606,7 @@ void main()
 //　かぁいい状態のレナなら俺を倒せると踏んだわけか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かぁいい状態のレナなら俺を倒せると踏んだわけか！",
-		   NULL, "Pensano che Rena in modalità Carineria possa sconfiggermi!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pensano che Rena in Modalità Carineria possa sconfiggermi!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

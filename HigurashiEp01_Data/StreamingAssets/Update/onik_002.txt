@@ -2919,7 +2919,7 @@ void main()
 //　レナはすでにお約束のかぁいいモードになっていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナはすでにお約束のかぁいいモードになっていた。",
-		   NULL, "Rena è già entrata nella sua modalità carineria.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rena è già entrata nella sua Modalità Carineria.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3038,7 +3038,7 @@ void main()
 //　にぎやかなレナがいなくなり、急に辺りは静けさを取り戻していった…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　賑やかなレナがいなくなり、急に辺りは静けさを取り戻していった…。",
-		   NULL, "Senza la vivace Rena in giro, nei dintorni cala in fretta il silenzio ...", Line_Normal);
+		   NULL, "Senza la vivace Rena in giro, nei dintorni cala in fretta il silenzio...", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 2, "lsys11", 56, 0 );

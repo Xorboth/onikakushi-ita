@@ -15,7 +15,7 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300731", 256, TRUE);
 	OutputLine(NULL, "「な、…なぁんだ…！",
-		   NULL, "\"Oh... ohhh...!", Line_WaitForInput);
+		   NULL, "\"Oh... ma certo...!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300732", 256, TRUE);
 	OutputLine(NULL, "　てっきりおじさんは圭一のかぁいいオットセイかと〜！！」",
 		   NULL, " Lo zio pensava che stessi parlando della grossa foca di Keiichi!!\"", GetGlobalFlag(GLinemodeSp));
