@@ -171,7 +171,7 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Medico Forense</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200034", 256, TRUE);
 	OutputLine(NULL, "　バセドー病等の甲状腺異常を引き起こす病気にしばしば躁鬱病に似た症状が報告されとる。",
-		   NULL, "Qualcosa come la malattia di Graves, che colpisce la tiroide e che è un tipico sintomo che si ritrova nel comportamento ciclotimico.", Line_Continue);
+		   NULL, "Ad esempio la malattia di Graves, che colpisce la tiroide, tipico sintomo che si ritrova nel comportamento ciclotimico.", Line_Continue);
 	Wait ( 4400 );
 	OutputLine(NULL, "だがバセドー病は特徴的な症状が多い。",
 		   NULL, " Ma la malattia di Graves presenta molti sintomi caratteristici propri della malattia stessa.", Line_WaitForInput);

@@ -49,7 +49,7 @@ void main()
 		   NULL, " Come vi è sembrata?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200105", 256, TRUE);
 	OutputLine(NULL, "　ちょっぴりでもお楽しみいただけたなら幸いです。」",
-		   NULL, "Spero che l'abbiate apprezzata, anche solo in parte.\"", Line_Normal);
+		   NULL, " Spero che l'abbiate apprezzata, anche solo in parte.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -65,7 +65,7 @@ void main()
 		   NULL, "\"In parte un corno!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s20/04/440400128", 256, TRUE);
 	OutputLine(NULL, "　あんなすごいバッドエンドで終わられたら、ぷんぷんでございますのことよー？！」",
-		   NULL, "Quel bad end mi ha fatto infuriare, sapete? Umpf umpf!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Quel bad end mi ha fatto infuriare, sapete? Umpf umpf!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -339,7 +339,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300261", 256, TRUE);
 	OutputLine(NULL, "「うん。",
-		   NULL, "\"Si.", Line_WaitForInput);
+		   NULL, "\"Sì.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300262", 256, TRUE);
 	OutputLine(NULL, "私もあの電話は変だと思ったね。",
 		   NULL, " Anche quella chiamata era molto strana.", GetGlobalFlag(GLinemodeSp));
@@ -970,7 +970,7 @@ void main()
 		   NULL, "\"Significa che Ryuugu-san e Sonozaki-san avevano entrambe queste personalità sin dall'inizio, e stavano soltanto ingannando Maebara-san...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700358", 256, TRUE);
 	OutputLine(NULL, "…こういうわけですか？」",
-		   NULL, " che ne dite?\".", GetGlobalFlag(GLinemodeSp));
+		   NULL, " che ne dite?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

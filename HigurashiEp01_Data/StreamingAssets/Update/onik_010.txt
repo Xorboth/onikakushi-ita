@@ -751,7 +751,7 @@ void main()
 		   NULL, "\"Sì...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100060", 256, TRUE);
 	OutputLine(NULL, "何を買いに行かされるかわからないからな…。」",
-		   NULL, " non sai cosa dovrai comprare\"", Line_Normal);
+		   NULL, " non sai cosa dovrai comprare.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("black", "down", 0, 0, 300 );
@@ -759,7 +759,7 @@ void main()
 //　魅音のことだ、負けたら「痔の薬」やら「明るい家族計画」やら、まともでないものを買いに行かされるに違いない！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音のことだ、負けたら「痔の薬」やら「明るい家族計画」やら、まともでないものを買いに行かされるに違いない！！",
-		   NULL, "Scommetto che Mion manderà il perdente a comprare qualcosa di imbarazzante , come una crema per emorroidi o un libro su come nascono i bambini!", Line_Normal);
+		   NULL, "Scommetto che Mion manderà il perdente a comprare qualcosa di imbarazzante, come una crema per le emorroidi o un libro su come nascono i bambini!", Line_Normal);
 	ClearMessage();
 
 
@@ -1086,7 +1086,7 @@ void main()
 		   NULL, "\"Non userei mai una pistola.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 5, "ps3/s01/05/120500009", 256, TRUE);
 	OutputLine(NULL, "毒物でじわりじわりがいいのです。」",
-		   NULL, " Mi piace ucciderli lentamente, con il veleno.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mi piace ucciderli lentamente con il veleno.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2732,7 +2732,7 @@ void main()
 
 //　……辺り一面に鮮血を撒き散らす＠
 	OutputLine(NULL, "　……辺り一面に鮮血を撒き散らす！",
-		   NULL, " ... un lago di sangue attorno ai suoi piedi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... un lago di sangue attorno ai suoi piedi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3517,7 +3517,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Uomo di Mezza Età</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700089", 256, TRUE);
 	OutputLine(NULL, "「神主はダム騒動当時、リーダーシップを期待されながらも、積極的な働きがなかったため、一部の村人から失望、反感を買っていました。」",
-		   NULL, "\"Gli abitanti si aspettavano una presa di posizione dal prete shintoista durante la disput. Tuttavia, il prete non fu coivolgente e nacque una fazione provava odio e insoddisfazione nei suoi confronti.\"", Line_Normal);
+		   NULL, "\"Gli abitanti si aspettavano una presa di posizione dal prete shintoista durante la disputa. Tuttavia, il prete non fu coivolgente e nacque una fazione provava odio e insoddisfazione nei suoi confronti.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -4175,7 +4175,7 @@ void main()
 		   NULL, "\"È stata Mii-chan!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200037", 256, TRUE);
 	OutputLine(NULL, "　犯人はッ！！」",
-		   NULL, "È lei l'assassina!!\"", Line_Normal);
+		   NULL, " È lei l'assassina!!\"", Line_Normal);
 	ClearMessage();
 
 //　え、!w600………レナの声に一瞬、ぎょっとする￥
@@ -4349,7 +4349,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "………はぅ…。」",
-		   NULL, "... hau~...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... hau~...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4400,7 +4400,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…",
-		   NULL, " ...", Line_Continue);
+		   NULL, "...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 300 );

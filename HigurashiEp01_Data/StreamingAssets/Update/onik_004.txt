@@ -633,7 +633,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300234", 256, TRUE);
 	OutputLine(NULL, "「では「性別」は英語で？！」",
-		   NULL, "\"Cosa significa「coito」?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Cosa significa 「coito」?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1675,7 +1675,7 @@ void main()
 //　彼らにとって「それ」は全て事実として認識されると、げらげらと笑い合って俺を探しに散っていった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼らにとって「それ」は全て事実として認識されると、げらげらと笑い合って俺を探しに散っていった。",
-		   NULL, "Per loro ogni cosa è verità, e lo dimostra il fatto che mi stanno cercando ridacchiando..", Line_Normal);
+		   NULL, "Per loro ogni cosa è verità, e lo dimostra il fatto che mi stanno cercando ridacchiando.", Line_Normal);
 	ClearMessage();
 
 
@@ -1688,9 +1688,9 @@ void main()
 	OutputLine(NULL, "　勝ったぞ魅音！",
 		   NULL, " Ho vinto, Mion!", Line_WaitForInput);
 	OutputLine(NULL, "　俺の勝ちだ！",
-		   NULL, " La vittoria è mia", Line_WaitForInput);
+		   NULL, " La vittoria è mia!", Line_WaitForInput);
 	OutputLine(NULL, "　がははははは…！！",
-		   NULL, " bwahahahah...!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Bwahahahah...!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2416,7 +2416,7 @@ void main()
 //　…しかし…後輩の中にも前途有望なヤツがいるようだな￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…しかし…後輩の中にも前途有望なヤツがいるようだな。",
-		   NULL, "... direi che... ci sono molti giovani promettenti tra i miei kouhai..", Line_Normal);
+		   NULL, "... direi che... ci sono molti giovani promettenti tra i miei kouhai.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3531,7 +3531,7 @@ void main()
 //　林間学校の時、蒔き割りをやりたくて立候補したが、ジャンケンに負けてできなかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　林間学校の時、蒔き割りをやりたくて立候補したが、ジャンケンに負けてできなかった。",
-		   NULL, "Una volta volevo provare a tagliare della legna, in campeggio ma persi a sasso-carta-forbice e non potei andarci.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Una volta volevo provare a tagliare della legna in campeggio, ma persi a sasso-carta-forbice e non potei andarci.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4093,7 +4093,7 @@ void main()
 //　汚れているにも関わらず、レナは嬉しそうに頬擦りをしている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　汚れているにも関わらず、レナは嬉しそうに頬擦りをしている。",
-		   NULL, "Nonostante lo strato di polvere su di esso, Rena accarezza con la guancia le rotondità della statua.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nonostante lo strato di polvere su di esso, Rena sfrega la sua guancia sulle rotondità della statua.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

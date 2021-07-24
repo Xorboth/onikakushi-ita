@@ -210,7 +210,7 @@ void main()
 		   NULL, "\"Signora, prendo una frittella di tofu e un hanpen.", Line_Continue);
 	Wait ( 2800 );
 	OutputLine(NULL, "……署長んとこに議員の怒鳴り込みがあったんだよ。」",
-		   NULL, "Un membro dell'assemblea è venuto a lamentarsi dal capo della polizia.\"  [Triangolini di pasta di pesce.]", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Un membro dell'assemblea è venuto a lamentarsi dal capo della polizia.\"  [Triangolini di pasta di pesce.]", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //「あれま。そうなんですか＠...お母さん、私にもう一杯下さい。￥
@@ -444,7 +444,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>高杉</color>", NULL, "<color=#f5e6d3>Takasugi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/442700012", 256, TRUE);
 	OutputLine(NULL, "「大石さんは来年で退職じゃないですか。",
-		   NULL, "\"Il prossim'anno andrai in pensione, giusto?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Il prossimo anno andrai in pensione, giusto?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

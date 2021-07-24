@@ -827,7 +827,7 @@ void main()
 	OutputLine(NULL, "　……俺が「どなたですか？」と聞いたとき、後ろのそいつは答えようとして息を吸った。",
 		   NULL, "... quando ho chiesto \"Chi sei?\", ha inalato come se stesse per rispondere.", Line_WaitForInput);
 	OutputLine(NULL, "その「音」ははっきりと俺の耳に聞こえたのだ。",
-		   NULL, " Quel \"suono\" mi ha raggiunto i timmpani.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Quel \"suono\" mi ha raggiunto i timpani.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3456,7 +3456,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200265", 256, TRUE);
 	OutputLine(NULL, "「あ、あははは、じゃあ良かった☆",
-		   NULL, "\"A-ahahah, meno male☆", Line_WaitForInput);
+		   NULL, "\"A-ahahah, menomale☆", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200266", 256, TRUE);
 	OutputLine(NULL, "　これ見て。",
 		   NULL, " Guarda qui.", Line_WaitForInput);

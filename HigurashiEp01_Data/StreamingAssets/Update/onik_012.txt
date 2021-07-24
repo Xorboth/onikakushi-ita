@@ -526,7 +526,7 @@ void main()
 //　やたらとおしゃべりな先生の問診に適当に答えると、やはり先生も定番の「風邪ですね」という言葉を返してくれた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やたらとおしゃべりな先生の問診に適当に答えると、やはり先生も定番の「風邪ですね」という言葉を返してくれた。",
-		   NULL, "Dopo aver risposto a malincuore a tutte le domande del medico chiacchierone, il verdetto è il classico \"Sarà un raffreddore.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Dopo aver risposto a malincuore a tutte le domande del medico chiacchierone, il verdetto è il classico \"Sarà un raffreddore\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -801,7 +801,7 @@ void main()
 //　…俺、車の邪魔になるくらいど真ん中を歩いているか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…俺、車の邪魔になるくらいど真ん中を歩いているか？",
-		   NULL, "... ero così sovrappensiero da non essermi accorto di camminare nel mezzo della strada?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... ero così sovrappensiero da non essermi accorto di star camminando nel mezzo della strada?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1038,7 +1038,7 @@ void main()
 		   NULL, "\"Credevamo fosse causato da allucinogeni, dato che si stava tagliando la gola", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700207", 256, TRUE);
 	OutputLine(NULL, "……こういう症状をそれも急激に引き起こす薬物は…なかなかないらしいんです。",
-		   NULL, " ... ma un farmaco che potrebbe causare tutto questo all'improvviso... è estremamente difficile da trovare.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... ma un farmaco che potrebbe causare tutto questo all'improvviso... è estremamente difficile da trovare.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1057,7 +1057,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100278", 256, TRUE);
 	OutputLine(NULL, "「あの、…漫画なんかによくあるじゃないですか。",
-		   NULL, "\"Uhm... sai quella cosa che vedi sempre nei fumetti?", Line_WaitForInput);
+		   NULL, "\"Uhm... sai quella cosa che si vede sempre nei fumetti?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100279", 256, TRUE);
 	OutputLine(NULL, "体内に取り込まれると分解したりして、証拠が何も残らないなんて、そんな薬…。」",
 		   NULL, " Come un farmaco che non lascia tracce dopo essere stato consumato...\"", GetGlobalFlag(GLinemodeSp));
@@ -1474,7 +1474,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　と、こうなるらしいんですよ。」",
-		   NULL, " ... così dicono le storie.\"", Line_Normal);
+		   NULL, " ... o almeno, così dicono le storie.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -1483,7 +1483,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100289", 256, TRUE);
 	OutputLine(NULL, "「…息子を治療してもらった対価が…自分ですか？！",
-		   NULL, "\"... il prezzo per curare suo figlio... era lei stessa?!", Line_WaitForInput);
+		   NULL, "\"... il prezzo per curare suo figlio... era se stessa?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100290", 256, TRUE);
 	OutputLine(NULL, "　…それは怖いな。」",
 		   NULL, " ... è inquietante.\"", GetGlobalFlag(GLinemodeSp));
@@ -2050,7 +2050,7 @@ void main()
 		   NULL, " Era la zia acquisita di Satoko Houjou-san.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700272", 256, TRUE);
 	OutputLine(NULL, "……当時は沙都子さんはご両親を事故で失っていましたので、預けられていたのです。",
-		   NULL, " ... la bambina è sotto la custodia degli zii, dato che ha perso entrambi i genitori nell'incidente...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... la bambina è sotto la custodia degli zii, dato che ha perso entrambi i genitori nell'incidente... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700273", 256, TRUE);
 	OutputLine(NULL, "被害者宅に。」",
@@ -2815,7 +2815,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700312", 256, TRUE);
 	OutputLine(NULL, "「これは…この道、３０年の勘です。",
-		   NULL, "\"Questo è... per lo più il mio intuito da trent'anni in questo lavoro.", Line_WaitForInput);
+		   NULL, "\"Questo è... per lo più il mio intuito da trent'anni in questo lavoro. ", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700313", 256, TRUE);
 	OutputLine(NULL, "……前原さん。危ないのはあなたなんですよ。」",
 		   NULL, " ... Maebara-san. Tu sei in pericolo.\"", GetGlobalFlag(GLinemodeSp));
@@ -2835,7 +2835,7 @@ void main()
 //　そんなバカな、と反論しようと思ったが、すっかり意気消沈した俺にそんな気力はなかった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんなバカな、と反論しようと思ったが、すっかり意気消沈した俺にそんな気力はなかった。",
-		   NULL, "Volevo rispondere con \"Impossibile! \", ma il mio basso morale non me lo permette.", Line_Normal);
+		   NULL, "Volevo rispondere con \"Impossibile!\", ma il mio basso morale non me lo permette.", Line_Normal);
 	ClearMessage();
 
 
@@ -3566,7 +3566,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100334", 256, TRUE);
 	OutputLine(NULL, "「お、お見舞いなのか部活なのかどっちかにしろーッ！！！」",
-		   NULL, "\"Sei venuta qui per controllare se stessi meglio o solo per le attività del club?!!\"", Line_Normal);
+		   NULL, "\"Sei venuta qui per controllare se stessi meglio o solo per le attività del club!?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(3, 3, "sprite/me2_wink_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -4120,7 +4120,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100343", 256, TRUE);
 	OutputLine(NULL, "「…あ、…あぁ…。」",
-		   NULL, "\"... s... si...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... s... sì...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4250,9 +4250,9 @@ void main()
 	OutputLine(NULL, "それは毎年起こるオヤシロさまの祟りは個々の事件でなく、",
 		   NULL, "Gli incidenti coinvolti nella maledizione di Oyashiro-sama che si verificano ogni anno non sono casi individuali...", Line_WaitForInput);
 	OutputLine(NULL, "全て関連した事件であり、……",
-		   NULL, " ma sono collegati nel loro insieme...", Line_Normal);
+		   NULL, " ma sono collegati nel loro insieme... ", Line_Normal);
 	OutputLine(NULL, "しかもそれは複数犯で雛見沢に潜伏しているかもしれない……というものだ。",
-		   NULL, " così come il fatto che ci possano essere più carnefici nascosti all'interno di Hinamizawa...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "così come il fatto che ci possano essere più carnefici nascosti all'interno di Hinamizawa...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

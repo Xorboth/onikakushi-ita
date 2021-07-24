@@ -330,7 +330,7 @@ void main()
 		   NULL, "\"Me lo stavo chiedendo fin da prima.", Line_Continue);
 	Wait( 1100 );
 	OutputLine(NULL, "なんでこの学校って、クラスが学年混在なんだ？」",
-		   NULL, " Mi chiedevo perché questa scuola avesse tutte le classi mescolate in una sola.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mi chiedevo perché questa scuola avesse tutte le classi unite in una sola.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -452,7 +452,7 @@ void main()
 //　地理的なものはさっぱりだが、レナの驚きようからかなり遠いことがわかる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　地理的なものはさっぱりだが、レナの驚きようからかなり遠いことがわかる。",
-		   NULL, "Non ho ben capito la posizione esatta, ma la reazione di Rena mi fa capire che dev'essere molto lontana.", Line_Normal);
+		   NULL, "Non ho ben capito la posizione esatta, ma dalla reazione di Rena deduco che sia molto lontana.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(1, 3, "sprite/me1a_wink_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );

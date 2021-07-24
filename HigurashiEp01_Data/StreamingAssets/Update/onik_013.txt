@@ -890,7 +890,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200165", 256, TRUE);
 	OutputLine(NULL, "「よかったぁ！",
-		   NULL, "\"Meno male!", Line_WaitForInput);
+		   NULL, "\"Menomale!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200166", 256, TRUE);
 	OutputLine(NULL, "　じゃ行こ！　魅ぃちゃん待ってるよ。」",
 		   NULL, " Allora andiamo! Mii-chan ci sta aspettando.\"", GetGlobalFlag(GLinemodeSp));
@@ -1608,7 +1608,7 @@ void main()
 		   NULL, "\"In realtà, ho svolto delle ricerche sul suo passato. Prima che Ryuugu-san si trasferisse a Hinamizawa, era stata sospesa.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700281", 256, TRUE);
 	OutputLine(NULL, "何でも、学校中のガラスを割って回ったんだとか。」",
-		   NULL, "Sembra che avesse rotto tutte le finestre della sua scuola.\"", Line_Normal);
+		   NULL, " Sembra che avesse rotto tutte le finestre della sua scuola.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	PlayBGM( 2, "lsys15", 56, 0 );
@@ -2031,7 +2031,7 @@ void main()
 	OutputLine(NULL, "　…そりゃそうだよな、偏差値ってのはクラス内での奪い合いなんだから。",
 		   NULL, "... ma certo, tutta la classe ha come unico obiettivo passare i test nel migliore dei modi.", Line_WaitForInput);
 	OutputLine(NULL, "…俺みたいな塾三昧のガリ勉を助けて得をすることなんかないもんな…。",
-		   NULL, "... non guadagnerebbero niente a salvare un buono a nulla come me...", Line_Normal);
+		   NULL, " ... non guadagnerebbero niente a salvare un buono a nulla come me...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2112,7 +2112,7 @@ void main()
 //オヤシロさまって単語が。￥
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700288", 256, TRUE);
 	OutputLine(NULL, "オヤシロさまって単語が。」",
-		   NULL, " 'Oyashiro-sama.'\"", Line_Normal);
+		   NULL, " 'Oyashiro-sama'.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2132,7 +2132,7 @@ void main()
 	OutputLine(NULL, "　そこでレナは医師とのカウンセリングの中で何度となく口にするのだ。",
 		   NULL, "Mentre riceveva le attenzioni e l'aiuto psicologico dai medici, continuava a ripetere...", Line_WaitForInput);
 	OutputLine(NULL, "「オヤシロさま」、と。",
-		   NULL, " \"Oyashiro-sama.\"", Line_Normal);
+		   NULL, " \"Oyashiro-sama\".", Line_Normal);
 	ClearMessage();
 
 //「オヤシロさまって言う、幽霊みたいなものがですね、夜な夜な自宅にやってくるって言うんですよ＠枕元に立って自分を見下ろすんだ、って。＠
@@ -2169,7 +2169,7 @@ void main()
 //　だから、毎年起こる怪死事件を人間の犯人の仕業だと思い込もうとしてきた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、毎年起こる怪死事件を人間の犯人の仕業だと思い込もうとしてきた。",
-		   NULL, "Ecco perché vorrei dire che le morti misteriose che avvengono ogni anno sono solo il frutto di una cospirazione.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ecco perché vorrei dire che le morti misteriose che avvengono ogni anno siano solo il frutto di una cospirazione.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2701,7 +2701,7 @@ void main()
 //　そんなやり取りをクラスメートが不審がる様子はなかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんなやり取りをクラスメートが不審がる様子はなかった。",
-		   NULL, "Non c'è niente nel nostro scambio di battute che possa far pensare ai miei compagni di classe che c'è qualcosa che non va.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Non c'è niente nel nostro scambio di battute che possa far pensare ai miei compagni di classe che ci sia qualcosa che non va.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3704,7 +3704,7 @@ void main()
 //　…普段なら食欲をそそる味噌汁の湯気ですら、ただの水蒸気としか感じられなかった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…普段なら食欲をそそる味噌汁の湯気ですら、ただの水蒸気としか感じられなかった。",
-		   NULL, "... la zuppa di miso che ho sempre adorato adesso non sa altro che di acqua calda.", Line_Normal);
+		   NULL, "... la zuppa di miso che ho sempre adorato, adesso, non sa altro che di acqua calda.", Line_Normal);
 	ClearMessage();
 
 //　今夜の食卓には親父も一緒だった＠

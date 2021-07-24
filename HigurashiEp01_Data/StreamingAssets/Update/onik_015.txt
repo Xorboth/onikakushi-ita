@@ -38,7 +38,7 @@ void main()
 //俺は結局一晩中、バリケードのように布団で部屋への入り口を塞ぎ、その上で金属バットを抱きながら座り込んで＠ただただじっと...窓から来るかもしれない侵入者を見張り続けていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺は結局一晩中、バリケードのように布団で部屋への入り口を塞ぎ、その上で金属バットを抱きながら座り込んで、",
-		   NULL, "Ho passato tutta la notte abbracciato alla mazza di metallo, seduto sopra al futon che ho usato per barricare la porta.", Line_WaitForInput);
+		   NULL, "Ho passato tutta la notte abbracciato alla mazza, seduto sopra al futon che ho usato per barricare la porta.", Line_WaitForInput);
 	OutputLine(NULL, "ただただじっと…窓から来るかもしれない侵入者を見張り続けていた。",
 		   NULL, " ... aspettando ancora e ancora... guardando ogni tanto verso la finestra per vedere se qualcuno stesse cercando di entrare.", Line_Normal);
 	ClearMessage();
@@ -3700,7 +3700,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200393", 256, TRUE);
 	OutputLine(NULL, "「悩みがなくなればきっと圭一くんも元通り。",
-		   NULL, "\"Se Keiichi-kun non ha niente che lo preoccupa, allora dovrebbe tornare alla normalità.", Line_WaitForInput);
+		   NULL, " Torneremo tutti amici e potremo nuovamente divertirci al club.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200394", 256, TRUE);
 	OutputLine(NULL, "みんなとも仲良しに戻れて、また楽しく部活ができるよ。",
 		   NULL, " Torneremo tutti amici e potremo di nuovo divertirci con le attività del club.", Line_WaitForInput);
@@ -3712,7 +3712,7 @@ void main()
 	SetSpeedOfMessage( TRUE, 0, );
 
 	OutputLine(NULL, "あはははははははははははははははは。」",
-		   NULL, " Ahahahahahahahahahahahahahahah.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ahahahahahahahahahahahah.\"", GetGlobalFlag(GLinemodeSp));
 
 	SetSpeedOfMessage( FALSE, 0, );
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -3757,11 +3757,11 @@ void main()
 		   NULL, " Andiamo insieme alla diga.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200401", 256, TRUE);
 	OutputLine(NULL, "見つけたばかりのかぁいいの、圭一くんにも見せてあげるね。",
-		   NULL, " Ti farò vedere le cose carine che ho trovato.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ti farò vedere le cose carine che ho trovato. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200402", 256, TRUE);
 	OutputLine(NULL, "きっと圭一くんも気に入るよ。",
-		   NULL, " Sono sicura che piaceranno anche a te, Keiichi-kun.", Line_Continue);
+		   NULL, "Sono sicura che piaceranno anche a te, Keiichi-kun.", Line_Continue);
 //!s200
 
 	SetSpeedOfMessage( TRUE, 100, );
@@ -4449,7 +4449,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700429", 256, TRUE);
 	OutputLine(NULL, "「他言無用でお願いします。",
-		   NULL, "\"Non farne parola con nessuno.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Non farne parola con nessuno. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4458,7 +4458,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700430", 256, TRUE);
 	OutputLine(NULL, "　また、内容には一部憶測も含まれているかもしれません。",
-		   NULL, " Anche perché parte di questa storia è solo una speculazione.", Line_WaitForInput);
+		   NULL, "Anche perché parte di questa storia è solo una speculazione.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700431", 256, TRUE);
 	OutputLine(NULL, "……全てが真実ではないかもしれないということです。",
 		   NULL, " Non tutto potrebbe essere vero...", Line_WaitForInput);
@@ -5512,7 +5512,7 @@ void main()
 		   NULL, " a Hinamizawa...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200439", 256, TRUE);
 	OutputLine(NULL, "うぅん、帰りたいんじゃない、帰らなきゃいけない！",
-		   NULL, " no, non voglio tornare, io devo tornare!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " no, non voglio tornare, io devo tornare! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5521,7 +5521,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200440", 256, TRUE);
 	OutputLine(NULL, "　本当はもっと早くに帰らなきゃいけなかった！！",
-		   NULL, " Sarei dovuta tornare già da tempo!!", Line_WaitForInput);
+		   NULL, "Sarei dovuta tornare già da tempo!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200441", 256, TRUE);
 	OutputLine(NULL, "　でももうだめ…！！！",
 		   NULL, " Ormai è troppo tardi...!!!", GetGlobalFlag(GLinemodeSp));
@@ -5620,7 +5620,7 @@ void main()
 		   NULL, " Ovvero, chi lascia il villaggio scatena l'ira di Oyashiro-sama.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700493", 256, TRUE);
 	OutputLine(NULL, "…この辺りは前原さんもすでにご存知ですよね？」",
-		   NULL, " ... tu dovresti saperl, Maebara-san.\"", Line_Normal);
+		   NULL, " ... tu dovresti saperlo, Maebara-san.\"", Line_Normal);
 	ClearMessage();
 
 //　...村に仇なす者にバチを当てる、ってのはよく知ってる＠
@@ -5906,7 +5906,7 @@ void main()
 	OutputLine(NULL, "　……せいぜい、綿流しのお祭りの日に１人が死んで１人が消えるくらいだ。",
 		   NULL, "... al massimo, una persona muore e un'altra sparisce durante il Watanagashi.", Line_WaitForInput);
 	OutputLine(NULL, "…このせいぜいというのも実に嫌な言い方だが…。",
-		   NULL, "... non mi piace dire \"al massimo\"...", Line_Normal);
+		   NULL, " ... non mi piace dire \"al massimo\"...", Line_Normal);
 	ClearMessage();
 
 
@@ -6580,7 +6580,7 @@ void main()
 
 //　心臓はすでに爆発寸前だった＠
 	OutputLine(NULL, "　心臓はすでに爆発寸前だった。",
-		   NULL, "Sento il cuore sul punto di esplodere.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sento il cuore sul punto di esplodere.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

@@ -58,7 +58,7 @@ void dialog002()
 	OutputLine(NULL, "「豚骨ショウガ味、デカカップ？",
 		   NULL, "\"Maiale & Zenzero, extra-large?", Line_WaitForInput);
 	OutputLine(NULL, "　ねぇ圭一、もう少し普通のにしない？」",
-		   NULL, "Ehi, Keiichi, non puoi prenderne uno più normale?\"", Line_Normal);
+		   NULL, " Ehi, Keiichi, non puoi prenderne uno più normale?\"", Line_Normal);
 	ClearMessage();
 }
 

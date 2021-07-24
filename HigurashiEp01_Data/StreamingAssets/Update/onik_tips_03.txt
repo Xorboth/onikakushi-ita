@@ -239,7 +239,7 @@ void main()
 //　家のでかさが裕福さの尺度だとでも言わんばかりだな￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　家のでかさが裕福さの尺度だとでも言わんばかりだな。",
-		   NULL, "Si dice che più la casa è grande e più la fortuna arride.", Line_Normal);
+		   NULL, "Si dice che più la casa è grande e più la fortuna ti ride.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("background/ma3", 1000 );
@@ -302,7 +302,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300021", 256, TRUE);
 	OutputLine(NULL, "「ぜひ今度、圭ちゃんの家を探検してみたいよなぁ。",
-		   NULL, "\"Un giorno, mi piacerebbe esplorare casa di Kei-chan...", Line_Continue);
+		   NULL, "\"Un giorno mi piacerebbe esplorare casa di Kei-chan...", Line_Continue);
 	Wait( 1600 );
 	OutputLine(NULL, "…お金持ちじゃないと主張しながらもあの邸宅！！",
 		   NULL, " dici di non essere ricco, ma hai una casa come quella!!", Line_WaitForInput);

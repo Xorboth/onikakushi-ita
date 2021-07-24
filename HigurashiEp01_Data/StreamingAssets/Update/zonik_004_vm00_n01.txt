@@ -455,7 +455,7 @@ void dialog021()
 //"... 腕が一本、まだ見つかってないんだろ？"@
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "“…腕が一本、まだ見つかってないんだろ？”",
-		   NULL, "\"... e ancora non hanno trovato un braccio\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... e ancora non hanno trovato un braccio.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

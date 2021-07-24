@@ -70,7 +70,7 @@ void main()
 //　ですが被害者がシャベルを振り回して抵抗を始めると、加害者たちも一斉に得物を手にし、一気に殺し合いにエスカレートしたのです。＠と前述の捜査関係者Ａ氏は語る￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "と前述の捜査関係者Ａ氏は語る。",
-		   NULL, "Così riferisce l'Investigatore A, di cui sopra.", Line_Normal);
+		   NULL, "Così riferisce l'Investigatore A.", Line_Normal);
 	ClearMessage();
 
 //　血の惨劇が終われば、そこには誰の眼にも生きているとは思えない無残な屍...￥

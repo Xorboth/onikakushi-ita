@@ -110,7 +110,7 @@ void dialog002()
 		   NULL, "\"Rika-san, queste sono cose che dovrebbero dire solo gli adulti che sanno cosa significa 'rompere la quarta parete',", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700338", 256, TRUE);
 	OutputLine(NULL, "んっふっふっふ！」",
-		   NULL, " Nfufufu!\"", Line_Normal);
+		   NULL, " nfufufu!\"", Line_Normal);
 }
 
 void dialog003()

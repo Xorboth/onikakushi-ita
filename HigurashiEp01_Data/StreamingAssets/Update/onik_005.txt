@@ -512,7 +512,7 @@ void main()
 //　レナがこんなカオだよ、といって再現してくれる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナがこんなカオだよ、といって再現してくれる。",
-		   NULL, "Rena fa la faccia che pare abbia fatto io poco fa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rena fa la stessa faccia che sembra abbia fatto io poco fa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　…………なるほど。納得￥
@@ -560,7 +560,7 @@ void main()
 	OutputLine(NULL, "　お祭りなんて誰かと誘い合ってじゃないと行く気がしないからな。",
 		   NULL, "Non me la sento di andare a un festival a meno che qualcuno non mi inviti.", Line_WaitForInput);
 	OutputLine(NULL, "それにこのメンバーなら退屈はしまい。",
-		   NULL, " Insieme a queste ragazze, sarà divertente.", Line_Normal);
+		   NULL, " Insieme a queste ragazze sarà divertente.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -582,7 +582,7 @@ void main()
 //　魅音が全員をぐるりと見回しそう宣言した＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音が全員をぐるりと見回しそう宣言した。",
-		   NULL, "Proclama Mion guardando uno a uno i membri del suo club.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Proclama Mion guardando uno a uno i membri del club.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　一体何が始まるってんだ＠
@@ -766,7 +766,7 @@ void main()
 //　その点に関してだけは疑いようもない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その点に関してだけは疑いようもない。",
-		   NULL, "L'unico punto di cui sono sicuro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Questa è l'unica cosa di cui sono sicuro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -833,7 +833,7 @@ void main()
 		   NULL, "\"Quando ci sono molte persone, i giochi di carte sono i più semplici da fare!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300276", 256, TRUE);
 	OutputLine(NULL, "　まさにこれぞテーブルゲームのベーシック！」",
-		   NULL, " Questo è proprio il gioco da tavolo più essenziale che esista!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Questo è proprio il gioco da tavolo più importante che esista!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1662,7 +1662,7 @@ void main()
 
 //えぇッ？！＠
 	OutputLine(NULL, "えぇッ？！」",
-		   NULL, "eehh?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " eehh?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4852,7 +4852,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei08380", 256, TRUE);
 	OutputLine(NULL, "「昨日今日会ったばかりという感じじゃなかったな。」",
-		   NULL, "\"Sembrava che vi conosceste da tempoo.\"", Line_Normal);
+		   NULL, "\"Sembrava che vi conosceste da tempo.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -4987,7 +4987,7 @@ void main()
 //　富竹さんに対する一方的な杞憂が消えると、急に肩が楽になった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　富竹さんに対する一方的な杞憂が消えると、急に肩が楽になった。",
-		   NULL, "All'improvviso, sento come se tutti i miei pensieri su Tomitake-san fossero scomparsi, come un macigno sollevato dal mio petto.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "All'improvviso, sento come se tutti i miei pensieri su Tomitake-san fossero scomparsi, come se un macigno fosse stato sollevato dal mio petto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

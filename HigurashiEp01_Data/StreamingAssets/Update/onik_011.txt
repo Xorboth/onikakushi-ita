@@ -2166,7 +2166,7 @@ void main()
 	OutputLine(NULL, "　そう言う意味では健康体だと思う。",
 		   NULL, "Dal punto di vista fisico, sono in perfetta salute.", Line_WaitForInput);
 	OutputLine(NULL, "小学校はこう見えても皆勤だ。",
-		   NULL, " Potrebbe non sembrare. ma non ho fatto quasi mai assenze dalle elementari fino a oggi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Potrebbe non sembrare, ma non ho fatto quasi mai assenze dalle elementari fino a oggi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2187,7 +2187,7 @@ void main()
 		   NULL, "\"Forse la stanchezza del trasloco sta iniziando a farsi sentire.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200090", 256, TRUE);
 	OutputLine(NULL, "……前に住んでた所とは全然違うところだもん。",
-		   NULL, " ... si tratta pur sempre di un posto completamente diverso rispetto a dove vivevi prima.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... si tratta pur sempre di un posto completamente diverso rispetto a dove vivevi prima. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200091", 256, TRUE);
 	OutputLine(NULL, "いろいろ慣れたり覚えたり……疲れて当然だよ。」",
@@ -2841,7 +2841,7 @@ void main()
 		   NULL, "\"Non hai detto di essere stato chiamato in sala insegnanti durante la riunione del club di ieri, Keiichi-kun?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200130", 256, TRUE);
 	OutputLine(NULL, "……レナは知っているよ。",
-		   NULL, " Io so...", Line_WaitForInput);
+		   NULL, " Lo so...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200131", 256, TRUE);
 	OutputLine(NULL, "圭一くんは職員室になんか行かなかった。」",
 		   NULL, " che non sei andato in sala insegnanti.\"", GetGlobalFlag(GLinemodeSp));
@@ -3091,7 +3091,7 @@ void main()
 //　……なんのときめきもない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……なんのときめきもない。",
-		   NULL, "... in circostanze normale sarei arrossito.", Line_Normal);
+		   NULL, "... in circostanze normali sarei arrossito.", Line_Normal);
 	ClearMessage();
 
 
@@ -3319,14 +3319,14 @@ void main()
 //　あれはレナに似た別物だった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あれはレナに似た別物だった。",
-		   NULL, "Quello era qualcuno che somigliava soltanto a Rena.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quello era soltanto qualcuno che somigliava a Rena.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　じゃあ……あれは誰だったんだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　じゃあ……あれは誰だったんだ？",
-		   NULL, "Ma in questo caso... di chi si trattava?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ma allora... chi era?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3378,7 +3378,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Mamma di Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/122700006", 256, TRUE);
 	OutputLine(NULL, "「圭一〜！",
-		   NULL, "\"Keiichi~!\"", Line_WaitForInput);
+		   NULL, "\"Keiichi~!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/122700007", 256, TRUE);
 	OutputLine(NULL, "　本屋さんから電話よ〜。」",
 		   NULL, " Una telefonata dalla libreria~.\"", GetGlobalFlag(GLinemodeSp));
@@ -3799,7 +3799,7 @@ void main()
 //　え？＠　……それは大石さんの、あまりに大胆な仮説だった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　え？！",
-		   NULL, "\"Eh?!", Line_WaitForInput);
+		   NULL, "Eh?!", Line_WaitForInput);
 	OutputLine(NULL, "　……それは大石さんの、あまりに大胆な仮説だった。",
 		   NULL, " ... è un'ipotesi oltraggiosa da parte di Ooishi-san.", Line_Normal);
 	ClearMessage();
@@ -5083,7 +5083,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…いや、…俺の部屋の前にずーっと立っていたわけだ……。",
-		   NULL, "... anzi... forse è rimasta davanti alla porta per tutto il tempo...", Line_Normal);
+		   NULL, " ... anzi... forse è rimasta davanti alla porta per tutto il tempo...", Line_Normal);
 	ClearMessage();
 
 

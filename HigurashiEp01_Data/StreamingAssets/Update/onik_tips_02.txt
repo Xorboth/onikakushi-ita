@@ -188,7 +188,7 @@ void main()
 //　......レナと沙都子では根本的に価値観が違う気がするぞ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……レナと沙都子では根本的に価値観が違う気がするぞ。",
-		   NULL, "... ho l'impressione che i criteri di valutazione di Rena e di Satoko siano fondamentalmente diversi.", Line_Normal);
+		   NULL, "... ho l'impressione che i criteri di valutazione di Rena e di Satoko siano totalmente diversi.", Line_Normal);
 	ClearMessage();
 
 //「そう言えば...、この学校って指定の制服とかないんだよな。＠
@@ -257,7 +257,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s20/01/440100020", 256, TRUE);
 	OutputLine(NULL, "「そこへ行くと、俺らの仲間はみんないろいろな制服を着てるよな。",
-		   NULL, "\"A guardare bene, nel nostro gruppo indossiamo tutti uniformi diverse, eh?", Line_Continue);
+		   NULL, "\"Pensandoci meglio, nel nostro gruppo indossiamo tutti uniformi diverse, eh?", Line_Continue);
 	Wait( 3000 );
 	OutputLine(NULL, "…わざわざどこかから取り寄せたのか？」",
 		   NULL, " Le avete acquistate da qualche parte volutamente così?\"", GetGlobalFlag(GLinemodeSp));
@@ -294,7 +294,7 @@ void main()
 //　...魅音のヤツ、仲間を着せ替え人形にして楽しんでるな、絶対＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…魅音のヤツ、仲間を着せ替え人形にして楽しんでるな、絶対。",
-		   NULL, "... quella Mion... immagino che si diverte a usare le sue compagne come bamboline da vestire.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... quella Mion... immagino si diverta ad usare le sue compagne come bamboline da vestire.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -376,7 +376,7 @@ void main()
 //　...わからん￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…わからん。",
-		   NULL, "... non mi ha convinto.", Line_Normal);
+		   NULL, "... non mi convince per niente.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

@@ -349,7 +349,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100006", 256, TRUE);
 	OutputLine(NULL, "「じゃあ………ダム工事について聞かせて下さい。",
-		   NULL, "\"Allora... sapresti dirmi cos'è successo quando la diga stava venendo costruita?", Line_WaitForInput);
+		   NULL, "\"Allora... sapresti dirmi cos'è successo durante il periodo di costruzione della diga?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100007", 256, TRUE);
 	OutputLine(NULL, "雛見沢が水没するとかいう、大事件だったんですよね…？」",
 		   NULL, " Ci fu un grande incidente in cui Hinamizawa rischiava di finire sommersa, giusto...?\"", GetGlobalFlag(GLinemodeSp));
@@ -1647,13 +1647,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800064", 256, TRUE);
 	OutputLine(NULL, "「次の、誘致派の夫婦の事故死だってそうさ。",
-		   NULL, "\"Vale lo stesso anche per le morti accidentali della coppia che supportava il progetto della diga.", Line_WaitForInput);
+		   NULL, "\"Vale lo stesso anche per le morti accidentali della coppia che supportava il progetto.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800065", 256, TRUE);
 	OutputLine(NULL, "恨みを買う立場だったからね、警察が特に入念に捜査したと思うよ。",
-		   NULL, " Erano in una posizione che li portava a essere detestati. La polizia svolse le indagini sotto quest'ottica.", Line_WaitForInput);
+		   NULL, " Erano in una posizione scomoda che li portò ad essere detestati. La polizia svolse le indagini sotto quest'ottica.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800066", 256, TRUE);
 	OutputLine(NULL, "それで発表は事故。",
-		   NULL, " E conclusero che si era trattato di un incidente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " La conclusione fu assegnata come incidente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800067", 256, TRUE);
 	OutputLine(NULL, "他殺じゃない。」",
@@ -1817,7 +1817,7 @@ void main()
 		   NULL, " Erano tutti sconvolti dagli incidenti avvenuti per tre anni di seguito.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800085", 256, TRUE);
 	OutputLine(NULL, "信心深い人たちはすぐに祟りだと決めてかかったのさ。",
-		   NULL, " Chi ha molta fede fa in fretta ad additare la causa a una maledizione.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Chi ha molta fede fa in fretta ad associare la causa a una maledizione.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800086", 256, TRUE);
 	OutputLine(NULL, "……もちろん、神主の奥さんもね。",
@@ -2755,7 +2755,7 @@ void main()
 //　そして俺の自宅につきレナとも別れる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして俺の自宅につきレナとも別れる。",
-		   NULL, "Raggiungiamo casa mia e mi separo, infine, anche da Rena.", Line_Normal);
+		   NULL, "Raggiungiamo casa mia, separandomi infine, anche da Rena.", Line_Normal);
 	ClearMessage();
 
 

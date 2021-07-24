@@ -305,7 +305,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……あぁぁ…ッ！！！」",
-		   NULL, " ... ahh...!!!\"", Line_Normal);
+		   NULL, "... ahh...!!!\"", Line_Normal);
 	ClearMessage();
 
 //　電話口の声は混乱し、完全に冷静さを失っていた＠
@@ -375,7 +375,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……無理です。」",
-		   NULL, " ... impossibile.\"", Line_Normal);
+		   NULL, "... impossibile.\"", Line_Normal);
 	ClearMessage();
 
 //　声に怯えと達観…＠
@@ -904,7 +904,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100825", 256, TRUE);
 	OutputLine(NULL, "　走っても走っても、走っても走っても…！！！",
-		   NULL, " Io corro e corro e corro e corro...!!!", Line_WaitForInput);
+		   NULL, "Io corro e corro e corro e corro...!!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100826", 256, TRUE);
 	OutputLine(NULL, "　影みたいにぴったりくっついて！！",
 		   NULL, " Ma mi rimane addosso, come un'ombra!!", Line_WaitForInput);
@@ -979,7 +979,7 @@ void main()
 		   NULL, " Ma dimmi!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700558", 256, TRUE);
 	OutputLine(NULL, "　……あなたの後ろに……誰がいるんですッ？！」",
-		   NULL, " ... chi c'è... dietro di te?!\"", Line_Normal);
+		   NULL, "... chi c'è... dietro di te?!\"", Line_Normal);
 	ClearMessage();
 
 //「振り向けるわけ…ないじゃないですか…＠振り向いたら……俺!w800……俺…、＠
@@ -1147,7 +1147,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700570", 256, TRUE);
 	OutputLine(NULL, "「もしもし…？",
-		   NULL, "\"Pronto... ?", Line_WaitForInput);
+		   NULL, "\"Pronto...?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700571", 256, TRUE);
 	OutputLine(NULL, "　………………………前原…さん…？」",
 		   NULL, " ... Maebara... san...?\"", GetGlobalFlag(GLinemodeSp));
@@ -1402,7 +1402,7 @@ void main()
 //　容疑者は自宅にクラスメートの女子２名/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　容疑者は自宅にクラスメートの女子２名",
-		   NULL, "I sospetti sono in merito alle due compagne di classe.", Line_ContinueAfterTyping);
+		   NULL, "I sospetti sono in merito alle due compagne di classe", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );

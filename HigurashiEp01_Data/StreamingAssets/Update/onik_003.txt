@@ -135,7 +135,7 @@ void main()
 		   NULL, " È stato incredibile!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300137", 256, TRUE);
 	OutputLine(NULL, "　雛見沢が丸ごとダム湖に沈むことに、一方的になってさ！」",
-		   NULL, " Dicevano che l'area di Hinamizawa sarebbe stata inclusa nel serbatoio e che non potevamo farci niente!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Dicevano che l'area di Hinamizawa sarebbe diventata parte del serbatoio idrico della diga e che non potevamo farci niente!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -249,7 +249,7 @@ void main()
 		   NULL, "\"Molto bene.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300139", 256, TRUE);
 	OutputLine(NULL, "今日は会則に則り、部員の諸君に是非を問いたい！",
-		   NULL, " Signore e signori. In base alle regole del nostro club, è arrivato il momento di dibattere!", Line_WaitForInput);
+		   NULL, " Signore e signori. In base alle regole del nostro club, è arrivato il momento del dibattito!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300140", 256, TRUE);
 	OutputLine(NULL, "　彼、前原圭一くんを新たな部員として我らの部活動に加えたいのだが…いかがだろうか！！」",
 		   NULL, " Quest'uomo, Keiichi Maebara-kun, vorrebbe diventare membro del club e partecipare alle nostre attività... voi cosa ne dite?!\"", Line_Normal);
@@ -487,7 +487,7 @@ void main()
 //　…沙都子が言うと、どんな手段を使ってもいい、と言ってるように聞こえる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…沙都子が言うと、どんな手段を使ってもいい、と言ってるように聞こえる。",
-		   NULL, "... dal modo in cui parla Satoko, suona come un 'usate ogni mezzo necessario.'", Line_Normal);
+		   NULL, "... dal modo in cui parla Satoko, suona come un 'usate ogni mezzo necessario'.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -950,7 +950,7 @@ void main()
 //　…そんな、何の根拠もない自信も、すぐに打ち砕かれることになった…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そんな、何の根拠もない自信も、すぐに打ち砕かれることになった…。",
-		   NULL, "... questa speranza ingenua... sarà presto distrutta...", Line_Normal);
+		   NULL, "... questa ingenua speranza... sarà presto distrutta...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("white", "right", 0, 0, 300 );
@@ -1192,7 +1192,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200181", 256, TRUE);
 	OutputLine(NULL, "「…や、やっぱりさ、綺麗なトランプでやらないと圭一くんに不公平だよ…。」",
-		   NULL, "\"...i-io penso che usare il vecchio mazzo sia ingiusto verso Keiichi-kun.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... i-io penso che usare il vecchio mazzo sia stato ingiusto verso Keiichi-kun.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1460,7 +1460,7 @@ void main()
 		   NULL, "\"C-c-c-c-com'è possibile?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400068", 256, TRUE);
 	OutputLine(NULL, "　７は一番分かり難いはずですのに〜？！？！」",
-		   NULL, " Il sette dovrebbe essere la carta più difficile da individuare~?!?!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Il sette dovrebbe essere la carta più difficile da individuare~?!?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2407,7 +2407,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400078", 256, TRUE);
 	OutputLine(NULL, "「……梨花は……慰めるときにしか…頭を撫でませんの。」",
-		   NULL, "\"... Rika... accarezza la testa di qualcuno solamente ... per consolarlo.\"", Line_Normal);
+		   NULL, "\"... Rika... accarezza la testa di qualcuno solamente... per consolarlo.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -2886,7 +2886,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei03470", 256, TRUE);
 	OutputLine(NULL, "「あそこさ、ダムの工事現場。",
-		   NULL, "\"Per caso, sai, al cantiere per la diga...", Line_WaitForInput);
+		   NULL, "\"Per caso, sai se, al cantiere per la diga...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei03480", 256, TRUE);
 	OutputLine(NULL, "…なんかあったんだろ？",
 		   NULL, " tempo fa...", Line_WaitForInput);
@@ -3531,7 +3531,7 @@ void main()
 //　富竹さんの姿がないことを知った俺は、危なげに斜面を降りていった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　富竹さんの姿がないことを知った俺は、危なげに斜面を降りていった。",
-		   NULL, "Capisco che Tomitake-san non è in giro e comincio a salire su con passo incerto.", Line_Normal);
+		   NULL, "Noto che Tomitake-san non è in giro e comincio a salire su con passo incerto.", Line_Normal);
 	ClearMessage();
 
 
@@ -3575,7 +3575,7 @@ void main()
 //　…どうしたの、こんなところへ。＠
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200199", 256, TRUE);
 	OutputLine(NULL, "　…どうしたの、こんなところへ。」",
-		   NULL, "... che ci fai in un posto come questo?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... che ci fai in un posto come questo?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4036,7 +4036,7 @@ void main()
 //　まぁいいか￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まぁいいか。",
-		   NULL, "E vabè.", Line_Normal);
+		   NULL, "Vabbè.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -4131,7 +4131,7 @@ void main()
 //　レナが走り去ったことを確認すると、俺は体を起こして、さっき見付けたものへ近付いて行った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナが走り去ったことを確認すると、俺は体を起こして、さっき見付けたものへ近付いて行った。",
-		   NULL, "Una volta sicuro che Rena sia abbastanza lontana, mi alzo e mi dirgo verso il luogo della mia precedente scoperta.", Line_Normal);
+		   NULL, "Una volta sicuro che Rena sia abbastanza lontana, mi alzo e mi dirigo verso il luogo della mia precedente scoperta.", Line_Normal);
 	ClearMessage();
 
 
@@ -4139,7 +4139,7 @@ void main()
 //　それは、紙紐で縛られた新聞や週刊誌で積み上げられたゴミ山だった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは、紙紐で縛られた新聞や週刊誌で積み上げられたゴミ山だった。",
-		   NULL, "Una pila di riviste e giornali tenuti insieme con uno spago.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Una pila di riviste e giornali sono tutte attaccate insieme con uno spago.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

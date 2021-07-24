@@ -2089,7 +2089,7 @@ void main()
 //　確かに俺が本当に出場したら甲子園なんてオチャノコサイサイだろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　確かに俺が本当に出場したら甲子園なんてオチャノコサイサイだろう。",
-		   NULL, "Beh, persino io riuscissi a partecipare al Koushien, vorrebbe dire che chiunque può farlo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Beh, se persino io riuscissi a partecipare al Koushien, vorrebbe dire che chiunque può farlo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

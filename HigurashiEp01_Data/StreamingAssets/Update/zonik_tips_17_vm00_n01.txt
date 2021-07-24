@@ -17,6 +17,6 @@ void dialog000()
 		   NULL, " E la pensione, beh, la userò per divertirmi un po' a Susukino.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700055", 256, TRUE);
 	OutputLine(NULL, "なっはっはっは！！」",
-		   NULL, "Nahahahah!!\" [Quartiere a luci rosse di Sapporo.]", Line_Normal);
+		   NULL, " Nahahahah!!\" [Quartiere a luci rosse di Sapporo.]", Line_Normal);
 	ClearMessage();
 }

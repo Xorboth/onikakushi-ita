@@ -152,7 +152,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei33470", 256, TRUE);
 	OutputLine(NULL, "「祭りにはレナたちと行くからさ。",
-		   NULL, "\"Vado con Rena e le altre, ", Line_WaitForInput);
+		   NULL, "\"Vado con Rena e le altre,", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei33480", 256, TRUE);
 	OutputLine(NULL, "俺のことは放っておいて大丈夫。」",
 		   NULL, " quindi non preoccuparti troppo.\"", GetGlobalFlag(GLinemodeSp));
@@ -862,7 +862,7 @@ void main()
 		   NULL, "\"Oh. Chiedo scusa.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei33640", 256, TRUE);
 	OutputLine(NULL, "で、その待たせた「レディー」ってのはどこにいるんだ？」",
-		   NULL, " Allora, dove sarebbe questa signora di cui stai parlando? Io vedo solo una bambina?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Allora, dove sarebbe questa signora di cui stai parlando? Io vedo solo una bambina.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1083,7 +1083,7 @@ void main()
 		   NULL, "\"Facciamo una gara a chi mangia più velocemente i takoyaki!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300703", 256, TRUE);
 	OutputLine(NULL, "　各自購入の上、",
-		   NULL, " Ciascuno compra la propria porzione.", Line_Continue);
+		   NULL, " Ciascuno compri la propria porzione.", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 400 );
@@ -1969,7 +1969,7 @@ void main()
 	OutputLine(NULL, "　……わからねぇ…。",
 		   NULL, " ... non riesco proprio a capire...", Line_WaitForInput);
 	OutputLine(NULL, "お前のセンス、５世紀くらい先取りしてるよ…。",
-		   NULL, " Il suo senso artistico è all'avanguardia... di circa cinque eoni...", Line_Normal);
+		   NULL, " il suo senso artistico è all'avanguardia... di circa cinque eoni...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2242,7 +2242,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "これぞまさに芸術と呼ぶに相応しいッ！！」",
-		   NULL, " Questa sì che è arte!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " questa sì che è arte!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2928,7 +2928,7 @@ void main()
 //　Ｋｏされた俺に、その上でいがみ合う魅音と沙都子＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ＫＯされた俺に、その上でいがみ合う魅音と沙都子。",
-		   NULL, "Mion e Satoko mi hanno gettato a terra e si stanno battibeccando sopra di me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mion e Satoko mi gettano a terra e si battibeccano sopra di me.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6033,7 +6033,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/500400732", 256, TRUE);
 	OutputLine(NULL, "「２人ともお務め、しっかりでございますよ〜！！",
-		   NULL, "\"Vi auguro il meglio nelle vostre attività~!!", Line_WaitForInput);
+		   NULL, "\"Buona fortuna ad entrambi~!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/500400733", 256, TRUE);
 	OutputLine(NULL, "　ささ！",
 		   NULL, " E ora...", Line_WaitForInput);

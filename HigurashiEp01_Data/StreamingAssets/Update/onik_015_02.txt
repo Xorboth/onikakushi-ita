@@ -922,7 +922,7 @@ void main()
 		   NULL, "\"Ahahah, non lo conosci, Kei-chan?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300210", 256, TRUE);
 	OutputLine(NULL, "　監督ってったら監督だよ。」",
-		   NULL, "Quando diciamo 'responsabile' vogliamo dire 'responsabile'.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Quando diciamo 'responsabile' vogliamo dire 'responsabile'.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1022,7 +1022,7 @@ void main()
 		   NULL, "\"... non capisco di cosa stiate parlando.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100786", 256, TRUE);
 	OutputLine(NULL, "……その監督が俺と何か関係あるのか？",
-		   NULL, "Che affari ha con me questo responsabile?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Che affari ha con me questo responsabile?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1078,7 +1078,7 @@ void main()
 		   NULL, "\"... Kei-chan, di recente ti interessi al baseball, vero?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300212", 256, TRUE);
 	OutputLine(NULL, "　監督、それ聞いたら喜ぶと思うなぁ。」",
-		   NULL, "Sono sicura che il responsabile ne sarà felice.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sono sicura che il responsabile ne sarà felice.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 //「......だから監督って誰だよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -1165,7 +1165,7 @@ void main()
 		   NULL, "\"Giusto.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300216", 256, TRUE);
 	OutputLine(NULL, "監督が来る前に済ませとくかな。",
-		   NULL, "Dovremmo finire prima che arrivi il responsabile...", Line_WaitForInput);
+		   NULL, " Dovremmo finire prima che arrivi il responsabile...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300217_1", 256, TRUE);
 	OutputLine(NULL, "……圭ちゃん、覚えてるかい？」",
 		   NULL, " ricordi, vero, Kei-chan?\"", GetGlobalFlag(GLinemodeSp));
@@ -1520,7 +1520,7 @@ void main()
 		   NULL, "\"Eheheh...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300224", 256, TRUE);
 	OutputLine(NULL, "監督が来る前に済まさないとねぇ。」",
-		   NULL, "meglio sbrigarsi, prima che arrivi il responsabile.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " meglio sbrigarsi, prima che arrivi il responsabile.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1837,7 +1837,7 @@ void main()
 		   NULL, "Ma quando l'agente ha controllato per vedere se fosse ancora vivo, ha notato subito qualcosa di anormale.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700041", 256, TRUE);
 	OutputLine(NULL, "…喉がね、引き裂かれていたんですよ。」",
-		   NULL, "... gli avevano squarciato la gola.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... gli avevano squarciato la gola.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2837,7 +2837,7 @@ void main()
 //　そのままさらに回転し、踵で思い切り魅音の腹部を蹴り抜いた＠...柔らかかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そのままさらに回転し、踵で思い切り魅音の腹部を蹴り抜いた。",
-		   NULL, "Poi, sfruttando la forza della rotazione, ho dato un calcio nel petto di Mion con tutta la forza che avevo.", Line_WaitForInput);
+		   NULL, "Poi, sfruttando la forza della rotazione, ho dato un calcio nel petto a Mion con tutta la forza che avevo.", Line_WaitForInput);
 	OutputLine(NULL, "…柔らかかった。",
 		   NULL, " Era così morbido...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2847,7 +2847,7 @@ void main()
 //　レナが俺にとびかかろうとしたので、思い切りの体当たりで、壁に打ちつけた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナが俺にとびかかろうとしたので、思い切りの体当たりで、壁に打ちつけた。",
-		   NULL, "Rena ha cercato di placcarmi, così l'ho presa con entrambe le mani e l'ho sbattuta contro il muro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rena ha cercato di placcarmi, così l'ho presa con entrambe le mani e l'ho lanciata contro il muro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3245,7 +3245,7 @@ void main()
 //　まだ...終わっていない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まだ…終わっていない。",
-		   NULL, "Non è.... ancora finita.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Non è... ancora finita.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4636,7 +4636,7 @@ void main()
 //　...その声が体を突きぬけ......戦慄が駆け抜けるッ！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…その声が体を突きぬけ……戦慄が駆け抜けるッ！！！",
-		   NULL, "... quella voce è come una lama affilata...e mi fa drizzare i capelli!!!", Line_Normal);
+		   NULL, "... quella voce è come una lama affilata... e mi fa drizzare i capelli!!!", Line_Normal);
 	ClearMessage();
 
 //走るしかない！！！！＠
@@ -4690,7 +4690,7 @@ void main()
 //　それ以外の何も望まなかったから＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それ以外の何も望まなかったから。",
-		   NULL, " nient'altro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "nient'altro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

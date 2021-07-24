@@ -39,7 +39,7 @@ void main()
 //　今日はレナと魅音に雛見沢をいろいろと案内してもらう日だ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今日はレナと魅音に雛見沢をいろいろと案内してもらう日だ。",
-		   NULL, "Oggi, Rena e Mion mi accompagneranno a visitare Hinamizawa.", Line_Normal);
+		   NULL, "Oggi Rena e Mion mi accompagneranno a visitare Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "msys01", 56, 0 );
@@ -134,7 +134,7 @@ void main()
 //　その疑問に魅音は目配せで答えてくれた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その疑問に魅音は目配せで答えてくれた。",
-		   NULL, "Mion, notato il mio sguardo dubbioso, mi fa l'occhiolino.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mion, notando il mio sguardo dubbioso, mi fa l'occhiolino.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -210,7 +210,7 @@ void main()
 	Wait( 500 );
 
 	OutputLine(NULL, "取る！」",
-		   NULL, " Mi prenderò la responsabilità!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mi prenderò le mie responsabilità!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -310,7 +310,7 @@ void main()
 //　レナの持ち上げ方は、とてもその中身が弁当とは考えられないものだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナの持ち上げ方は、とてもその中身が弁当とは考えられないものだった。",
-		   NULL, "A giudicare dal modo in cui la solleva, non posso credere che le uniche cose lì dentro siano bento.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A giudicare dal modo in cui la solleva, non riesco a credere che ci sia solo del bento lì dentro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n\n", Line_ContinueAfterTyping); }
 
 
@@ -628,7 +628,7 @@ void main()
 		   NULL, " Tu sei Keiichi Maebara.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200089", 256, TRUE);
 	OutputLine(NULL, "　いじわるなこと言うけど本当はやさしい照れ屋さん。」",
-		   NULL, " Parli come un duro ma in realtà sei un ragazzo timido e gentile.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Parli come un duro, ma in realtà sei un ragazzo timido e gentile.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -890,7 +890,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei01420", 256, TRUE);
 	OutputLine(NULL, "「……俺も男だ。努力はする。",
-		   NULL, "\"... sono un uomo. Farò quello che posso.", Line_WaitForInput);
+		   NULL, "\"... sono un uomo. Farò quel che posso.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei01430", 256, TRUE);
 	OutputLine(NULL, "…だが量が多過ぎる！」",
 		   NULL, " ... ma è veramente troppo cibo!\"", GetGlobalFlag(GLinemodeSp));
@@ -1010,7 +1010,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei01440", 256, TRUE);
 	OutputLine(NULL, "「へぇ。祭りにしちゃちょっと早いシーズンだよな？」",
-		   NULL, "\"Wow, non è un po' troppo presto per un festival?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Eh? Non è un po' troppo presto per un festival?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1808,7 +1808,7 @@ void main()
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400046", 256, TRUE);
 	PlaySE( 4, "wa_029", 56, 64 );
 	OutputLine(NULL, "　………レナお姉ちゃんのお弁当、沙都子もおいしかったよ…。」",
-		   NULL, " ... il bento preparato da Rena-onee-chan, anche Satoko pensa che sia stato delizioso...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... anche Satoko pensa che il bento preparato da Rena-onee-chan sia stato delizioso...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //　沙都子は上目遣いに舌っ足らずな口調ではにかんで見せた￥
@@ -2016,10 +2016,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400048", 256, TRUE);
 	OutputLine(NULL, "「をっほっほ！　見せてもらおうではございませんかぁ。",
-		   NULL, "\"Ohohoh! Fammi vedere, dunque...", Line_WaitForInput);
+		   NULL, "\"Ohohoh! Sono curiosa, mostrami...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400049", 256, TRUE);
 	OutputLine(NULL, "年増の足掻きをッ！！」",
-		   NULL, " il tuo ultimo canto del cigno!!\"", Line_Normal);
+		   NULL, " il tuo ultimo asso nella manica!!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2195,14 +2195,14 @@ void main()
 //　ここで俺はちょっとはにかんだフリをしてから一心拍を置く＠…次で!d500…トドメだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここで俺はちょっとはにかんだフリをしてから一心拍を置く。",
-		   NULL, "Finora ho parlato e mantenuto il tono della voce normale.", Line_WaitForInput);
+		   NULL, "Finora ho parlato normalmente, mantenendo calmo il tono della voce.", Line_WaitForInput);
 	OutputLine(NULL, "…次で",
 		   NULL, " ... ma adesso...", Line_ContinueAfterTyping);
 
 	Wait( 500 );
 
 	OutputLine(NULL, "…トドメだ。",
-		   NULL, " tocca al colpo di grazia.", Line_Normal);
+		   NULL, " il colpo di grazia.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "msys12", 56, 0 );
@@ -2432,13 +2432,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400050", 256, TRUE);
 	OutputLine(NULL, "「こんな手…信じられないですのー！！！",
-		   NULL, "\"Non ci credo... è impossibile!!!", Line_Continue);
+		   NULL, "\"Non ci credo... è assurdo.!!!", Line_Continue);
 	Wait( 2000 );
 
 
 //　く、悔しくないもんッ！！！！＠
 	OutputLine(NULL, "　く、悔しくないもんッ！！！！」",
-		   NULL, " N-non mi disturba affatto!!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " N-non mi dà per niente fastidio!!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2913,7 +2913,7 @@ void main()
 		   NULL, "\"N-non è immondizia!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200142", 256, TRUE);
 	OutputLine(NULL, "…レナにとっては宝の山だもん…。」",
-		   NULL, " ... per me è una miniera piena di tesori...\"", Line_Normal);
+		   NULL, " ... per Rena è una miniera piena di tesori...\"", Line_Normal);
 	ClearMessage();
 
 //　レナはすでにお約束のかぁいいモードになっていた＠
@@ -2961,7 +2961,7 @@ void main()
 	SetSpeedOfMessage( TRUE, 0, );
 
 	OutputLine(NULL, "……",
-		   NULL, " ...", Line_Continue);
+		   NULL, "...", Line_Continue);
 
 	SetSpeedOfMessage( FALSE, 0, );
 
