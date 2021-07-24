@@ -14,6 +14,11 @@ Per informazioni più tecniche sul progetto puoi visitare la pagina GitHub del n
 https://github.com/Xorboth/onikakushi-ita
 
 
+[PROBLEMI NOTI]
+
+- I menu di configurazione aggiunti da 07th-Mod (come la scelta dell'OST tra originale e aggiornata) non sono attualmente traducibili in quanto il testo è hardcoded all'interno della DLL usata dalla mod
+
+
 [CREDITI]
 
 Ringraziamo infinitamente il team di 07th-Mod per la loro incredibile patch e grandissimo supporto che ci ha permesso di portarvi la traduzione italiana che vedete oggi.

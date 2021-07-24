@@ -22,7 +22,7 @@ https://www.mangagamer.com/detail.php?goods_type=1&product_code=132
 2. Scaricare ed aprire il 07th-Mod Installer:<br/>
 https://github.com/07th-mod/python-patcher/releases/latest
 
-3. Fare partire il menù di configurazione per l'installazione della patch per Onikakushi, mettendo la spunta sulla voce della traduzione italiana
+3. Fare partire il menu di configurazione per l'installazione della patch per Onikakushi, mettendo la spunta sulla voce della traduzione italiana
 
 4. Installare la patch
 
@@ -59,7 +59,7 @@ https://github.com/Xorboth/onikakushi-ita/releases/latest
 <br/>
 
 ## Problemi noti
-- I menù di configurazione aggiunti da 07th-Mod (come la scelta dell'OST tra originale e aggiornata) non sono attualmente traducibili in quanto il testo è hardcoded all'interno della DLL usata dalla mod
+- I menu di configurazione aggiunti da 07th-Mod (come la scelta dell'OST tra originale e aggiornata) non sono attualmente traducibili in quanto il testo è hardcoded all'interno della DLL usata dalla mod
 
 <br/>
 
