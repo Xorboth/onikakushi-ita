@@ -61,6 +61,7 @@ https://github.com/Xorboth/onikakushi-ita/releases/latest
 ## Problemi noti
 - I menù di configurazione aggiunti da 07th-Mod (come la scelta dell'OST tra originale e aggiornata) non sono attualmente traducibili in quanto il testo è hardcoded all'interno della DLL usata dalla mod
 
+<br/>
 
 ## Crediti
 
