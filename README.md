@@ -38,7 +38,7 @@ https://store.steampowered.com/app/310360/Higurashi_When_They_Cry_Hou__Ch1_Onika
 https://www.gog.com/game/higurashi_when_they_cry_hou_ch1_onikakushi<br/>
 https://www.mangagamer.com/detail.php?goods_type=1&product_code=132
 
-2. Installare la patch per Onikakushi di 07th-Mod attraverso il 07th-Mod Installer:<br/>
+2. Installare la patch inglese per Onikakushi di 07th-Mod attraverso il 07th-Mod Installer:<br/>
 https://github.com/07th-mod/python-patcher/releases/latest
 
 3. Scaricare l'ultima versione della nostra traduzione, prestando cura a scegliere la piattaforma corretta tra quelle disponibili (Windows o MacOS/Linux)<br/>
