@@ -2,6 +2,8 @@
 :: Set variables
 ::
 
+SET /P version= Enter the version number: 
+
 set tempFolder=temp
 set outputFolder=output
 
@@ -15,11 +17,11 @@ set readmeManual=leggimi_manuale.txt
 
 set assets=sharedassets0.assets
 set assetsWindows=sharedassets0.assets
-set assetsMacOsLinux=LinuxMac-GOG-MG-Steam-5.2.2f1.languagespecificassets
+set assetsLinuxMacOs=LinuxMac-GOG-MG-Steam-5.2.2f1.languagespecificassets
 
 set output07th=onikakushi_ita_07th_mod_installer.7z
-set outputWindows=onikakushi_ita_windows_XXX.7z
-set outputMacOsLinux=onikakushi_ita_macos_linux_XXX.7z
+set outputWindows=onikakushi_ita_windows_%version%.7z
+set outputLinuxMacOs=onikakushi_ita_macos_linux_%version%.7z
 
 
 ::
@@ -38,7 +40,7 @@ md .\%outputFolder%
 
 del .\%outputFolder%\%output07th%
 del .\%outputFolder%\%outputWindows%
-del .\%outputFolder%\%outputMacOsLinux%
+del .\%outputFolder%\%outputLinuxMacOs%
 
 
 ::
@@ -49,7 +51,7 @@ robocopy ..\%higurashiData% .\%tempFolder%\%higurashiData% /E /MIR
 copy ..\%changelog% .\%tempFolder%\%changelog%
 copy ..\%readmeInstaller% .\%tempFolder%\%readme%
 
-7z a .\%outputFolder%\%output07th% .\%tempFolder%\* -ssw -mx9
+7za a .\%outputFolder%\%output07th% .\%tempFolder%\* -ssw -mx9
 
 
 ::
@@ -67,24 +69,24 @@ copy ..\%readmeManual% .\%tempFolder%\%readme%
 
 del .\%tempFolder%\%higurashiData%\%assets%
 del .\%tempFolder%\%higurashiData%\%assetsWindows%
-del .\%tempFolder%\%higurashiData%\%assetsMacOsLinux%
+del .\%tempFolder%\%higurashiData%\%assetsLinuxMacOs%
 
 copy ..\%higurashiData%\%assetsWindows% .\%tempFolder%\%higurashiData%\%assets%
 
-7z a .\%outputFolder%\%outputWindows% .\%tempFolder%\* -ssw -mx9
+7za a .\%outputFolder%\%outputWindows% .\%tempFolder%\* -ssw -mx9
 
 
 ::
-:: Create MacOs/Linux manual archive
+:: Create Linux/MacOS manual archive
 ::
 
 del .\%tempFolder%\%higurashiData%\%assets%
 del .\%tempFolder%\%higurashiData%\%assetsWindows%
-del .\%tempFolder%\%higurashiData%\%assetsMacOsLinux%
+del .\%tempFolder%\%higurashiData%\%assetsLinuxMacOs%
 
-copy ..\%higurashiData%\%assetsMacOsLinux% .\%tempFolder%\%higurashiData%\%assets%
+copy ..\%higurashiData%\%assetsLinuxMacOs% .\%tempFolder%\%higurashiData%\%assets%
 
-7z a .\%outputFolder%\%outputMacOsLinux% .\%tempFolder%\* -mx9
+7za a .\%outputFolder%\%outputLinuxMacOs% .\%tempFolder%\* -mx9
 
 
 ::
