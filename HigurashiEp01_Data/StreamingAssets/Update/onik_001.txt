@@ -4457,7 +4457,7 @@ void main()
 //　魅音の申し出にはやたらともったいぶった俺が、レナにはあっさり頷いたのが面白くないらしい＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音の申し出にはやたらともったいぶった俺が、レナにはあっさり頷いたのが面白くないらしい。",
-		   NULL, "Sembra che a Mion non importi che sia scortese con lei, rispetto alla velocità con cui mi sono messo d'accordo con Rena.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sembra che, più del mio essere scortese con lei, a Mion dia fastidio la velocità con cui mi sono messo d'accordo con Rena.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

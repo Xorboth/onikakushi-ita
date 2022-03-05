@@ -2377,7 +2377,7 @@ void main()
 //　下級生諸君は、おーー！と意気込むと、猛ダッシュで校内各地へ散って行った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　下級生諸君は、おーー！と意気込むと、猛ダッシュで校内各地へ散って行った。",
-		   NULL, "I miei compagni levano un grido d'incitamento e si separano in tutte le direzoni.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "I miei compagni levano un grido d'incitamento e si separano in tutte le direzioni.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
