@@ -1,3 +1,7 @@
+1.0.7 [XX-XX-2022]:
+ - Aggiornata la traduzione all'ultima versione della patch per Onikakushi di 07th-Mod (commit c5c48818bb0754a7fa3864a80f4336df6d5cfe09 del 21-12-2021)
+ - Aggiornata la traduzione, correggendo un paio di errori segnalati
+
 1.0.6 [09-09-2021]:
  - Aggiornata la traduzione, correggendo vari errori segnalati
 
