@@ -2,7 +2,7 @@
 :: Set variables
 ::
 
-SET /P version= Enter the version number: 
+set /P version= Enter the version number: 
 
 set tempFolder=temp
 set outputFolder=output
