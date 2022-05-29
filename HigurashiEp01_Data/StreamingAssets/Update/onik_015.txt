@@ -1511,13 +1511,13 @@ void main()
 		   NULL, "\"Mion, io ti avevo chiesto chiaramente se fosse successo qualcosa alla diga, ricordi?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100655", 256, TRUE);
 	OutputLine(NULL, "…魅音はないって言ったじゃないか！！！",
-		   NULL, " ... e tu mi hai detto che non era successo niente!!", Line_WaitForInput);
+		   NULL, " ... e mi hai detto che non era successo niente!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps2/01/120100656", 540, TRUE);
 	OutputLine(NULL, "　バラバラ殺人があったのによ！！！",
-		   NULL, " Invece lì è morto un uomo!! Addirittura fatto a pezzi!!", Line_WaitForInput);
+		   NULL, "E invece un uomo è stato ucciso e fatto a pezzi!!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100657", 256, TRUE);
 	OutputLine(NULL, "　嘘つき野郎ッ！！！」",
-		   NULL, " Tu mi hai mentito!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mi hai mentito!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1542,13 +1542,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100658", 256, TRUE);
 	OutputLine(NULL, "「仲間ってのは隠し事なんかなしだろ？",
-		   NULL, "\"Gli amici non si dicono bugie a vicenda o sbaglio?!", Line_WaitForInput);
+		   NULL, "\"Credevo che tra amici non dovessimo tenerci nascosto nulla.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100659", 256, TRUE);
 	OutputLine(NULL, "　そうだろ？！",
-		   NULL, " Eh?!", Line_WaitForInput);
+		   NULL, "O sbaglio?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100660", 256, TRUE);
 	OutputLine(NULL, "　じゃあお前らは仲間じゃない！！」",
-		   NULL, " Significa che voi non siete mie amiche!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Allora non siamo più amici!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1596,7 +1596,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100661", 256, TRUE);
 	OutputLine(NULL, "「あぁそれに、先日の見舞いのおはぎ、あれ、うまかったぜ。血が出るかと思った。",
-		   NULL, "\"Ora che ci penso, quei mochi della buona salute che mi hai portato l'altro giorno erano proprio buoni. Quasi buoni da morire.", Line_WaitForInput);
+		   NULL, "\"Ora che ci penso, quegli ohagi della buona salute che mi hai portato l'altro giorno erano proprio buoni. Quasi buoni da morire.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100662", 256, TRUE);
 	OutputLine(NULL, "……やったのはどっちだ？",
 		   NULL, " Chi è stato?", Line_WaitForInput);
@@ -1690,7 +1690,7 @@ void main()
 //　おはぎにタバスコ混ぜるとか、そんなのとはレベルが違うんだぞ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　おはぎにタバスコ混ぜるとか、そんなのとはレベルが違うんだぞ！",
-		   NULL, "Non era uno scherzo come mettere del tabasco nel ripieno del mochi!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Non era uno scherzo come mettere del tabasco nel ripieno dell'ohagi!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

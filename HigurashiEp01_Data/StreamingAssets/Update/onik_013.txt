@@ -853,7 +853,7 @@ void main()
 	OutputLine(NULL, "みんな忘れる。",
 		   NULL, " Ogni cosa.", Line_WaitForInput);
 	OutputLine(NULL, "おはぎのことも全部忘れる。",
-		   NULL, " Dimenticati anche del mochi.", Line_WaitForInput);
+		   NULL, " Dimenticati anche dell'ohagi.", Line_WaitForInput);
 	OutputLine(NULL, "忘れる忘れる忘れる。",
 		   NULL, " Dimenticadimenticadimentica.", Line_Normal);
 	ClearMessage();
@@ -1179,7 +1179,7 @@ void main()
 //昨日のおはぎ、ちゃんと食べてくれた…？＠
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200175", 256, TRUE);
 	OutputLine(NULL, "昨日のおはぎ、ちゃんと食べてくれた…？」",
-		   NULL, " Quei mochi di ieri... li hai mangiati tutti...?\"", Line_Continue);
+		   NULL, " Quegli ohagi di ieri... li hai mangiati tutti...?\"", Line_Continue);
 	Wait( 2500 );
 	PlaySE( 4, "wa_009", 56, 64 );
 	Negative( 100 , TRUE )
@@ -1212,7 +1212,7 @@ void main()
 //　昨日のおはぎ、ちゃんと食べてくれた…＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昨日のおはぎ、ちゃんと食べてくれた…？",
-		   NULL, "\"Quei mochi di ieri... li hai mangiati tutti...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Quegli ohagi di ieri... li hai mangiati tutti...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2623,7 +2623,7 @@ void main()
 		   NULL, "\"Cos'è questo saluto privo di grinta?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300124", 256, TRUE);
 	OutputLine(NULL, "　差し入れのおはぎ、ちゃんと食べてくれなかったのー？」",
-		   NULL, " Hai mangiato quel mochi di ieri?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Hai mangiato quell'ohagi di ieri?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2631,7 +2631,7 @@ void main()
 //　ちゃんと食べたからこの様子なんだよ…＠言葉が喉のそこまで出掛かった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ちゃんと食べたからこの様子なんだよ…。",
-		   NULL, "Il mochi è il motivo del perché sono così oggi...", Line_WaitForInput);
+		   NULL, "L'ohagi è il motivo del perché sono così oggi...", Line_WaitForInput);
 	OutputLine(NULL, "言葉が喉のそこまで出掛かった。",
 		   NULL, " queste parole mi si fermano sulla punta della lingua.", Line_Normal);
 	ClearMessage();
@@ -2814,7 +2814,7 @@ void main()
 //　昨日のおはぎはそれへの警告だと考えるのが妥当だろう￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昨日のおはぎはそれへの警告だと考えるのが妥当だろう。",
-		   NULL, "L'avvertimento di ieri con il mochi è indicatore sufficiente a farmelo capire.", Line_Normal);
+		   NULL, "L'avvertimento di ieri con l'ohagi è indicatore sufficiente a farmelo capire.", Line_Normal);
 	ClearMessage();
 
 //　……いや、…警告という言い方自体、相も変わらず女々しい言い方だ＠
@@ -2983,7 +2983,7 @@ void main()
 //　裁縫針がどう間違ったらおはぎに混ざるんだ？！　お人好しも大概にしろ！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　裁縫針がどう間違ったらおはぎに混ざるんだ？！　お人好しも大概にしろ！！",
-		   NULL, "Come si fa a far cadere per sbaglio un ago dentro l'impasto del mochi?! Il tuo beneficio del dubbio va oltre il senso comune!!", Line_Normal);
+		   NULL, "Come si fa a far cadere per sbaglio un ago dentro l'impasto dell'ohagi?! Il tuo beneficio del dubbio va oltre il senso comune!!", Line_Normal);
 	ClearMessage();
 
 //　確かにレナも魅音も…不審な態度や言動があるけど…ひょっとしたら何かの誤解で…＠

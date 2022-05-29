@@ -1212,7 +1212,7 @@ void main()
 		   NULL, " ... te n'eri dimenticato?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200488", 256, TRUE);
 	OutputLine(NULL, "……おはぎの宿題。",
-		   NULL, " ... il tuo compito con il mochi?", Line_WaitForInput);
+		   NULL, " ... il tuo compito con l'ohagi?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200489", 256, TRUE);
 	OutputLine(NULL, "どれがレナの作ったおはぎかを当てる宿題。",
 		   NULL, " Il 'compito' in cui dovevi indovinare quale avesse preparato Rena?", Line_WaitForInput);
@@ -1233,7 +1233,7 @@ void main()
 //　でも裁縫針が出てきたので残りのおはぎは全部投げてしまった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも裁縫針が出てきたので残りのおはぎは全部投げてしまった。",
-		   NULL, "Ma ho buttato via il resto dei mochi dopo aver scoperto dell'ago da cucito.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ma ho buttato via il resto degli ohagi dopo aver scoperto dell'ago da cucito.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1968,7 +1968,7 @@ void main()
 //　二人は笑い声ともつかない、奇怪な声で笑い合う＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　二人は笑い声ともつかない、奇怪な声で笑い合う。",
-		   NULL, "Le due ridono in coro con le loro risate angoscianti.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Le due ridono in modo angosciante.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2470,7 +2470,7 @@ void main()
 //　そしてこの二人を打ち倒したのかッ？！...この、金属バットで...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そしてこの二人を打ち倒したのかッ？！…この、金属バットで…？",
-		   NULL, "E le hanno uccise?! ... con... la mazza di metallo...?", Line_Normal);
+		   NULL, "E le ha uccise?! ... con... la mazza di metallo...?", Line_Normal);
 	ClearMessage();
 
 //　右腕の重さにようやく気付いた＠

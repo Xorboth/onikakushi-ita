@@ -2146,7 +2146,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100498", 256, TRUE);
 	OutputLine(NULL, "「お見舞いってことでおはぎを置いていったんですが、……その中に針が入ってたんです。",
-		   NULL, "\"Mi hanno lasciato dei mochi come regalo... ma dentro c'era un ago.", Line_WaitForInput);
+		   NULL, "\"Mi hanno lasciato degli ohagi come regalo... ma dentro c'era un ago.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100499", 256, TRUE);
 	OutputLine(NULL, "…偶然、飲み込まずに済みましたが……。",
 		   NULL, " Per fortuna non l'ho ingoiato...", Line_WaitForInput);
@@ -2214,7 +2214,7 @@ void main()
 //　あのおはぎを投げつけた時、恐怖心でつい目をそらしてしまったが...あの針は重要な証拠になったのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あのおはぎを投げつけた時、恐怖心でつい目をそらしてしまったが…あの針は重要な証拠になったのだ！",
-		   NULL, "Quando ho gettato il mochi, l'avevo dimenticato dalla paura... ma quell'ago è una prova preziosa!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quando ho gettato l'ohagi, l'avevo dimenticato dalla paura... ma quell'ago è una prova preziosa!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2222,7 +2222,7 @@ void main()
 //　確か...針はおはぎと一緒に壁に投げつけた＠あるとすれば...やはり居間のあの壁￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　確か…針はおはぎと一緒に壁に投げつけた。",
-		   NULL, "Vediamo... ho tirato il mochi e l'ago contro il muro.", Line_WaitForInput);
+		   NULL, "Vediamo... ho tirato l'ohagi e l'ago contro il muro.", Line_WaitForInput);
 	OutputLine(NULL, "あるとすれば…やはり居間のあの壁！",
 		   NULL, " Quindi... l'ago è sul muro del soggiorno!", Line_Normal);
 	ClearMessage();
@@ -2232,7 +2232,7 @@ void main()
 //　だが、居間の壁は几帳面なお袋によって綺麗に掃除され、おはぎを投げつけた痕跡は完全になくなっていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、居間の壁は几帳面なお袋によって綺麗に掃除され、おはぎを投げつけた痕跡は完全になくなっていた。",
-		   NULL, "Ma mia mamma ha già pulito e non c'è traccia del mochi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ma mia mamma ha già pulito e non c'è traccia dell'ohagi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

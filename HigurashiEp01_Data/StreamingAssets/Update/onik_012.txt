@@ -3319,13 +3319,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300096", 256, TRUE);
 	OutputLine(NULL, "「うちの婆っちゃが山ほどおはぎを作ってさ。",
-		   NULL, "\"Mia nonna ha preparato un sacco di mochi.", Line_WaitForInput);
+		   NULL, "\"Mia nonna ha preparato un sacco di ohagi.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300097", 256, TRUE);
 	OutputLine(NULL, "お裾分けに持ってけって言ってんだよ。",
 		   NULL, " Mi ha detto di condividerli con i miei amici.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300098", 256, TRUE);
 	OutputLine(NULL, "だから持ってくね！」",
-		   NULL, " Te ne porto un po'!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Te ne porto un po'!\" [Particolare tipo di mochi ripieno di azuki.]", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3497,7 +3497,7 @@ void main()
 		   NULL, "\"... tieni, Keiichi-kun.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200146", 256, TRUE);
 	OutputLine(NULL, "…魅ぃちゃんのおばあちゃんが作ってくれたおはぎだよ。」",
-		   NULL, " ... questi sono i mochi fatti dalla nonna di Mii-chan.\"", Line_Normal);
+		   NULL, " ... questi sono gli ohagi fatti dalla nonna di Mii-chan.\"", Line_Normal);
 	ClearMessage();
 
 //　レナが新聞紙で包んだそれを差し出す＠
@@ -3557,7 +3557,7 @@ void main()
 		   NULL, "\"Questo sarà il compito per casa di Kei-chan, visto che oggi ha saltato la riunione del club!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300106", 256, TRUE);
 	OutputLine(NULL, "　おはぎにアルファベットがついてるから明日回答すること！」",
-		   NULL, " C'è scritta una lettera su ogni mochi, e sappi che te lo chiederò domani!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " C'è scritta una lettera su ogni ohagi, e sappi che te lo chiederò domani!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3835,7 +3835,7 @@ void main()
 //　…俺の手からおはぎの包みが滑り落ちる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…俺の手からおはぎの包みが滑り落ちる。",
-		   NULL, "Il pacco con il mochi che tengo mi scivola dalle mani.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il pacco con l'ohagi che tengo mi scivola dalle mani.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4033,10 +4033,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200160", 256, TRUE);
 	OutputLine(NULL, "「…圭一くん、顔色悪いよ？",
-		   NULL, "\"... Keiichi-kun, non hai un bell'aspetto.", Line_WaitForInput);
+		   NULL, "\"... Keiichi-kun, sei pallido.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200161", 256, TRUE);
 	OutputLine(NULL, "　もう横になった方がいいと思うな。」",
-		   NULL, " Penso che dovresti stenderti.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Forse dovresti sdraiarti un attimo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4045,7 +4045,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300119", 256, TRUE);
 	OutputLine(NULL, "「そうだね。私たちはもう帰ろ。」",
-		   NULL, "\"È vero. Dovremmo tornare a casa.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"È vero. Meglio se noi torniamo a casa.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4066,7 +4066,7 @@ void main()
 //　俺はさっき、おはぎの包みを落とした格好のまま、指一本動かすこともできないでいる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺はさっき、おはぎの包みを落とした格好のまま、指一本動かすこともできないでいる。",
-		   NULL, "Non muovo un muscolo da quando mi è caduto il pacchetto di mochi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Non muovo un muscolo da quando mi è caduto il pacchetto di ohagi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4129,7 +4129,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300121", 256, TRUE);
 	OutputLine(NULL, "「………明日、学校休んじゃ“嫌だよ”？」",
-		   NULL, "\"... domani 'non va bene' saltare la scuola, capito?\"", Line_Normal);
+		   NULL, "\"... domani 'non puoi' fare assenza, capito?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeBustshotWithFiltering( 2, "left", 1, FALSE, 0, 0, 300, TRUE );
@@ -4676,7 +4676,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100345", 256, TRUE);
 	OutputLine(NULL, "「……あ、そうだ。おはぎ食べないと…。",
-		   NULL, "\"... ah, ora che ci penso... devo mangiare quei mochi.", Line_WaitForInput);
+		   NULL, "\"... ah, ora che ci penso... devo mangiare quegli ohagi.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100346", 256, TRUE);
 	OutputLine(NULL, "どれがレナの手作りか、当てないといけないんだよな。」",
 		   NULL, " Spero di capire quale abbia fatto Rena.\"", Line_Normal);
@@ -4724,7 +4724,7 @@ void main()
 //　…お茶を飲みながら頬張る手作りおはぎ＠……お＠結構うまそうなシチュエーションだぞ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…お茶を飲みながら頬張る手作りおはぎ。",
-		   NULL, "... così posso riempirmi la bocca di mochi mentre bevo.", Line_WaitForInput);
+		   NULL, "... così posso riempirmi la bocca di ohagi mentre bevo.", Line_WaitForInput);
 	OutputLine(NULL, "……お。",
 		   NULL, " ... oh.", Line_WaitForInput);
 	OutputLine(NULL, "結構うまそうなシチュエーションだぞ。",
@@ -4736,7 +4736,7 @@ void main()
 //　新聞紙の包装を開くと、中にはこじんまりとした、それでいてずっしりとしたこし餡のおはぎが５つ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　新聞紙の包装を開くと、中にはこじんまりとした、それでいてずっしりとしたこし餡のおはぎが５つ。",
-		   NULL, "Apro l'involucro del giornale. Dentro ci sono cinque mochi paffuti alla pasta di fagioli rossi che si adattano perfettamente all'interno.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Apro l'involucro del giornale. Dentro ci sono cinque ohagi paffuti alla pasta di fagioli rossi che si adattano perfettamente all'interno.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4796,7 +4796,7 @@ void main()
 //　よく見ると中にひとつだけ、とても丁寧につくったおはぎがあった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　よく見ると中にひとつだけ、とても丁寧につくったおはぎがあった。",
-		   NULL, "Guardando attentamente, noto un mochi fatto molto bene.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Guardando attentamente, noto un ohagi fatto molto bene.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4963,7 +4963,7 @@ void main()
 //　食べ盛りの俺としてはボリュームに若干の不安を感じるが…＠まずは一口…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　食べ盛りの俺としてはボリュームに若干の不安を感じるが…。",
-		   NULL, "E nonostante sia un ragazzo di appetito, questa quantità di mochi potrebbe essere un problema da digerire...", Line_WaitForInput);
+		   NULL, "E nonostante sia un ragazzo di appetito, questa quantità di ohagi potrebbe essere un problema da digerire...", Line_WaitForInput);
 	OutputLine(NULL, "まずは一口…。",
 		   NULL, " ma, beh... diamoci un morso...", Line_Normal);
 	ClearMessage();
@@ -5005,14 +5005,14 @@ void main()
 //　しっかりとした食べ応えのチャンピオンに、食べ飽きない大きさのチャレンジャーレナ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しっかりとした食べ応えのチャンピオンに、食べ飽きない大きさのチャレンジャーレナ！",
-		   NULL, "Le proporzioni e le rotondità del mochi del campione vs la sfidante Rena, che si difende con una grandezza fuori dal comune!", Line_Normal);
+		   NULL, "Le proporzioni e le rotondità dell'ohagi del campione vs la sfidante Rena, che si difende con una grandezza fuori dal comune!", Line_Normal);
 	ClearMessage();
 
 
 //　まだレナのは一口しか食べていない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まだレナのは一口しか食べていない。",
-		   NULL, "Do un morso al mochi di Rena.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Do un morso all'ohagi di Rena.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5101,7 +5101,7 @@ void main()
 //　それが何かを頭が理解する前に、俺は食べかけのおはぎごと、それを力いっぱい投げ付けた！！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それが何かを頭が理解する前に、俺は食べかけのおはぎごと、それを力いっぱい投げ付けた！！！",
-		   NULL, "Prima che possa comprendere appieno cosa sia, lancio immediatamente via il resto del mochi!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Prima che possa comprendere appieno cosa sia, lancio immediatamente via il resto dell'ohagi!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -5318,7 +5318,7 @@ void main()
 	OutputLine(NULL, "　………そして、ようやくこっち側の俺も理解する。",
 		   NULL, "Poi... le mie sinapsi raggiungono l'unica conclusione possibile...", Line_WaitForInput);
 	OutputLine(NULL, "おはぎに何が混じっていたのかを。",
-		   NULL, " ... c'era un ago dentro a quel mochi.", Line_Normal);
+		   NULL, " ... c'era un ago dentro a quell'ohagi.", Line_Normal);
 	ClearMessage();
 
 //　その単語を脳裏に浮かべるより手が動く方が早かった＠
@@ -5357,7 +5357,7 @@ void main()
 //　俺は残ったおはぎを次々と壁へ叩き付けた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺は残ったおはぎを次々と壁へ叩き付けた。",
-		   NULL, "Lancio il resto dei mochi contro il muro.", Line_Normal);
+		   NULL, "Lancio il resto degli ohagi contro il muro.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
