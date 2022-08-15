@@ -3766,7 +3766,7 @@ void main()
 		   NULL, " Conosci la storia del primo incidente?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps2/11/120700146", 540, TRUE);
 	OutputLine(NULL, "　バラバラ殺人。」",
-		   NULL, " Quella dello smembramento.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Quella dell'uomo fatto a pezzi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

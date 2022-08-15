@@ -2289,7 +2289,7 @@ void main()
 //　バラバラ殺人＠事故死＠病死に自殺＠それから撲殺＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　バラバラ殺人。",
-		   NULL, "Lo smembramento.", Line_WaitForInput);
+		   NULL, "L'uomo fatto a pezzi.", Line_WaitForInput);
 	OutputLine(NULL, "事故死。",
 		   NULL, " La morte accidentale.", Line_WaitForInput);
 	OutputLine(NULL, "病死に自殺。",
@@ -3470,7 +3470,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Uomo di Mezza Età</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700085", 256, TRUE);
 	OutputLine(NULL, "「初めはダム工事の監督！",
-		   NULL, "\"La prima vittima è stata il capo del cantiere della diga!", Line_WaitForInput);
+		   NULL, "\"La prima vittima fu il capocantiere della diga!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700086", 256, TRUE);
 	OutputLine(NULL, "　そして次にダムを誘致した村人！",
 		   NULL, " Poi un abitante che supportava il progetto!", Line_WaitForInput);
@@ -3556,7 +3556,7 @@ void main()
 //　始めこそダム工事関係者に偏っていたかもしれないが、後年になればなるほど、犠牲者の「敵対度」は希薄になっていく￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　初めこそダム工事関係者に偏っていたかもしれないが、後年になればなるほど、犠牲者の「敵対度」は希薄になっていく。",
-		   NULL, "All'inizio si è trattato di persone nell'ambito del progetto della diga, ma col passare degli anni, le vittime non sono più state \"il nemico\". ", Line_Normal);
+		   NULL, "All'inizio si è trattato di persone legate al progetto della diga, ma col passare degli anni, le vittime non sono più state \"il nemico\". ", Line_Normal);
 	ClearMessage();
 
 

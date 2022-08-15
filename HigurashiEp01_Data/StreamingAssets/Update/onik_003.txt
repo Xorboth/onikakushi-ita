@@ -4436,7 +4436,7 @@ void main()
 //"雛見沢ダムで悪夢の惨劇！　リンチ・バラバラ殺人！"@
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "“雛見沢ダムで悪夢の惨劇！　リンチ・バラバラ殺人！”",
-		   NULL, "\"Una tragedia da incubo al cantiere di Hinamizawa! Uomo linciato e smembrato!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Una tragedia da incubo al cantiere di Hinamizawa! Uomo linciato e fatto a pezzi!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4553,7 +4553,7 @@ void main()
 //　鉈やつるはしや斧で＠　こんなのはリンチですらない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鉈やつるはしや斧で？",
-		   NULL, "E invece... smembramento con asce e picconi?", Line_WaitForInput);
+		   NULL, "E invece... fatto a pezzi con asce e picconi?", Line_WaitForInput);
 	OutputLine(NULL, "　こんなのはリンチですらない。",
 		   NULL, " Non è stato un linciaggio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

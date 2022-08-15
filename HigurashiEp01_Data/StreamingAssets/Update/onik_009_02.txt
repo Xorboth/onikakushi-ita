@@ -854,7 +854,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800033", 256, TRUE);
 	OutputLine(NULL, "「バラバラ殺人の翌年の綿流しの日。",
-		   NULL, "\"L'anno seguente allo smembramento, il giorno del Watanagashi...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"L'anno seguente all'omicidio, il giorno del Watanagashi...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1019,7 +1019,7 @@ void main()
 //　雛見沢存亡を賭けたダム工事との戦い＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢存亡を賭けたダム工事との戦い。",
-		   NULL, "La guerra per la diga, con il futuro di Hinamizawa legato a essa,", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Le proteste per la diga, con il futuro di Hinamizawa legato a essa,", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1613,7 +1613,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800057", 256, TRUE);
 	OutputLine(NULL, "「……例えば、一番最初のバラバラ殺人。",
-		   NULL, "\"... per esempio, lo smembramento.", Line_WaitForInput);
+		   NULL, "\"... per esempio, quell'uomo fatto a pezzi.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800058", 256, TRUE);
 	OutputLine(NULL, "言ったよね？",
 		   NULL, " Ricordi?", Line_WaitForInput);

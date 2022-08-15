@@ -837,7 +837,7 @@ void main()
 //　残酷なバラバラ殺人のことも忘れる＠その後毎年起こる怪死事件も忘れる＠…転落事故も、病死も自殺も、撲殺も失踪も、全部全部忘れる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　残酷なバラバラ殺人のことも忘れる。",
-		   NULL, "Dimenticarsi di quel brutale smembramento.", Line_WaitForInput);
+		   NULL, "Dimenticarsi di quel brutale omicidio.", Line_WaitForInput);
 	OutputLine(NULL, "その後毎年起こる怪死事件も忘れる。",
 		   NULL, " Dimenticarsi delle morti misteriose che si sono susseguite negli anni.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

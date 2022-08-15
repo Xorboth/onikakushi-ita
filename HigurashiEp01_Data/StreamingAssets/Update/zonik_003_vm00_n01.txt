@@ -252,7 +252,7 @@ void dialog012()
 //　俺はてっきり…バラバラ殺人とかがあったのかと思っていたのだが…違うのだろうか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺はてっきり…バラバラ殺人とかがあったのかと思っていたのだが…違うのだろうか。",
-		   NULL, "Pensavo... che un uomo fosse stato ucciso e smembrato... ma a quanto pare mi sbagliavo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pensavo... che un uomo fosse stato ucciso e fatto a pezzi... ma a quanto pare mi sbagliavo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -261,7 +261,7 @@ void dialog013()
 //　…本当に雛見沢でバラバラ殺人なんかあったんですか？、って＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…本当に雛見沢でバラバラ殺人なんかあったんですか？、って。",
-		   NULL, "... del tipo 'C'è stato davvero uno smembramento qui a Hinamizawa?'", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... del tipo 'C'è stato davvero un omicidio qui a Hinamizawa?'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 
@@ -280,6 +280,6 @@ void dialog014()
 //　富竹さんの言葉通りなら、それは間違いなくバラバラ殺人を示唆していた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　富竹さんの言葉通りなら、それは間違いなくバラバラ殺人を示唆していた。",
-		   NULL, "Se fosse davvero come ha detto Tomitake-san , allora qui ci devono essere dei riferimenti allo smembramento.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se fosse davvero come ha detto Tomitake-san , allora qui ci devono essere dei riferimenti ai resti del malcapitato.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }

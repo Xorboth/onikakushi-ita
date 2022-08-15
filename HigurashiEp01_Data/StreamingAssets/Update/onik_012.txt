@@ -1621,7 +1621,7 @@ void main()
 //　ダム工事に抵抗したとき、村人一丸となって戦った、という魅音の言葉がふと蘇った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ダム工事に抵抗したとき、村人一丸となって戦った、という魅音の言葉がふと蘇った。",
-		   NULL, "Ricordo che Mion mi ha detto che tutti gli abitanti del villaggio si erano uniti per combattere contro la costruzione della diga.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ricordo che Mion mi ha detto che tutti gli abitanti del villaggio avevano fatto comune per opporsi alla costruzione della diga.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

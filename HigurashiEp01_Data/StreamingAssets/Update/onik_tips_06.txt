@@ -36,7 +36,7 @@ void main()
 //　リンチ・バラバラ殺人￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　リンチ・バラバラ殺人！",
-		   NULL, "Linciaggio e omicidio/smembramento!", Line_Normal);
+		   NULL, "Linciaggio e un uomo fatto a pezzi!", Line_Normal);
 	ClearMessage();
 	SetStyleOfMessageSwinging( 0 );
 	PlayBGM( 1, "msys07", 56, 0 );
@@ -44,7 +44,7 @@ void main()
 //　Ｘ月Ｘ日、ＸＸ県鹿骨市の雛見沢ダム建設作業現場で起こった血も凍るバラバラ殺人＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　Ｘ月Ｘ日、ＸＸ県鹿骨市の雛見沢ダム建設作業現場で起こった血も凍るバラバラ殺人。",
-		   NULL, "Il giorno X del mese di X nella prefettura XX al sito di costruzione della diga di Hinamizawa, nella città di Shishibone, un uomo è stato ucciso e smembrato in modo brutale e raggelante.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il giorno X del mese di X nella prefettura XX al sito di costruzione della diga di Hinamizawa, nella città di Shishibone, un uomo è stato ucciso e fatto a pezzi in modo brutale e raggelante.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -147,7 +147,7 @@ void main()
 //「ＸＸは、単なる暴行致死でなくもっと恐ろしいバラバラ殺人に仕立て上げ、ひとりひとりを深く関与させることで結束を固めようとしたのです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ＸＸは、単なる暴行致死でなくもっと恐ろしいバラバラ殺人に仕立て上げ、ひとりひとりを深く関与させることで結束を固めようとしたのです。」",
-		   NULL, "\"XX ha trasformato un semplice omicidio in un violento caso di smembramento e ha coinvolto ogni complice in modo da creare tra di loro un senso di unità.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"XX ha trasformato un semplice omicidio in un caso sanguinolento che ha coinvolto ogni complice, in modo da creare tra di loro un senso di unità.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -189,7 +189,7 @@ void main()
 //「被害者たちは泣きながら嘔吐しながら、死体を切断しました＠頑強に抵抗する者もいましたが、ＸＸに『今さらもうひとり死んでも同じことだぞ。』と凄まれ、結局は抗えなかったのです。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「被害者たちは泣きながら嘔吐しながら、死体を切断しました。",
-		   NULL, "\"Gli autori del gesto hanno pianto e vomitato mentre smembravano il corpo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Gli autori del gesto hanno pianto e vomitato mentre facevano a pezzi il corpo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "頑強に抵抗する者もいましたが、ＸＸに「今さらもうひとり死んでも同じことだぞ。」と凄まれ、結局は抗えなかったのです。」",
 		   NULL, " C'era una persona che si rifiutava in modo più testardo degli altri. Tuttavia, XX li aveva minacciati dicendo 'Ormai non cambierebbe niente se morisse qualcun altro', mentre gli dava indicazioni.", Line_Normal);

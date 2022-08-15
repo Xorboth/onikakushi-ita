@@ -1786,7 +1786,7 @@ void main()
 		   NULL, "\"Credo che voi siate coinvolte anche negli incidenti degli anni scorsi.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100677", 256, TRUE);
 	OutputLine(NULL, "ダムの反対運動の時から、お前が警察の世話になってたこともよく知ってる！",
-		   NULL, " So che avete passato molto tempo coi poliziotti sin dall'inizio del movimento anti-diga.", Line_WaitForInput);
+		   NULL, " So che avete passato molto tempo coi poliziotti sin dall'inizio delle proteste contro la diga.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100678", 256, TRUE);
 	OutputLine(NULL, "　隠しきれてると思うなよ…いいな！！」",
 		   NULL, " Non credere di potermi nascondere tutto... capito?!\"", GetGlobalFlag(GLinemodeSp));
