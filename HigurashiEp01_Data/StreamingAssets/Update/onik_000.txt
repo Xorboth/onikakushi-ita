@@ -28,7 +28,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…誰かが、ずっと謝っている気がした。",
-		   NULL, "... mi sembra che qualcuno si stia scusando da tempo.", Line_Normal);
+		   NULL, "... sento una voce femminile che si sta scusando da tempo.", Line_Normal);
 	ClearMessage();
 
 //　彼女は何を謝っているのだろう＠
@@ -173,7 +173,7 @@ void main()
 //　...誰かが、まだ謝り続けている￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…誰かが、まだ謝り続けている。",
-		   NULL, "... qualcuno si sta ancora scusando.", Line_Normal);
+		   NULL, "... la ragazza si sta ancora scusando.", Line_Normal);
 	ClearMessage();
 
 //click

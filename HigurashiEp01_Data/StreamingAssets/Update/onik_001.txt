@@ -547,7 +547,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200007", 256, TRUE);
 	OutputLine(NULL, "「…わ、…あ、ありがと…。」",
-		   NULL, "\"... ah ... g-grazie...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Ah... g-grazie...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -575,7 +575,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…ず、",
-		   NULL, " ... per...", Line_Continue);
+		   NULL, " per...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 400 );
@@ -620,7 +620,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200009", 256, TRUE);
 	OutputLine(NULL, "「…え",
-		   NULL, "\"... uhh...", Line_Continue);
+		   NULL, "\"Uhh...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 600 );
@@ -628,14 +628,14 @@ void main()
 
 
 	OutputLine(NULL, "……あ、…ないよ。",
-		   NULL, " ... ah... no, mai.", Line_Continue);
+		   NULL, " ah... no, mai.", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 400 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "よ、読んだ事ない。」",
-		   NULL, " M-mai letto uno.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " M-Mai letto uno.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -674,7 +674,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200010", 256, TRUE);
 	OutputLine(NULL, "「う、うぅん、どういたしまして〜。",
-		   NULL, "\"N-non è niente. Figurati~.", Line_WaitForInput);
+		   NULL, "\"N-Non è niente. Figurati~.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200011", 256, TRUE);
 	OutputLine(NULL, "どうだった？",
 		   NULL, " Com'erano?", Line_WaitForInput);
@@ -1388,7 +1388,7 @@ void main()
 //　学校というよりは、幼稚園のようなにぎやかさも、今ではそこそこ心地いいものだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　学校というよりは、幼稚園のような賑やかさも、今ではそこそこ心地いいものだ。",
-		   NULL, "Con un ambiente così vivace. sembra più un asilo che una vera scuola, e non è poi così male.", Line_Normal);
+		   NULL, "Con un ambiente così vivace, sembra più un asilo che una vera scuola, e non è poi così male.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(3, 3, "sprite/me1a_def_a1_", "0", "left", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
@@ -1449,7 +1449,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200026", 256, TRUE);
 	OutputLine(NULL, "「ど、どうしたの…二人とも…？」",
-		   NULL, "\"C-che cosa vi è preso...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"C-Che cosa vi è preso...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1557,7 +1557,7 @@ void main()
 //　複数のワナを多彩に組み合わせ、本命のワナへ誘う誘導や、連続でヒットさせる連鎖系トラップなどなど＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　複数のワナを多彩に組み合わせ、本命のワナへ誘う誘導や、連続でヒットさせる連鎖系トラップなどなど。",
-		   NULL, "Le piace posizionare una vasta varietà di trappole: trappole banali che sono lì solo per attirarti in quella principale, trappole che continuano ad attivarsi all'infinito, come un marchingegno, e molto altro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Le piace posizionare una vasta varietà di trappole: quelle banali che sono lì solo per attirarti in quella principale, quelle che continuano ad attivarsi all'infinito, come un marchingegno, e molto altro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1644,7 +1644,7 @@ void main()
 //　攻撃力抜群の恐るべきワナだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　攻撃力抜群の恐るべきワナだ。",
-		   NULL, "Una trappola potente e terrificante.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Un marchingegno potente e terrificante.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
