@@ -628,7 +628,7 @@ void main()
 //　…富竹さんと一緒にいた女性（名前がわからないのが実に歯痒い…）は綿流し以降、消息不明ということからもそれを伺うことができる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…富竹さんと一緒にいた女性（名前がわからないのが実に歯痒い…）は綿流し以降、消息不明ということからもそれを伺うことができる。",
-		   NULL, "... deduco che l'abbiamo pronunciata perché Tomitake-san e quella donna (di cui non ricordo il nome...) sono spariti dopo il Watanagashi.", Line_Normal);
+		   NULL, "... deduco che l'abbiano pronunciata perché Tomitake-san e quella donna (di cui non ricordo il nome...) sono spariti dopo il Watanagashi.", Line_Normal);
 	ClearMessage();
 
 
@@ -2963,7 +2963,12 @@ void main()
 	PlaySE( 4, "wa_027", 56, 64 );
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200139a", 256, TRUE);
 
-//	DrawBustshot( 2, "re_se_hii_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+//  Replace CG with angry Rena sprite (originally re_se_hii_a1) if CGs are disabled (like the original Ryukishi game).
+//  For now, the LIES text and negative effect is still overlaid on the sprite to make this easier to implement.
+	if (GetGlobalFlag(GHideCG) == 1)
+	{
+		ModDrawCharacter(2, 2, "portrait/re1a_hig_okoru_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	}
 
 	DrawBG("scene/002b", 0, FALSE);
 	DrawBustshot(1, "text/oni_usoda", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 0, FALSE );
@@ -2996,6 +3001,13 @@ void main()
 	OutputLine(NULL, "　それに驚いた鳥たちが慌てて羽ばたく。",
 		   NULL, "Degli uccelli spaventati si alzano in volo.", Line_Normal);
 	ClearMessage();
+
+//  Reset Rena's sprite back to normal
+	if (GetGlobalFlag(GHideCG) == 1)
+	{
+		DisableWindow();
+		ModDrawCharacter(2, 2, "portrait/re1a_hig_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	}
 
 
 //　大きく吸いこんだ息が、吐き出せない＠いや、息を吐き出す事すら許してくれない＠
@@ -3758,13 +3770,13 @@ void main()
 
 //「前原さん＠最初の事件、ご存知ですよね＠　バラバラ殺人。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700144", 256, TRUE);
+	ModPlayVoiceLS(3, 11, "org/ooishi0000", 256, TRUE);
 	OutputLine(NULL, "「前原さん。",
 		   NULL, "\"Maebara-san.", Line_WaitForInput);
-	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700145", 256, TRUE);
+	ModPlayVoiceLS(3, 11, "org/ooishi0001", 256, TRUE);
 	OutputLine(NULL, "最初の事件、ご存知ですよね？",
 		   NULL, " Conosci la storia del primo incidente?", Line_WaitForInput);
-	ModPlayVoiceLS(3, 11, "ps2/11/120700146", 540, TRUE);
+	ModPlayVoiceLS(3, 11, "org/ooishi0002", 256, TRUE);
 	OutputLine(NULL, "　バラバラ殺人。」",
 		   NULL, " Quella dell'uomo fatto a pezzi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

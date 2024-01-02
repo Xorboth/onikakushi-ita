@@ -4106,13 +4106,13 @@ void main()
 
 //「お、おいおい侮るなよ？＠　うちのお袋のスペシャルなディナーを見くびるなってんだ...！＠　そりゃあもー満貫全席状態で......すごいのなんの...、＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100543", 256, TRUE);
+	ModPlayVoiceLS(3, 1, "org/keiichi0026", 256, TRUE);
 	OutputLine(NULL, "「お、おいおい侮るなよ？！",
 		   NULL, "\"Ehi, così mi offendi!", Line_WaitForInput);
-	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100544", 256, TRUE);
+	ModPlayVoiceLS(3, 1, "org/keiichi0027", 256, TRUE);
 	OutputLine(NULL, "　うちのお袋のスペシャルなディナーを見くびるなってんだ…！！",
 		   NULL, " Non posso credere che tu sminuisca la cucina stravagante di mia madre in quel modo...!!", Line_WaitForInput);
-	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100545", 256, TRUE);
+	ModPlayVoiceLS(3, 1, "org/keiichi0028", 256, TRUE);
 	OutputLine(NULL, "　そりゃあもー満漢全席状態で……すごいのなんの…、」",
 		   NULL, " Sembra un pasto degno di un re...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }

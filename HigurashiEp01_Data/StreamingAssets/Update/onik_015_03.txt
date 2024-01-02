@@ -1228,7 +1228,7 @@ void main()
 //　…むしろ最後の一言は鮮明に脳裏に戻った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…むしろ最後の一言は鮮明に脳裏に戻った。",
-		   NULL, " ma mi balena in menta cosa stesse ripetendo fino a un attimo fa.", Line_Normal);
+		   NULL, " ma mi balena in mente cosa stesse ripetendo fino a un attimo fa.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/ke_s2", 1000 );

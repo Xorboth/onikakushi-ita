@@ -886,10 +886,21 @@ void main()
 	ClearMessage();
 
 
-	//VoiceMatching
-	if(GetGlobalFlag(GCensor) >= 2){ModCallScriptSection("zonik_009_02_vm0x_n01","dialog000");}
-	if(GetGlobalFlag(GCensor) <= 1){ModCallScriptSection("zonik_009_02_vm00_n01","dialog000");}
-	//VoiceMatchingEnd
+//「さらに翌年＠綿流しの晩＠今度は神社の神主が原因不明の奇病で急死した＠奥さんはその晩の内に沼に入水自殺した。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(3, 8, "org/tomitake0001", 256, TRUE);
+	OutputLine(NULL, "「さらに翌年。",
+		   NULL, "\"L'anno seguente.", Line_WaitForInput);
+	ModPlayVoiceLS(3, 8, "org/tomitake0002", 256, TRUE);
+	OutputLine(NULL, "綿流しの晩。",
+		   NULL, " La notte del Watanagashi.", Line_WaitForInput);
+	ModPlayVoiceLS(3, 8, "org/tomitake0003", 256, TRUE);
+	OutputLine(NULL, "今度は神社の神主が原因不明の奇病で急死した。",
+		   NULL, " Il prete shintoista del santuario morì di colpo per una malattia sconosciuta.", Line_WaitForInput);
+	ModPlayVoiceLS(3, 8, "org/tomitake0004", 256, TRUE);
+	OutputLine(NULL, "奥さんはその晩の内に沼に入水自殺した。」",
+		   NULL, " La stessa notte, sua moglie si lasciò affogare nella palude.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 
@@ -1720,13 +1731,13 @@ void main()
 
 //「じゃあ富竹さん…その次に死んだ神主さんはどうです＠　原因不明の奇病だ、って＠…それも、またしても綿流しの日に…。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100026", 256, TRUE);
+	ModPlayVoiceLS(3, 1, "org/keiichi0021", 256, TRUE);
 	OutputLine(NULL, "「じゃあ富竹さん…その次に死んだ神主さんはどうです？",
 		   NULL, "\"E il prete shintoista, Tomitake-san?", Line_WaitForInput);
-	ModPlayVoiceLS(3, 1, "ps2/01/120100027", 540, TRUE);
+	ModPlayVoiceLS(3, 1, "org/keiichi0022", 256, TRUE);
 	OutputLine(NULL, "　原因不明の奇病だ、って。",
 		   NULL, " Quello morto per una malattia di origine sconosciuta.", Line_WaitForInput);
-	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100028", 256, TRUE);
+	ModPlayVoiceLS(3, 1, "org/keiichi0023", 256, TRUE);
 	OutputLine(NULL, "…それも、またしても綿流しの日に…。」",
 		   NULL, " ... anche quello è successo il giorno del festival.\"", Line_Normal);
 	ClearMessage();
@@ -1750,10 +1761,10 @@ void main()
 
 //「でも、奇病ですよ＠　この医学の進歩した時代に原因不明なんて…。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(3, 1, "ps2/01/120100029", 540, TRUE);
+	ModPlayVoiceLS(3, 1, "org/keiichi0024", 256, TRUE);
 	OutputLine(NULL, "「でも、奇病ですよ？",
 		   NULL, "\"Ma la causa non è mai stata scoperta.", Line_WaitForInput);
-	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100029", 256, TRUE);
+	ModPlayVoiceLS(3, 1, "org/keiichi0025", 256, TRUE);
 	OutputLine(NULL, "　この医学の進歩した時代に原因不明なんて…。」",
 		   NULL, " Difficile credere che una cosa del genere possa esistere, con tutti i progressi che ha fatto la medicina...\"", Line_Normal);
 	ClearMessage();
