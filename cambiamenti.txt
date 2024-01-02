@@ -1,5 +1,5 @@
 1.1.0 [02-01-2024]:
- - Aggiornata la traduzione all'ultima versione della patch per Onikakushi di 07th-Mod (commit c5c48818bb0754a7fa3864a80f4336df6d5cfe09 del 18-07-2023)
+ - Aggiornata la traduzione all'ultima versione della patch per Onikakushi di 07th-Mod (commit 72a2f10bdd0d9f4559c7345b783611cc649b4775 del 18-07-2023)
  - Corretti alcuni errori
 
 1.0.9 [27-05-2023]:
